@@ -1,0 +1,20 @@
+'///////////////////////////////////////////////////////////////////////////////
+clo = 48, 6,	' Image Table Name, Xbytes, N of Lines, 290 bytes
+&h00,&h00,&h00,&h00,&h00,&h00,&h80,&hC0,&hE0,&hF0,&hF0,&hF8,&hFC,&hFC,&h7C,&h7E,
+&h3E,&h3E,&h3F,&h1F,&h1F,&h1F,&h7F,&hFF,&h7F,&h1F,&h1F,&h1F,&h3F,&h3E,&h3E,&h7E,
+&h7C,&hFC,&hFC,&hF8,&hF0,&hF0,&hE0,&hC0,&h80,&h00,&h00,&h00,&h00,&h00,&h00,&h00,
+&h00,&h80,&hF0,&hF8,&hFE,&hFF,&hFF,&h3F,&h0F,&h07,&h03,&h01,&h00,&h00,&h00,&h00,
+&h00,&h00,&h00,&h00,&h00,&h00,&hFC,&hFE,&hFC,&h00,&h00,&h00,&h00,&h00,&h00,&h00,
+&h00,&h00,&h01,&h01,&h03,&h07,&h1F,&h3F,&hFF,&hFF,&hFE,&hF8,&hE0,&h80,&h00,&h00,
+&hFC,&hFF,&hFF,&hFF,&hFF,&hC7,&hC0,&h80,&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h00,
+&h00,&h00,&h00,&h00,&hC0,&hE0,&hFF,&hFF,&hFF,&hE0,&hC0,&h00,&h00,&h00,&h00,&h00,
+&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h80,&hC0,&hC7,&hFF,&hFF,&hFF,&hFF,&hFC,&h00,
+&h1F,&hFF,&hFF,&hFF,&hFF,&hF1,&h81,&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h00,
+&h00,&h00,&h00,&h00,&h01,&h03,&h07,&h07,&h0F,&h0F,&h1F,&h3F,&h7E,&hFC,&hF0,&hE0,
+&hC0,&h80,&h00,&h00,&h00,&h00,&h00,&h00,&h81,&hF1,&hFF,&hFF,&hFF,&hFF,&h1F,&h00,
+&h00,&h00,&h07,&h0F,&h3F,&h7F,&hFF,&hFE,&hFC,&hF0,&hE0,&hC0,&hC0,&h80,&h00,&h00,
+&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h80,&h00,&h00,&h00,&h00,&h00,&h00,&h01,&h03,
+&h03,&h83,&hC0,&hC0,&hE0,&hF0,&hFC,&hFE,&hFF,&h7F,&h3F,&h0F,&h03,&h00,&h00,&h00,
+&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h01,&h03,&h07,&h07,&h0F,&h0F,&h1F,&h1F,&h3F,
+&h3E,&h3E,&h7E,&h7C,&h7C,&h7C,&h7F,&h7F,&h7F,&h7C,&h7C,&h7C,&h7E,&h3E,&h3E,&h3F,
+&h1F,&h1F,&h0F,&h0F,&h07,&h07,&h03,&h01,&h00,&h00,&h00,&h00,&h00,&h00,&h00,&h00

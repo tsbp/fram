@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>48554354</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\crc.c</file>
+      <file>$PROJ_DIR$\DALI.c</file>
+      <file>$PROJ_DIR$\dataflash.c</file>
+      <file>$PROJ_DIR$\DS18B20.c</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\hal.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\n6500s.c</file>
+      <file>$PROJ_DIR$\Plot.c</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\pmm.c</file>
+      <file>$PROJ_DIR$\Processing.c</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ucs.c</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\dac12_a.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\timer_a.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\timer_b.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\adc10_a.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_uart.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\pmm.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_a_spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\n6500s.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\driverlib.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\flashctl.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\tlv.h</file>
+      <file>$PROJ_DIR$\Processing.h</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Processing.r43</file>
+      <file>$PROJ_DIR$\dataflash.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_b_spi.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_a_uart.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\rtc_c.h</file>
+      <file>$PROJ_DIR$\Plot.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\sd24_b.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dataflash.pbi</file>
+      <file>$PROJ_DIR$\DALI.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DALI.pbi</file>
+      <file>$PROJ_DIR$\ds18b20.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5510.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\FRAM.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\DS18B20.pbi</file>
+      <file>$PROJ_DIR$\n6500s.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dataflash.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\battbak.h</file>
+      <file>$PROJ_DIR$\FRAM.c</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h</file>
+      <file>$PROJ_DIR$\FRAM.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\crc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\FRAM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Processing.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ucs.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\wdt_a.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\pmm.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\n6500s.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DS18B20.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Plot.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\rtc_a.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5510.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_a_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\FRAM.ulp</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DALI.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\pmm.pbi</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\sfr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\crc.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\timer_d.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\comp_b.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\dma.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ram.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\pmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ucs.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_i2c.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\adc12_a.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Plot.pbi</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_uart.h</file>
+      <file>$PROJ_DIR$\dataflash.cpp</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\eusci_b_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ucs.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\mpy32.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\assert.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ldopwr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.pbi</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ref.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FRAM.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\FRAM.d43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\tec.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_a_uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.r43</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\Fonts.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_b_spi.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\inc\hw_regaccess.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\usci_b_i2c.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\sysctl.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\aes.h</file>
+      <file>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\rtc_b.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.r43</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\DALI.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 39 64 26 107 57 69 13 63 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 64 26 107 57 69 13 63 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dataflash.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 57 69 13 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 57 69 13 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\DS18B20.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 42 30 57 69 13 63 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 30 57 69 13 63 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 30 57 69 13 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 57 69 13 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 69 13 63 26 107 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 69 13 63 26 107 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 64 26 107 57 69 13 63 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 29 46 42 30 32 36 39 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 26 107 57 69 13 63 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61 29 46 42 30 32 36 39 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\n6500s.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 46 57 69 13 63 108 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 57 69 13 63 108 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Plot.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 57 69 13 63 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 57 69 13 63 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\pmm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 111 24 15 23 82 109 21 84 114 40 107 57 69 13 63 50 62 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 24 15 23 82 109 21 84 114 40 107 57 69 13 63 50 62 98</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Processing.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 29 57 69 13 63 46 30 36 42 39 64 26 107 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 57 69 13 63 46 30 36 42 39 64 26 107 50 24 15 23 82 109 21 84 114 40 17 90 115 48 80 111 53 12 85 22 34 94 33 89 83 92 27 72 99 97 87 62 86 101 68 116 35 37 75 113 104 14 16 79 28 60 70 105 112 110 58 81 18 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\ucs.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 111 24 15 23 82 109 21 84 114 40 107 57 69 13 63 50 60 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 24 15 23 82 109 21 84 114 40 107 57 69 13 63 50 60 98</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FRAM.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 51 57 69 13 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 57 69 13 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dataflash.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\FRAM.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 19 73 66 67 31 59 47 106 117 54 25 20 88 96</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
