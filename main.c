@@ -158,7 +158,7 @@ void main(void)
 unsigned char bCount = MAX_BCOUNT;
 //==============================================================================
 #pragma vector = TIMER1_A0_VECTOR
-__interrupt void TB0_ISR (void)
+__interrupt void siren_isr (void)
 {
   
   TA1CCR0 = curStep*step;                   

@@ -1966,6 +1966,9 @@
     <name>$PROJ_DIR$\DS18B20.c</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\ESP8266.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\hal.c</name>
   </file>
   <file>

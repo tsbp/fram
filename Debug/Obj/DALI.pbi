@@ -8520,33 +8520,34 @@
 <L>G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\wdt_a.h:80:9: macro definition=WDT_A_CLOCKDIVIDER_64 <US>c:macro@WDT_A_CLOCKDIVIDER_64<UE> <DS>WDT_A_CLOCKDIVIDER_64<DE> Extent=<ES>80:9 - 80:80<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:41:9: macro definition=LED_PORT <US>c:macro@LED_PORT<UE> <DS>LED_PORT<DE> Extent=<ES>41:9 - 41:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:42:9: macro definition=LED_PIN <US>c:macro@LED_PIN<UE> <DS>LED_PIN<DE> Extent=<ES>42:9 - 42:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:8:1: inclusion directive=intrinsics.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h<IE>  [multi-include guarded] Extent=<ES>8:1 - 8:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:10:9: macro definition=MAKE_IN <US>c:macro@MAKE_IN<UE> <DS>MAKE_IN<DE> Extent=<ES>10:9 - 10:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:11:9: macro definition=MAKE_OUT <US>c:macro@MAKE_OUT<UE> <DS>MAKE_OUT<DE> Extent=<ES>11:9 - 11:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:12:9: macro definition=MAKE_DIR <US>c:macro@MAKE_DIR<UE> <DS>MAKE_DIR<DE> Extent=<ES>12:9 - 12:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:13:9: macro definition=MAKE_SEL <US>c:macro@MAKE_SEL<UE> <DS>MAKE_SEL<DE> Extent=<ES>13:9 - 13:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:14:9: macro definition=MAKE_IE <US>c:macro@MAKE_IE<UE> <DS>MAKE_IE<DE> Extent=<ES>14:9 - 14:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:15:9: macro definition=MAKE_IES <US>c:macro@MAKE_IES<UE> <DS>MAKE_IES<DE> Extent=<ES>15:9 - 15:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:16:9: macro definition=MAKE_IFG <US>c:macro@MAKE_IFG<UE> <DS>MAKE_IFG<DE> Extent=<ES>16:9 - 16:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:18:9: macro definition=OUTA <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>18:9 - 18:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:19:9: macro definition=IN <US>c:macro@IN<UE> <DS>IN<DE> Extent=<ES>19:9 - 19:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:20:9: macro definition=DIRA <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>20:9 - 20:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:21:9: macro definition=SEL <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>21:9 - 21:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:22:9: macro definition=IE <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>22:9 - 22:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:23:9: macro definition=IES <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>23:9 - 23:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:24:9: macro definition=IFG <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>24:9 - 24:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9: macro definition=DA_PORT <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>26:9 - 26:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9: macro definition=DA_TX_BIT <US>c:macro@DA_TX_BIT<UE> <DS>DA_TX_BIT<DE> Extent=<ES>27:9 - 27:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9: macro definition=DA_RX_BIT <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>28:9 - 28:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:30:9: macro definition=DA_EN_PORT <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>30:9 - 30:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9: macro definition=DA_EN_BIT <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>31:9 - 31:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9: macro definition=DA_EN <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>32:9 - 32:100<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:34:9: macro definition=LEDSTT_BIT <US>c:macro@LEDSTT_BIT<UE> <DS>LEDSTT_BIT<DE> Extent=<ES>34:9 - 34:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:35:9: macro definition=LEDSTT <US>c:macro@LEDSTT<UE> <DS>LEDSTT<DE> Extent=<ES>35:9 - 35:96<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:37:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>37:9 - 37:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:38:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>38:9 - 38:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:40:9: macro definition=DA_TX_ERROR <US>c:macro@DA_TX_ERROR<UE> <DS>DA_TX_ERROR<DE> Extent=<ES>40:9 - 40:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:41:9: macro definition=DA_TX_SUCCESS <US>c:macro@DA_TX_SUCCESS<UE> <DS>DA_TX_SUCCESS<DE> Extent=<ES>41:9 - 41:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:8:1: inclusion directive=macro.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h<IE>  Extent=<ES>8:1 - 8:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:2:9: macro definition=MAKE_IN <US>c:macro@MAKE_IN<UE> <DS>MAKE_IN<DE> Extent=<ES>2:9 - 2:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:3:9: macro definition=MAKE_OUT <US>c:macro@MAKE_OUT<UE> <DS>MAKE_OUT<DE> Extent=<ES>3:9 - 3:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:4:9: macro definition=MAKE_DIR <US>c:macro@MAKE_DIR<UE> <DS>MAKE_DIR<DE> Extent=<ES>4:9 - 4:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:5:9: macro definition=MAKE_SEL <US>c:macro@MAKE_SEL<UE> <DS>MAKE_SEL<DE> Extent=<ES>5:9 - 5:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:6:9: macro definition=MAKE_IE <US>c:macro@MAKE_IE<UE> <DS>MAKE_IE<DE> Extent=<ES>6:9 - 6:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:7:9: macro definition=MAKE_IES <US>c:macro@MAKE_IES<UE> <DS>MAKE_IES<DE> Extent=<ES>7:9 - 7:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:8:9: macro definition=MAKE_IFG <US>c:macro@MAKE_IFG<UE> <DS>MAKE_IFG<DE> Extent=<ES>8:9 - 8:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:10:9: macro definition=OUTA <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>10:9 - 10:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:11:9: macro definition=IN <US>c:macro@IN<UE> <DS>IN<DE> Extent=<ES>11:9 - 11:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:12:9: macro definition=DIRA <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>12:9 - 12:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:13:9: macro definition=SEL <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>13:9 - 13:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:14:9: macro definition=IE <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>14:9 - 14:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:15:9: macro definition=IES <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>15:9 - 15:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:16:9: macro definition=IFG <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>16:9 - 16:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:9:1: inclusion directive=intrinsics.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9: macro definition=DA_PORT <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>27:9 - 27:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9: macro definition=DA_TX_BIT <US>c:macro@DA_TX_BIT<UE> <DS>DA_TX_BIT<DE> Extent=<ES>28:9 - 28:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9: macro definition=DA_RX_BIT <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>29:9 - 29:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9: macro definition=DA_EN_PORT <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>31:9 - 31:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9: macro definition=DA_EN_BIT <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>32:9 - 32:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:33:9: macro definition=DA_EN <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>33:9 - 33:100<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:35:9: macro definition=LEDSTT_BIT <US>c:macro@LEDSTT_BIT<UE> <DS>LEDSTT_BIT<DE> Extent=<ES>35:9 - 35:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:36:9: macro definition=LEDSTT <US>c:macro@LEDSTT<UE> <DS>LEDSTT<DE> Extent=<ES>36:9 - 36:96<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:38:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>38:9 - 38:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:39:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>39:9 - 39:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:41:9: macro definition=DA_TX_ERROR <US>c:macro@DA_TX_ERROR<UE> <DS>DA_TX_ERROR<DE> Extent=<ES>41:9 - 41:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:42:9: macro definition=DA_TX_SUCCESS <US>c:macro@DA_TX_SUCCESS<UE> <DS>DA_TX_SUCCESS<DE> Extent=<ES>42:9 - 42:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:3:1: inclusion directive=Processing.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h<IE>  [multi-include guarded] Extent=<ES>3:1 - 3:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:2:9: macro definition=Processing_H <US>c:macro@Processing_H<UE> <DS>Processing_H<DE> Extent=<ES>2:9 - 2:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:4:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>4:1 - 4:20<EE>
@@ -8569,27 +8570,27 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:9:9: macro definition=BITOFFSET <US>c:macro@BITOFFSET<UE> <DS>BITOFFSET<DE> Extent=<ES>9:9 - 9:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:11:9: macro definition=DA_TIMER_START <US>c:macro@DA_TIMER_START<UE> <DS>DA_TIMER_START<DE> Extent=<ES>11:9 - 11:43<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:12:9: macro definition=DA_TIMER_STOP <US>c:macro@DA_TIMER_STOP<UE> <DS>DA_TIMER_STOP<DE> Extent=<ES>12:9 - 12:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:3: macro expansion=OUTA|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:18:9 <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>21:3 - 21:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:8: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:30:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>21:8 - 21:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:25: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>21:25 - 21:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:3: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:21:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>22:3 - 22:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:7: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:30:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>22:7 - 22:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:24: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>22:24 - 22:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:3: macro expansion=DIRA|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:20:9 <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>23:3 - 23:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:8: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:30:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>23:8 - 23:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:24: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>23:24 - 23:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:3: macro expansion=DIRA|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:20:9 <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>28:3 - 28:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:8: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>28:8 - 28:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:21: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>28:21 - 28:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:3: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:24:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>29:3 - 29:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>29:7 - 29:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>29:20 - 29:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:3: macro expansion=IES|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:23:9 <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>30:3 - 30:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>30:7 - 30:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>30:20 - 30:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:3: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:22:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>31:3 - 31:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>31:7 - 31:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>31:20 - 31:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:3: macro expansion=OUTA|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:10:9 <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>21:3 - 21:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:8: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>21:8 - 21:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:21:25: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>21:25 - 21:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:3: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:13:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>22:3 - 22:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:7: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>22:7 - 22:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:22:24: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>22:24 - 22:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:3: macro expansion=DIRA|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:12:9 <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>23:3 - 23:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:8: macro expansion=DA_EN_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:31:9 <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>23:8 - 23:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:23:24: macro expansion=DA_EN_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>23:24 - 23:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:3: macro expansion=DIRA|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:12:9 <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>28:3 - 28:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:8: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>28:8 - 28:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:28:21: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>28:21 - 28:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:3: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:16:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>29:3 - 29:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>29:7 - 29:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:29:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>29:20 - 29:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:3: macro expansion=IES|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:15:9 <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>30:3 - 30:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>30:7 - 30:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:30:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>30:20 - 30:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:3: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:14:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>31:3 - 31:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>31:7 - 31:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:31:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>31:20 - 31:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:34:15: macro expansion=TASSEL_2|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6361:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>34:15 - 34:23<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:34:27: macro expansion=TAIE|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6348:9 <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>34:27 - 34:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:34:34: macro expansion=ID_3|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6597:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>34:34 - 34:38<EE>
@@ -8599,7 +8600,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:35:37: macro expansion=SCS|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6588:9 <US>c:macro@SCS<UE> <DS>SCS<DE> Extent=<ES>35:37 - 35:40<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:36:14: macro expansion=HALFBIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:8:9 <US>c:macro@HALFBIT<UE> <DS>HALFBIT<DE> Extent=<ES>36:14 - 36:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:37:14: macro expansion=HALFBIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:8:9 <US>c:macro@HALFBIT<UE> <DS>HALFBIT<DE> Extent=<ES>37:14 - 37:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:39:3: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>39:3 - 39:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:39:3: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:33:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>39:3 - 39:11<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:47:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>47:1 - 47:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:49:12: macro expansion=P2IFG|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:3487:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>49:12 - 49:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:49:20: macro expansion=UP_BUTTON|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:6:9 <US>c:macro@UP_BUTTON<UE> <DS>UP_BUTTON<DE> Extent=<ES>49:20 - 49:29<EE>
@@ -8607,7 +8608,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:50:20: macro expansion=DOWN_BUTTON|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:7:9 <US>c:macro@DOWN_BUTTON<UE> <DS>DOWN_BUTTON<DE> Extent=<ES>50:20 - 50:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:51:12: macro expansion=P2IFG|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:3487:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>51:12 - 51:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:51:20: macro expansion=OK_BUTTON|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:8:9 <US>c:macro@OK_BUTTON<UE> <DS>OK_BUTTON<DE> Extent=<ES>51:20 - 51:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:56:5: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>56:5 - 56:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:56:5: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:33:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>56:5 - 56:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:58:5: macro expansion=P2IFG|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:3487:9 <US>c:macro@P2IFG<UE> <DS>P2IFG<DE> Extent=<ES>58:5 - 58:10<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:58:16: macro expansion=UP_BUTTON|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:6:9 <US>c:macro@UP_BUTTON<UE> <DS>UP_BUTTON<DE> Extent=<ES>58:16 - 58:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:58:28: macro expansion=DOWN_BUTTON|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:7:9 <US>c:macro@DOWN_BUTTON<UE> <DS>DOWN_BUTTON<DE> Extent=<ES>58:28 - 58:39<EE>
@@ -8622,26 +8623,26 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:65:17: macro expansion=CCIE|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6568:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>65:17 - 65:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:66:16: macro expansion=HALFBIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:8:9 <US>c:macro@HALFBIT<UE> <DS>HALFBIT<DE> Extent=<ES>66:16 - 66:23<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:68:5: macro expansion=DA_TIMER_START|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:11:9 <US>c:macro@DA_TIMER_START<UE> <DS>DA_TIMER_START<DE> Extent=<ES>68:5 - 68:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:5: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:22:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>69:5 - 69:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>69:9 - 69:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:23: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>69:23 - 69:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:5: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:21:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>70:5 - 70:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>70:9 - 70:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:22: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>70:22 - 70:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:5: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:24:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>71:5 - 71:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>71:9 - 71:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:22: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>71:22 - 71:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:5: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:14:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>69:5 - 69:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>69:9 - 69:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:69:23: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>69:23 - 69:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:5: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:13:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>70:5 - 70:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>70:9 - 70:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:70:22: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>70:22 - 70:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:5: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:16:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>71:5 - 71:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:9: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>71:9 - 71:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:71:22: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>71:22 - 71:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:78:3: macro expansion=DA_TIMER_STOP|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:12:9 <US>c:macro@DA_TIMER_STOP<UE> <DS>DA_TIMER_STOP<DE> Extent=<ES>78:3 - 78:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:79:16: macro expansion=CCIE|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6568:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>79:16 - 79:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:3: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:21:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>80:3 - 80:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>80:7 - 80:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>80:20 - 80:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:3: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:24:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>81:3 - 81:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>81:7 - 81:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>81:20 - 81:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:3: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:22:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>82:3 - 82:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:26:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>82:7 - 82:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:28:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>82:20 - 82:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:3: macro expansion=SEL|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:13:9 <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>80:3 - 80:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>80:7 - 80:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:80:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>80:20 - 80:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:3: macro expansion=IFG|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:16:9 <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>81:3 - 81:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>81:7 - 81:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:81:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>81:20 - 81:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:3: macro expansion=IE|G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:14:9 <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>82:3 - 82:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:7: macro expansion=DA_PORT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:27:9 <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>82:7 - 82:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:82:20: macro expansion=DA_RX_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:29:9 <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>82:20 - 82:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:88:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>88:1 - 88:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:98:33: macro expansion=CCIE|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6568:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>98:33 - 98:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:104:34: macro expansion=CCIFG|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:6569:9 <US>c:macro@CCIFG<UE> <DS>CCIFG<DE> Extent=<ES>104:34 - 104:39<EE>
@@ -8658,7 +8659,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:120:55: macro expansion=BITOFFSET|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:9:9 <US>c:macro@BITOFFSET<UE> <DS>BITOFFSET<DE> Extent=<ES>120:55 - 120:64<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:121:45: macro expansion=HALFBIT|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:8:9 <US>c:macro@HALFBIT<UE> <DS>HALFBIT<DE> Extent=<ES>121:45 - 121:52<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:121:55: macro expansion=BITOFFSET|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:9:9 <US>c:macro@BITOFFSET<UE> <DS>BITOFFSET<DE> Extent=<ES>121:55 - 121:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:151:31: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:32:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>151:31 - 151:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:151:31: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:33:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>151:31 - 151:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:153:31: macro expansion=__low_power_mode_off_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>153:31 - 153:61<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
@@ -12677,36 +12678,36 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:6: FunctionDecl=initClocks|G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:6 (Declaration) <US>c:@F@initClocks<UE> <DS>void initClocks(uint32_t)<DE> Extent=<ES>50:1 - 50:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:26: ParmDecl=mclkFreq|G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:26 (Definition) <US>c:hal.h@2185@F@initClocks@mclkFreq<UE> <DS>uint32_t<DE> Extent=<ES>50:17 - 50:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:17: TypeRef=uint32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned long<DE> Extent=<ES>50:17 - 50:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:43:6: FunctionDecl=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:19:6 (Declaration) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>43:1 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:15: FunctionDecl=DA_Frame|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:15 (Declaration) <US>c:@F@DA_Frame<UE> <DS>unsigned char DA_Frame(unsigned char, unsigned char, unsigned char)<DE> Extent=<ES>44:1 - 44:87<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:38: ParmDecl=aFrame|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:38 (Definition) <US>c:DALI.h@2013@F@DA_Frame@aFrame<UE> <DS>unsigned char<DE> Extent=<ES>44:24 - 44:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:60: ParmDecl=aAddr|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:60 (Definition) <US>c:DALI.h@2035@F@DA_Frame@aAddr<UE> <DS>unsigned char<DE> Extent=<ES>44:46 - 44:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:81: ParmDecl=aData|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:81 (Definition) <US>c:DALI.h@2056@F@DA_Frame@aData<UE> <DS>unsigned char<DE> Extent=<ES>44:67 - 44:86<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:46:22: VarDecl=rxByte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:46:22 (Declaration) <US>c:@rxByte<UE> <DS>rxByte<DE> Extent=<ES>46:1 - 46:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:46:30: VarDecl=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:46:30 (Declaration) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>46:1 - 46:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:46:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:39 - 46:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:21: VarDecl=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:14 (Declaration) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>47:1 - 47:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:49:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:49:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>49:9 - 58:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:51:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:51:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>51:3 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:3 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>52:3 - 57:4<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>54:5 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:37 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>55:5 - 55:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:44:6: FunctionDecl=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:19:6 (Declaration) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>44:1 - 44:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:15: FunctionDecl=DA_Frame|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:15 (Declaration) <US>c:@F@DA_Frame<UE> <DS>unsigned char DA_Frame(unsigned char, unsigned char, unsigned char)<DE> Extent=<ES>45:1 - 45:87<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:38: ParmDecl=aFrame|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:38 (Definition) <US>c:DALI.h@2065@F@DA_Frame@aFrame<UE> <DS>unsigned char<DE> Extent=<ES>45:24 - 45:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:60: ParmDecl=aAddr|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:60 (Definition) <US>c:DALI.h@2087@F@DA_Frame@aAddr<UE> <DS>unsigned char<DE> Extent=<ES>45:46 - 45:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:81: ParmDecl=aData|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:45:81 (Definition) <US>c:DALI.h@2108@F@DA_Frame@aData<UE> <DS>unsigned char<DE> Extent=<ES>45:67 - 45:86<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:22: VarDecl=rxByte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:22 (Declaration) <US>c:@rxByte<UE> <DS>rxByte<DE> Extent=<ES>47:1 - 47:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:30: VarDecl=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:30 (Declaration) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>47:1 - 47:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:47:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:39 - 47:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:48:21: VarDecl=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:14 (Declaration) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>48:1 - 48:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:50:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:50:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>50:9 - 59:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>52:3 - 52:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:53:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:53:3 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>53:3 - 58:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>55:5 - 55:38<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:37 - 55:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>56:5 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:58:2: TypedefDecl=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:58:2 (Definition) <US>c:DALI.h@2314@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>49:1 - 58:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:49:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:49:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>49:9 - 58:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:51:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:51:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>51:3 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:3 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>52:3 - 57:4<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>54:5 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:54:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:37 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>55:5 - 55:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>56:5 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:37 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>57:5 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:2: TypedefDecl=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:2 (Definition) <US>c:DALI.h@2366@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>50:1 - 59:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:50:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:50:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>50:9 - 59:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>52:3 - 52:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:53:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:53:3 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>53:3 - 58:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>55:5 - 55:38<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:37 - 55:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19 (Definition) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>56:5 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:25: VarDecl=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:25 (Declaration) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>59:1 - 59:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:8: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:58:2 (Reference) <US>c:DALI.h@2314@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>59:8 - 59:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>56:5 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:37 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:19 (Definition) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>57:5 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:57:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:60:25: VarDecl=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:60:25 (Declaration) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>60:1 - 60:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:60:8: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:2 (Reference) <US>c:DALI.h@2366@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>60:8 - 60:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:22:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:22:9 (Definition) <US>c:@UA@s_STATUS<UE> <DS><DE> Extent=<ES>22:9 - 44:2<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:24:16: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:24:16 (Definition) <US>c:@UA@s_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>24:3 - 24:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:25:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:25:3 (Definition) <US>c:Processing.h@798@UA@s_STATUS@Sa<UE> <DS><DE> Extent=<ES>25:3 - 43:4<EE>
@@ -12938,7 +12939,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:124:6: FunctionDecl=lightCheck|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:124:6 (Declaration) <US>c:@F@lightCheck<UE> <DS>void lightCheck(void)<DE> Extent=<ES>124:1 - 124:22<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:125:6: FunctionDecl=ventilationCheck|G:\Voodoo\MSP Projects\N6500\FRAM\Processing.h:125:6 (Declaration) <US>c:@F@ventilationCheck<UE> <DS>void ventilationCheck(void)<DE> Extent=<ES>125:1 - 125:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:14:18: VarDecl=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:14:18 (Declaration) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>14:1 - 14:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:14:1: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:58:2 (Reference) <US>c:DALI.h@2314@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>14:1 - 14:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:14:1: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:59:2 (Reference) <US>c:DALI.h@2366@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>14:1 - 14:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:14: VarDecl=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:14 (Definition) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>15:1 - 15:22<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>15:21 - 15:22<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:15:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:21 - 15:22<EE>
@@ -13001,8 +13002,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:68:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>68:5 - 68:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:68:19: NullStmt= <US><UE> <DS><DE> Extent=<ES>68:19 - 68:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>72:5 - 72:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:16: MemberRefExpr=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:55:19 (Reference) <US>c:DALI.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>72:5 - 72:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:16: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:52:3 (Reference) <US><UE> <DS><DE> Extent=<ES>72:5 - 72:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:16: MemberRefExpr=busy|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:56:19 (Reference) <US>c:DALI.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>72:5 - 72:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:16: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.h:53:3 (Reference) <US><UE> <DS><DE> Extent=<ES>72:5 - 72:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:5: DeclRefExpr=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:14:18 (Reference) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>72:5 - 72:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:23 - 72:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DALI.c:72:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>72:23 - 72:24<EE>

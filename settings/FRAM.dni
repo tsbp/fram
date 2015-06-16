@@ -53,10 +53,6 @@ MixedMode=1
 [watch_formats]
 Fmt0={W}0:aSr	1	0
 Fmt1={W}0:sr	1	0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -68,6 +64,10 @@ Mode=0
 Graph=0
 Symbiont=0
 Exclusions=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Breakpoints]
 Count=0
 [FET]

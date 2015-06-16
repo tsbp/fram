@@ -8716,33 +8716,34 @@
 <L>G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\driverlib.h:108:1: inclusion directive=wdt_a.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\wdt_a.h<IE>  [multi-include guarded] Extent=<ES>108:1 - 108:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:41:9: macro definition=LED_PORT <US>c:macro@LED_PORT<UE> <DS>LED_PORT<DE> Extent=<ES>41:9 - 41:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:42:9: macro definition=LED_PIN <US>c:macro@LED_PIN<UE> <DS>LED_PIN<DE> Extent=<ES>42:9 - 42:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:8:1: inclusion directive=intrinsics.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h<IE>  [multi-include guarded] Extent=<ES>8:1 - 8:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:10:9: macro definition=MAKE_IN <US>c:macro@MAKE_IN<UE> <DS>MAKE_IN<DE> Extent=<ES>10:9 - 10:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:11:9: macro definition=MAKE_OUT <US>c:macro@MAKE_OUT<UE> <DS>MAKE_OUT<DE> Extent=<ES>11:9 - 11:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:12:9: macro definition=MAKE_DIR <US>c:macro@MAKE_DIR<UE> <DS>MAKE_DIR<DE> Extent=<ES>12:9 - 12:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:13:9: macro definition=MAKE_SEL <US>c:macro@MAKE_SEL<UE> <DS>MAKE_SEL<DE> Extent=<ES>13:9 - 13:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:14:9: macro definition=MAKE_IE <US>c:macro@MAKE_IE<UE> <DS>MAKE_IE<DE> Extent=<ES>14:9 - 14:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:15:9: macro definition=MAKE_IES <US>c:macro@MAKE_IES<UE> <DS>MAKE_IES<DE> Extent=<ES>15:9 - 15:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:16:9: macro definition=MAKE_IFG <US>c:macro@MAKE_IFG<UE> <DS>MAKE_IFG<DE> Extent=<ES>16:9 - 16:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:18:9: macro definition=OUTA <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>18:9 - 18:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:19:9: macro definition=IN <US>c:macro@IN<UE> <DS>IN<DE> Extent=<ES>19:9 - 19:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:20:9: macro definition=DIRA <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>20:9 - 20:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:21:9: macro definition=SEL <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>21:9 - 21:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:22:9: macro definition=IE <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>22:9 - 22:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:23:9: macro definition=IES <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>23:9 - 23:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:24:9: macro definition=IFG <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>24:9 - 24:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:26:9: macro definition=DA_PORT <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>26:9 - 26:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:27:9: macro definition=DA_TX_BIT <US>c:macro@DA_TX_BIT<UE> <DS>DA_TX_BIT<DE> Extent=<ES>27:9 - 27:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:28:9: macro definition=DA_RX_BIT <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>28:9 - 28:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:30:9: macro definition=DA_EN_PORT <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>30:9 - 30:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:31:9: macro definition=DA_EN_BIT <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>31:9 - 31:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:32:9: macro definition=DA_EN <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>32:9 - 32:100<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:34:9: macro definition=LEDSTT_BIT <US>c:macro@LEDSTT_BIT<UE> <DS>LEDSTT_BIT<DE> Extent=<ES>34:9 - 34:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:35:9: macro definition=LEDSTT <US>c:macro@LEDSTT<UE> <DS>LEDSTT<DE> Extent=<ES>35:9 - 35:96<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:37:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>37:9 - 37:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:38:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>38:9 - 38:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:40:9: macro definition=DA_TX_ERROR <US>c:macro@DA_TX_ERROR<UE> <DS>DA_TX_ERROR<DE> Extent=<ES>40:9 - 40:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:41:9: macro definition=DA_TX_SUCCESS <US>c:macro@DA_TX_SUCCESS<UE> <DS>DA_TX_SUCCESS<DE> Extent=<ES>41:9 - 41:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:8:1: inclusion directive=macro.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h<IE>  Extent=<ES>8:1 - 8:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:2:9: macro definition=MAKE_IN <US>c:macro@MAKE_IN<UE> <DS>MAKE_IN<DE> Extent=<ES>2:9 - 2:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:3:9: macro definition=MAKE_OUT <US>c:macro@MAKE_OUT<UE> <DS>MAKE_OUT<DE> Extent=<ES>3:9 - 3:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:4:9: macro definition=MAKE_DIR <US>c:macro@MAKE_DIR<UE> <DS>MAKE_DIR<DE> Extent=<ES>4:9 - 4:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:5:9: macro definition=MAKE_SEL <US>c:macro@MAKE_SEL<UE> <DS>MAKE_SEL<DE> Extent=<ES>5:9 - 5:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:6:9: macro definition=MAKE_IE <US>c:macro@MAKE_IE<UE> <DS>MAKE_IE<DE> Extent=<ES>6:9 - 6:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:7:9: macro definition=MAKE_IES <US>c:macro@MAKE_IES<UE> <DS>MAKE_IES<DE> Extent=<ES>7:9 - 7:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:8:9: macro definition=MAKE_IFG <US>c:macro@MAKE_IFG<UE> <DS>MAKE_IFG<DE> Extent=<ES>8:9 - 8:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:10:9: macro definition=OUTA <US>c:macro@OUTA<UE> <DS>OUTA<DE> Extent=<ES>10:9 - 10:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:11:9: macro definition=IN <US>c:macro@IN<UE> <DS>IN<DE> Extent=<ES>11:9 - 11:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:12:9: macro definition=DIRA <US>c:macro@DIRA<UE> <DS>DIRA<DE> Extent=<ES>12:9 - 12:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:13:9: macro definition=SEL <US>c:macro@SEL<UE> <DS>SEL<DE> Extent=<ES>13:9 - 13:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:14:9: macro definition=IE <US>c:macro@IE<UE> <DS>IE<DE> Extent=<ES>14:9 - 14:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:15:9: macro definition=IES <US>c:macro@IES<UE> <DS>IES<DE> Extent=<ES>15:9 - 15:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\macro.h:16:9: macro definition=IFG <US>c:macro@IFG<UE> <DS>IFG<DE> Extent=<ES>16:9 - 16:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:9:1: inclusion directive=intrinsics.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:27:9: macro definition=DA_PORT <US>c:macro@DA_PORT<UE> <DS>DA_PORT<DE> Extent=<ES>27:9 - 27:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:28:9: macro definition=DA_TX_BIT <US>c:macro@DA_TX_BIT<UE> <DS>DA_TX_BIT<DE> Extent=<ES>28:9 - 28:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:29:9: macro definition=DA_RX_BIT <US>c:macro@DA_RX_BIT<UE> <DS>DA_RX_BIT<DE> Extent=<ES>29:9 - 29:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:31:9: macro definition=DA_EN_PORT <US>c:macro@DA_EN_PORT<UE> <DS>DA_EN_PORT<DE> Extent=<ES>31:9 - 31:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:32:9: macro definition=DA_EN_BIT <US>c:macro@DA_EN_BIT<UE> <DS>DA_EN_BIT<DE> Extent=<ES>32:9 - 32:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:33:9: macro definition=DA_EN <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>33:9 - 33:100<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:35:9: macro definition=LEDSTT_BIT <US>c:macro@LEDSTT_BIT<UE> <DS>LEDSTT_BIT<DE> Extent=<ES>35:9 - 35:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:36:9: macro definition=LEDSTT <US>c:macro@LEDSTT<UE> <DS>LEDSTT<DE> Extent=<ES>36:9 - 36:96<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:38:9: macro definition=BACKWARD <US>c:macro@BACKWARD<UE> <DS>BACKWARD<DE> Extent=<ES>38:9 - 38:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:39:9: macro definition=FORWARD <US>c:macro@FORWARD<UE> <DS>FORWARD<DE> Extent=<ES>39:9 - 39:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:41:9: macro definition=DA_TX_ERROR <US>c:macro@DA_TX_ERROR<UE> <DS>DA_TX_ERROR<DE> Extent=<ES>41:9 - 41:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:42:9: macro definition=DA_TX_SUCCESS <US>c:macro@DA_TX_SUCCESS<UE> <DS>DA_TX_SUCCESS<DE> Extent=<ES>42:9 - 42:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:9:1: inclusion directive=crc.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:2:9: macro definition=_CRC_H <US>c:macro@_CRC_H<UE> <DS>_CRC_H<DE> Extent=<ES>2:9 - 2:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:4:9: macro definition=CRC_BEGIN_VAL_32 <US>c:macro@CRC_BEGIN_VAL_32<UE> <DS>CRC_BEGIN_VAL_32<DE> Extent=<ES>4:9 - 4:39<EE>
@@ -8814,7 +8815,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:107:17: macro expansion=BIT0|G:\Voodoo\MSP Projects\N6500\MSP430USBDevelopersPackage_4_20_00\MSP430_USB_Software\MSP430_USB_API\driverlib\MSP430F5xx_6xx\deprecated\IAR\msp430f5xx_6xxgeneric.h:154:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>107:17 - 107:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:123:21: macro expansion=SKIP_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\ds18b20.h:61:9 <US>c:macro@SKIP_ROM<UE> <DS>SKIP_ROM<DE> Extent=<ES>123:21 - 123:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:124:21: macro expansion=CONVERT|G:\Voodoo\MSP Projects\N6500\FRAM\ds18b20.h:62:9 <US>c:macro@CONVERT<UE> <DS>CONVERT<DE> Extent=<ES>124:21 - 124:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:129:10: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:32:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>129:10 - 129:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:129:10: macro expansion=DA_EN|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:33:9 <US>c:macro@DA_EN<UE> <DS>DA_EN<DE> Extent=<ES>129:10 - 129:18<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:138:35: macro expansion=YELLOW|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:96:9 <US>c:macro@YELLOW<UE> <DS>YELLOW<DE> Extent=<ES>138:35 - 138:41<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:138:43: macro expansion=BLACK|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:98:9 <US>c:macro@BLACK<UE> <DS>BLACK<DE> Extent=<ES>138:43 - 138:48<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:152:5: macro expansion=__low_power_mode_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:173:9 <US>c:macro@__low_power_mode_0<UE> <DS>__low_power_mode_0<DE> Extent=<ES>152:5 - 152:25<EE>
@@ -13343,36 +13344,36 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:6: FunctionDecl=initClocks|G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:6 (Declaration) <US>c:@F@initClocks<UE> <DS>void initClocks(uint32_t)<DE> Extent=<ES>50:1 - 50:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:26: ParmDecl=mclkFreq|G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:26 (Definition) <US>c:hal.h@2185@F@initClocks@mclkFreq<UE> <DS>uint32_t<DE> Extent=<ES>50:17 - 50:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:17: TypeRef=uint32_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\dlib\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned long<DE> Extent=<ES>50:17 - 50:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:43:6: FunctionDecl=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:43:6 (Declaration) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>43:1 - 43:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:15: FunctionDecl=DA_Frame|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:15 (Declaration) <US>c:@F@DA_Frame<UE> <DS>unsigned char DA_Frame(unsigned char, unsigned char, unsigned char)<DE> Extent=<ES>44:1 - 44:87<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:38: ParmDecl=aFrame|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:38 (Definition) <US>c:dali.h@2013@F@DA_Frame@aFrame<UE> <DS>unsigned char<DE> Extent=<ES>44:24 - 44:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:60: ParmDecl=aAddr|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:60 (Definition) <US>c:dali.h@2035@F@DA_Frame@aAddr<UE> <DS>unsigned char<DE> Extent=<ES>44:46 - 44:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:81: ParmDecl=aData|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:81 (Definition) <US>c:dali.h@2056@F@DA_Frame@aData<UE> <DS>unsigned char<DE> Extent=<ES>44:67 - 44:86<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:22: VarDecl=rxByte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:22 (Declaration) <US>c:@rxByte<UE> <DS>rxByte<DE> Extent=<ES>46:1 - 46:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30: VarDecl=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 (Declaration) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>46:1 - 46:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:39 - 46:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21: VarDecl=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Declaration) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>47:1 - 47:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:49:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:49:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>49:9 - 58:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:51:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:51:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>51:3 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>52:3 - 57:4<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>54:5 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:37 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>55:5 - 55:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:6: FunctionDecl=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:6 (Declaration) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>44:1 - 44:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:15: FunctionDecl=DA_Frame|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:15 (Declaration) <US>c:@F@DA_Frame<UE> <DS>unsigned char DA_Frame(unsigned char, unsigned char, unsigned char)<DE> Extent=<ES>45:1 - 45:87<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:38: ParmDecl=aFrame|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:38 (Definition) <US>c:dali.h@2065@F@DA_Frame@aFrame<UE> <DS>unsigned char<DE> Extent=<ES>45:24 - 45:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:60: ParmDecl=aAddr|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:60 (Definition) <US>c:dali.h@2087@F@DA_Frame@aAddr<UE> <DS>unsigned char<DE> Extent=<ES>45:46 - 45:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:81: ParmDecl=aData|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:45:81 (Definition) <US>c:dali.h@2108@F@DA_Frame@aData<UE> <DS>unsigned char<DE> Extent=<ES>45:67 - 45:86<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:22: VarDecl=rxByte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:22 (Declaration) <US>c:@rxByte<UE> <DS>rxByte<DE> Extent=<ES>47:1 - 47:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30: VarDecl=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 (Declaration) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>47:1 - 47:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:39 - 47:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21: VarDecl=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Declaration) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>48:1 - 48:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:50:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:50:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>50:9 - 59:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>52:3 - 52:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>53:3 - 58:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>55:5 - 55:38<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:37 - 55:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>56:5 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:58:2: TypedefDecl=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:58:2 (Definition) <US>c:dali.h@2314@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>49:1 - 58:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:49:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:49:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>49:9 - 58:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:51:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:51:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>51:3 - 51:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>52:3 - 57:4<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>54:5 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:54:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:37 - 54:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>55:5 - 55:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>56:5 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:37 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>57:5 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:2: TypedefDecl=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:2 (Definition) <US>c:dali.h@2366@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>50:1 - 59:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:50:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:50:9 (Definition) <US>c:@UA@u_DA_LINE_STATUS<UE> <DS><DE> Extent=<ES>50:9 - 59:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:17 (Definition) <US>c:@UA@u_DA_LINE_STATUS@FI@byte<UE> <DS>byte<DE> Extent=<ES>52:3 - 52:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa<UE> <DS><DE> Extent=<ES>53:3 - 58:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19: FieldDecl=txEn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@txEn<UE> <DS>txEn<DE> Extent=<ES>55:5 - 55:38<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:55:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:37 - 55:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Definition) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>56:5 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:36 - 56:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:25: VarDecl=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:25 (Declaration) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>59:1 - 59:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:8: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:58:2 (Reference) <US>c:dali.h@2314@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>59:8 - 59:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19: FieldDecl=busy|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@busy<UE> <DS>busy<DE> Extent=<ES>56:5 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:37 - 56:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19: FieldDecl=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 (Definition) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>57:5 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:36 - 57:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:60:25: VarDecl=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:60:25 (Declaration) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>60:1 - 60:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:60:8: TypeRef=u_DA_LINE_STATUS|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:2 (Reference) <US>c:dali.h@2366@T@u_DA_LINE_STATUS<UE> <DS>union u_DA_LINE_STATUS<DE> Extent=<ES>60:8 - 60:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22: FunctionDecl=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Declaration) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>11:1 - 11:92<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:42: ParmDecl=data|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:42 (Definition) <US>c:crc.h@297@F@crc8@data<UE> <DS>unsigned char *<DE> Extent=<ES>11:27 - 11:46<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:61: ParmDecl=dataSize|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:61 (Definition) <US>c:crc.h@318@F@crc8@dataSize<UE> <DS>unsigned int<DE> Extent=<ES>11:48 - 11:69<EE>
@@ -13632,9 +13633,9 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:53:3: DeclRefExpr=initClocks|G:\Voodoo\MSP Projects\N6500\FRAM\hal.h:50:6 (Reference) <US>c:@F@initClocks<UE> <DS>void initClocks(uint32_t)<DE> Extent=<ES>53:3 - 53:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:53:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>53:14 - 53:22<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:53:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:14 - 53:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: CallExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:43:6 <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: UnexposedExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:43:6 <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: DeclRefExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:43:6 (Reference) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: CallExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:6 <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: UnexposedExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:6 <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:55:3: DeclRefExpr=DA_Init|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:44:6 (Reference) <US>c:@F@DA_Init<UE> <DS>void DA_Init(void)<DE> Extent=<ES>55:3 - 55:10<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:58:3: CallExpr=LCD_Init|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:104:6 <US>c:@F@LCD_Init<UE> <DS>void LCD_Init(void)<DE> Extent=<ES>58:3 - 58:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:58:3: UnexposedExpr=LCD_Init|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:104:6 <US>c:@F@LCD_Init<UE> <DS>void LCD_Init(void)<DE> Extent=<ES>58:3 - 58:11<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:58:3: DeclRefExpr=LCD_Init|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:104:6 (Reference) <US>c:@F@LCD_Init<UE> <DS>void LCD_Init(void)<DE> Extent=<ES>58:3 - 58:11<EE>
@@ -13717,11 +13718,11 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:108:8: DeclRefExpr=keypressedProceed|G:\Voodoo\MSP Projects\N6500\FRAM\processing.h:120:6 (Reference) <US>c:@F@keypressedProceed<UE> <DS>void keypressedProceed(void)<DE> Extent=<ES>108:8 - 108:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>111:5 - 126:6<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:8 - 111:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: UnexposedExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: UnexposedExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: MemberRefExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Reference) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3 (Reference) <US><UE> <DS><DE> Extent=<ES>111:8 - 111:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:8: DeclRefExpr=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:25 (Reference) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>111:8 - 111:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: UnexposedExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: UnexposedExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: MemberRefExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 (Reference) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>111:8 - 111:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:19: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3 (Reference) <US><UE> <DS><DE> Extent=<ES>111:8 - 111:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:8: DeclRefExpr=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:60:25 (Reference) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>111:8 - 111:18<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:28: ParenExpr= <US><UE> <DS><DE> Extent=<ES>111:28 - 111:79<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:29 - 111:78<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:29: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>111:29 - 111:58<EE>
@@ -13729,12 +13730,12 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:29: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>111:29 - 111:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:29: DeclRefExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Reference) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>111:29 - 111:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:34 - 111:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:34: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:34 - 111:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:34: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:34 - 111:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:34: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:34 - 111:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:34: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:34 - 111:42<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>111:43 - 111:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:44: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:44 - 111:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:44: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:44 - 111:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:44: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:44 - 111:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:44: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:44 - 111:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:44: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:44 - 111:48<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:49: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:49 - 111:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:49 - 111:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:53: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:53 - 111:54<EE>
@@ -13744,18 +13745,18 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:62 - 111:78<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:62 - 111:78<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>111:62 - 111:78<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:62 - 111:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:62 - 111:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:62 - 111:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:62: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>111:62 - 111:70<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:71: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>111:71 - 111:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:71: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:71 - 111:75<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:71: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:71 - 111:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:71: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:71 - 111:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:71: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>111:71 - 111:75<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:76: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:76 - 111:77<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:111:76: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:76 - 111:77<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:112:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>112:5 - 126:6<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>113:9 - 113:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:20: MemberRefExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:56:19 (Reference) <US>c:dali.h@2357@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>113:9 - 113:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:20: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:52:3 (Reference) <US><UE> <DS><DE> Extent=<ES>113:9 - 113:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:9: DeclRefExpr=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:59:25 (Reference) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>113:9 - 113:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:20: MemberRefExpr=msgIn|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:57:19 (Reference) <US>c:dali.h@2409@UA@u_DA_LINE_STATUS@Sa@FI@msgIn<UE> <DS>msgIn<DE> Extent=<ES>113:9 - 113:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:20: MemberRefExpr=|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:53:3 (Reference) <US><UE> <DS><DE> Extent=<ES>113:9 - 113:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:9: DeclRefExpr=lineStatus|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:60:25 (Reference) <US>c:@lineStatus<UE> <DS>lineStatus<DE> Extent=<ES>113:9 - 113:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>113:28 - 113:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:113:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>113:28 - 113:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>114:9 - 114:59<EE>
@@ -13767,11 +13768,11 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>114:38 - 114:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>114:43 - 114:59<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>114:43 - 114:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>114:43 - 114:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>114:43 - 114:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>114:43 - 114:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:43: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>114:43 - 114:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>114:52 - 114:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:52: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>114:52 - 114:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:52: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>114:52 - 114:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:52: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>114:52 - 114:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:52: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>114:52 - 114:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>114:57 - 114:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:114:57: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>114:57 - 114:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>115:9 - 115:59<EE>
@@ -13783,15 +13784,15 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:38 - 115:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>115:43 - 115:59<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>115:43 - 115:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>115:43 - 115:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:46:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>115:43 - 115:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: UnexposedExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>115:43 - 115:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:43: DeclRefExpr=rxBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:30 (Reference) <US>c:@rxBuffer<UE> <DS>rxBuffer<DE> Extent=<ES>115:43 - 115:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>115:52 - 115:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:52: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>115:52 - 115:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:52: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>115:52 - 115:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:52: UnexposedExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>115:52 - 115:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:52: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>115:52 - 115:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>115:57 - 115:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:115:57: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>115:57 - 115:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:116:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>116:9 - 116:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:116:9: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:47:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>116:9 - 116:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:116:9: DeclRefExpr=bcnt|G:\Voodoo\MSP Projects\N6500\FRAM\dali.h:48:21 (Reference) <US>c:@bcnt<UE> <DS>bcnt<DE> Extent=<ES>116:9 - 116:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:116:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>116:16 - 116:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:116:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:16 - 116:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\main.c:117:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:9 - 117:22<EE>
