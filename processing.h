@@ -30,7 +30,7 @@ typedef union
     unsigned char menuMode         :   1;   
     unsigned char subMenu          :   1;     
     unsigned char subsubMenu       :   1;     
-    unsigned char rxUARTmsg        :   1;
+    unsigned char espMsgIn         :   1;
     unsigned char modeChanged      :   1;
     unsigned char relLightON       :   1;
     unsigned char relVentON        :   1;

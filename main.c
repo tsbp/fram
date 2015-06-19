@@ -7,6 +7,7 @@
 #include "plot.h"
 #include "dali.h"
 #include "crc.h"
+#include "ESP8266.h"
 //==============================================================================
 unsigned int  min, hour, measint;
 //==============================================================================
@@ -17,9 +18,11 @@ unsigned int  min, hour, measint;
 #define STEPS_COUNT_P     (80)
 #define STEP_P            (3)
 unsigned int step = STEP_Q, steps_count = STEPS_COUNT_Q;
-unsigned int curStep = 1;
-unsigned int goUP = 1;
+unsigned int curStep = 1;unsigned int goUP = 1;
+
+
 //==============================================================================
+unsigned char test[24] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
 //unsigned char rxBuffer[15];
 //unsigned int bcnt = 0;
 //long t;
@@ -57,6 +60,11 @@ void main(void)
   
   LCD_Init();
   LCD_wakeup();
+  
+  ESP8266Init();
+
+  tData.__0a = 0x0a;
+  tData.__0d = 0x0d;
   
   __enable_interrupt();    
   
@@ -115,7 +123,6 @@ void main(void)
         ((unsigned char *)&rcTemper)[1] = rxBuffer[bcnt-4];
         bcnt = 0;
         rcEnCntr = 10;
-//        DA_EN(0);
         //==== ds =========
         for(int i = 0; i < DevicesCount; i++) readOWLine(i);         
         // запуск преобразования    
@@ -124,10 +131,20 @@ void main(void)
         OWWriteByte(CONVERT);    
         if(pagePointer == 0) printTemp();      
     }
-    //========================================    
+    //===========================================    
     if(rcEnCntr) rcEnCntr--;
     else DA_EN(1);
-     //===========================================
+    //===========================================
+    if(status.espMsgIn)
+    {
+      formTXBuffer(tBuffer, espRXbuffer[0] - '0');
+      
+      espTxMessage(tData.byte, sizeof(tData.byte));
+     
+      status.espMsgIn = 0;
+      rxCntr = 0;
+    }
+    //===========================================
     if(status.timeChanged)
     {
      status.timeChanged = 0;
