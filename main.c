@@ -137,7 +137,18 @@ void main(void)
     //===========================================
     if(status.espMsgIn)
     {
-      formTXBuffer(tBuffer, espRXbuffer[0] - '0');
+      if(espRXbuffer[0] == 'I')
+      {
+        tBuffer[POINTS_CNT - 1] = temp_buffer[0];
+        tData.msgHeader = 'I';
+        formTXBuffer(tBuffer,  espRXbuffer[1] - '0');
+      }
+      else
+      {
+        tBuffer2[POINTS_CNT - 1] = rcTemper;
+        tData.msgHeader = 'O';
+        formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
+      }
       
       espTxMessage(tData.byte, sizeof(tData.byte));
      

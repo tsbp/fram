@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1103409902
+Checksum=126466575
 [State Storage]
 Control Register=0
 [Sequencer]
@@ -44,7 +44,7 @@ Control Register=0
 NextState0=0
 NextState1=0
 [Action Register]
-Break=3
+Break=2
 State Storage=0
 [CallStack]
 ShowArgs=0
