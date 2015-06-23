@@ -18,8 +18,13 @@ void delay_us(unsigned int auS)
     __no_operation(); 
     __no_operation();
     __no_operation(); 
-    __no_operation();     
-
+    __no_operation();    
+   __no_operation(); 
+    __no_operation(); 
+    __no_operation();
+    __no_operation(); 
+   
+    
   }
 }
 /******************************************************************************/

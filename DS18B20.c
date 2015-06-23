@@ -18,8 +18,7 @@ unsigned char Init_18B20(void)
     DQ0; 
     delay_us(500); 
     DQ1; 
-    delay_us(55);    
-    _NOP(); 
+    delay_us(55); 
     if(DS_PORT_IN & DQ_BIT)   Error = 1;          //初始化失败 
     else 
     { 
@@ -42,8 +41,8 @@ unsigned char OWReadBit(void)
   DQ1; 
   delay_us(15);                     
   if(DS_PORT_IN & DQ_BIT)   temp = 0x01; 
-  delay_us(45);                 
-  delay_us(10);           //延时10us 
+  delay_us(55);                 
+  //delay_us(10);           //延时10us 
   return temp;
 }
 //================= Send 1 bit of data to teh 1-Wire bus =======================

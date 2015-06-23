@@ -54,13 +54,14 @@ __interrupt void start_bit_ISR ( void )
   if (keyCode != none)
   {
     DA_EN(0);    
+    keyCode2 = keyCode;
     status.keyPressed = 1; 
     P2IFG &= ~(UP_BUTTON | DOWN_BUTTON | OK_BUTTON);
     P2IE  &= ~(UP_BUTTON | DOWN_BUTTON | OK_BUTTON);
      __low_power_mode_off_on_exit();
   }
   else
-  {
+  {    
     P3OUT |= BIT3;
     TA2CCTL1 |= CCIE;
     TA2CCR0  = HALFBIT*5;
@@ -144,7 +145,8 @@ __interrupt void TA1_SYNC_LINE ( void )
                       if (bitCounter >= 8) 
                       {
                           bitCounter = 0;                       
-                          rxBuffer[bcnt++] = rxByte;
+                          if(bcnt < sizeof(rxBuffer)) rxBuffer[bcnt++] = rxByte;
+                          else bcnt = 0;
                           if((rxBuffer[bcnt-1] == 0x0a) &&
                              (rxBuffer[bcnt-2] == 0x0d)) 
                           {

@@ -101,7 +101,7 @@ typedef struct
 //==============================================================================
 extern unsigned int dayPointer;
 typedef enum {none, downButt, upButt, okButt} e_keyCode;
-extern e_keyCode keyCode;
+extern e_keyCode keyCode, keyCode2;
 //typedef enum {normal, menu,setTime} e_mode;
 //extern e_mode mode;
 
@@ -123,5 +123,6 @@ void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol);
 void write_flash(unsigned char * value);
 void lightCheck(void);
 void ventilationCheck(void);
+int getDayOfWeek(void);
 //==============================================================================
 #endif

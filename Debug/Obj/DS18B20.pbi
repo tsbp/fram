@@ -3952,43 +3952,42 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:17:5: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>17:5 - 17:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:18:5: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>18:5 - 18:8<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:20:5: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>20:5 - 20:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:5: macro expansion=_NOP|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:89:9 <US>c:macro@_NOP<UE> <DS>_NOP<DE> Extent=<ES>22:5 - 22:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:23:8: macro expansion=DS_PORT_IN|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:7:9 <US>c:macro@DS_PORT_IN<UE> <DS>DS_PORT_IN<DE> Extent=<ES>23:8 - 23:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:23:21: macro expansion=DQ_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:5:9 <US>c:macro@DQ_BIT<UE> <DS>DQ_BIT<DE> Extent=<ES>23:21 - 23:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:27:9: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>27:9 - 27:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:29:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>29:5 - 29:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:3: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>40:3 - 40:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:3: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>42:3 - 42:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:6: macro expansion=DS_PORT_IN|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:7:9 <US>c:macro@DS_PORT_IN<UE> <DS>DS_PORT_IN<DE> Extent=<ES>44:6 - 44:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:19: macro expansion=DQ_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:5:9 <US>c:macro@DQ_BIT<UE> <DS>DQ_BIT<DE> Extent=<ES>44:19 - 44:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:3: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>52:3 - 52:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:54:15: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>54:15 - 54:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:15: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>55:15 - 55:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:3: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>57:3 - 57:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:5: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>65:5 - 65:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:19: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f5510.h:127:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>68:19 - 68:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:72:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>72:5 - 72:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:5: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>78:5 - 78:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>84:5 - 84:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9: macro definition=FALSE <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>88:9 - 88:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:89:9: macro definition=TRUE <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>89:9 - 89:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:27: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>133:27 - 133:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:135:17: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>135:17 - 135:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:213:30: macro expansion=TRUE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:89:9 <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>213:30 - 213:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:215:26: macro expansion=TRUE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:89:9 <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>215:26 - 215:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:24: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>222:24 - 222:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:224:23: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>224:23 - 224:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:17: macro expansion=MAX_DS1820_NUMB|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:6:9 <US>c:macro@MAX_DS1820_NUMB<UE> <DS>MAX_DS1820_NUMB<DE> Extent=<ES>239:17 - 239:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:46: macro expansion=CONF_REG|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:7:9 <US>c:macro@CONF_REG<UE> <DS>CONF_REG<DE> Extent=<ES>240:46 - 240:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:29: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>251:29 - 251:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:29: macro expansion=WRITE_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:64:9 <US>c:macro@WRITE_SCRATCPAD<UE> <DS>WRITE_SCRATCPAD<DE> Extent=<ES>253:29 - 253:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:29: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>257:29 - 257:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:29: macro expansion=READ_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:63:9 <US>c:macro@READ_SCRATCPAD<UE> <DS>READ_SCRATCPAD<DE> Extent=<ES>259:29 - 259:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:87: macro expansion=CONF_REG|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:7:9 <US>c:macro@CONF_REG<UE> <DS>CONF_REG<DE> Extent=<ES>261:87 - 261:95<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:20: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>271:20 - 271:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:24: macro expansion=MAX_DS1820_NUMB|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:6:9 <US>c:macro@MAX_DS1820_NUMB<UE> <DS>MAX_DS1820_NUMB<DE> Extent=<ES>282:24 - 282:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:21: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>288:21 - 288:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:21: macro expansion=READ_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:63:9 <US>c:macro@READ_SCRATCPAD<UE> <DS>READ_SCRATCPAD<DE> Extent=<ES>291:21 - 291:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:8: macro expansion=DS_PORT_IN|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:7:9 <US>c:macro@DS_PORT_IN<UE> <DS>DS_PORT_IN<DE> Extent=<ES>22:8 - 22:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:21: macro expansion=DQ_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:5:9 <US>c:macro@DQ_BIT<UE> <DS>DQ_BIT<DE> Extent=<ES>22:21 - 22:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:26:9: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>26:9 - 26:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:28:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>28:5 - 28:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:3: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>39:3 - 39:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:3: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>41:3 - 41:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:6: macro expansion=DS_PORT_IN|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:7:9 <US>c:macro@DS_PORT_IN<UE> <DS>DS_PORT_IN<DE> Extent=<ES>43:6 - 43:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:19: macro expansion=DQ_BIT|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:5:9 <US>c:macro@DQ_BIT<UE> <DS>DQ_BIT<DE> Extent=<ES>43:19 - 43:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:51:3: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>51:3 - 51:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:15: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>53:15 - 53:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:54:15: macro expansion=DQ0|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:11:9 <US>c:macro@DQ0<UE> <DS>DQ0<DE> Extent=<ES>54:15 - 54:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:3: macro expansion=DQ1|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:10:9 <US>c:macro@DQ1<UE> <DS>DQ1<DE> Extent=<ES>56:3 - 56:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:64:5: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>64:5 - 64:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:19: macro expansion=BIT0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430f5510.h:127:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>67:19 - 67:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:71:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>71:5 - 71:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:5: macro expansion=_DINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:83:9 <US>c:macro@_DINT<UE> <DS>_DINT<DE> Extent=<ES>77:5 - 77:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:83:5: macro expansion=_EINT|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\in430.h:86:9 <US>c:macro@_EINT<UE> <DS>_EINT<DE> Extent=<ES>83:5 - 83:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9: macro definition=FALSE <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>87:9 - 87:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9: macro definition=TRUE <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>88:9 - 88:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:27: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>132:27 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:17: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>134:17 - 134:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:30: macro expansion=TRUE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>212:30 - 212:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:214:26: macro expansion=TRUE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:88:9 <US>c:macro@TRUE<UE> <DS>TRUE<DE> Extent=<ES>214:26 - 214:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:24: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>221:24 - 221:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:23: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>223:23 - 223:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:17: macro expansion=MAX_DS1820_NUMB|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:6:9 <US>c:macro@MAX_DS1820_NUMB<UE> <DS>MAX_DS1820_NUMB<DE> Extent=<ES>238:17 - 238:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:46: macro expansion=CONF_REG|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:7:9 <US>c:macro@CONF_REG<UE> <DS>CONF_REG<DE> Extent=<ES>239:46 - 239:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:29: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>250:29 - 250:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:29: macro expansion=WRITE_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:64:9 <US>c:macro@WRITE_SCRATCPAD<UE> <DS>WRITE_SCRATCPAD<DE> Extent=<ES>252:29 - 252:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:29: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>256:29 - 256:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:29: macro expansion=READ_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:63:9 <US>c:macro@READ_SCRATCPAD<UE> <DS>READ_SCRATCPAD<DE> Extent=<ES>258:29 - 258:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:87: macro expansion=CONF_REG|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:7:9 <US>c:macro@CONF_REG<UE> <DS>CONF_REG<DE> Extent=<ES>260:87 - 260:95<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:20: macro expansion=FALSE|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:87:9 <US>c:macro@FALSE<UE> <DS>FALSE<DE> Extent=<ES>270:20 - 270:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:24: macro expansion=MAX_DS1820_NUMB|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:6:9 <US>c:macro@MAX_DS1820_NUMB<UE> <DS>MAX_DS1820_NUMB<DE> Extent=<ES>281:24 - 281:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:21: macro expansion=MATCH_ROM|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:60:9 <US>c:macro@MATCH_ROM<UE> <DS>MATCH_ROM<DE> Extent=<ES>287:21 - 287:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:21: macro expansion=READ_SCRATCPAD|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:63:9 <US>c:macro@READ_SCRATCPAD<UE> <DS>READ_SCRATCPAD<DE> Extent=<ES>290:21 - 290:35<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -4952,24 +4951,24 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:28:13: FunctionDecl=Skip|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:28:13 (Declaration) <US>c:@F@Skip<UE> <DS>void Skip(void)<DE> Extent=<ES>28:1 - 28:23<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:29:13: FunctionDecl=Convert|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:29:13 (Declaration) <US>c:@F@Convert<UE> <DS>void Convert(void)<DE> Extent=<ES>29:1 - 29:26<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:30:13: FunctionDecl=Read_SP|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:30:13 (Declaration) <US>c:@F@Read_SP<UE> <DS>void Read_SP(void)<DE> Extent=<ES>30:1 - 30:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:32:6: FunctionDecl=OWFind|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:267:6 (Declaration) <US>c:@F@OWFind<UE> <DS>void OWFind(void)<DE> Extent=<ES>32:1 - 32:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:33:6: FunctionDecl=OWConfig|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:243:6 (Declaration) <US>c:@F@OWConfig<UE> <DS>void OWConfig(void)<DE> Extent=<ES>33:1 - 33:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:32:6: FunctionDecl=OWFind|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:266:6 (Declaration) <US>c:@F@OWFind<UE> <DS>void OWFind(void)<DE> Extent=<ES>32:1 - 32:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:33:6: FunctionDecl=OWConfig|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:242:6 (Declaration) <US>c:@F@OWConfig<UE> <DS>void OWConfig(void)<DE> Extent=<ES>33:1 - 33:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:35:6: FunctionDecl=OWFirst|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:35:6 (Declaration) <US>c:@F@OWFirst<UE> <DS>int OWFirst(void)<DE> Extent=<ES>35:1 - 35:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:36:6: FunctionDecl=OWNext|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:36:6 (Declaration) <US>c:@F@OWNext<UE> <DS>int OWNext(void)<DE> Extent=<ES>36:1 - 36:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:37:6: FunctionDecl=OWVerify|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:37:6 (Declaration) <US>c:@F@OWVerify<UE> <DS>int OWVerify(void)<DE> Extent=<ES>37:1 - 37:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:38:6: FunctionDecl=OWTargetSetup|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:38:6 (Declaration) <US>c:@F@OWTargetSetup<UE> <DS>void OWTargetSetup(unsigned char)<DE> Extent=<ES>38:1 - 38:46<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:38:34: ParmDecl=family_code|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:38:34 (Definition) <US>c:DS18B20.h@1194@F@OWTargetSetup@family_code<UE> <DS>unsigned char<DE> Extent=<ES>38:20 - 38:45<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:39:6: FunctionDecl=OWFamilySkipSetup|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:39:6 (Declaration) <US>c:@F@OWFamilySkipSetup<UE> <DS>void OWFamilySkipSetup(void)<DE> Extent=<ES>39:1 - 39:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:40:6: FunctionDecl=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5 (Declaration) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>40:1 - 40:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:41:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Declaration) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>41:1 - 41:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:40:6: FunctionDecl=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5 (Declaration) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>40:1 - 40:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:41:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Declaration) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>41:1 - 41:43<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:41:32: ParmDecl=byte_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:41:32 (Definition) <US>c:DS18B20.h@1284@F@OWWriteByte@byte_value<UE> <DS>unsigned char<DE> Extent=<ES>41:18 - 41:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:42:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Declaration) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>42:1 - 42:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:42:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Declaration) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>42:1 - 42:41<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:42:31: ParmDecl=bit_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:42:31 (Definition) <US>c:DS18B20.h@1328@F@OWWriteBit@bit_value<UE> <DS>unsigned char<DE> Extent=<ES>42:17 - 42:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:43:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Declaration) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>43:1 - 43:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:44:6: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 (Declaration) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>44:1 - 44:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:43:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Declaration) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>43:1 - 43:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:44:6: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 (Declaration) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>44:1 - 44:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:45:15: FunctionDecl=docrc8|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:45:15 (Declaration) <US>c:@F@docrc8<UE> <DS>unsigned char docrc8(unsigned char)<DE> Extent=<ES>45:1 - 45:42<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:45:36: ParmDecl=value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:45:36 (Definition) <US>c:DS18B20.h@1422@F@docrc8@value<UE> <DS>unsigned char<DE> Extent=<ES>45:22 - 45:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:47:6: FunctionDecl=readOWLine|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:6 (Declaration) <US>c:@F@readOWLine<UE> <DS>void readOWLine(unsigned int)<DE> Extent=<ES>47:1 - 47:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:47:6: FunctionDecl=readOWLine|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:6 (Declaration) <US>c:@F@readOWLine<UE> <DS>void readOWLine(unsigned int)<DE> Extent=<ES>47:1 - 47:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:47:30: ParmDecl=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:47:30 (Definition) <US>c:DS18B20.h@1487@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>47:17 - 47:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:49:22: VarDecl=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:49:22 (Declaration) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>49:1 - 49:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:49:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:29 - 49:30<EE>
@@ -5008,8 +5007,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:55: ParmDecl=p|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:55 (Definition) <US>c:crc.h@899@F@crc16_slow@p<UE> <DS>const unsigned char *<DE> Extent=<ES>24:34 - 24:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:71: ParmDecl=len|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:71 (Definition) <US>c:crc.h@923@F@crc16_slow@len<UE> <DS>unsigned int<DE> Extent=<ES>24:58 - 24:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:91: ParmDecl=sum|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:24:91 (Definition) <US>c:crc.h@941@F@crc16_slow@sum<UE> <DS>unsigned short<DE> Extent=<ES>24:76 - 24:94<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15: FunctionDecl=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Definition) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>13:1 - 34:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:14:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>14:1 - 34:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15: FunctionDecl=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Definition) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>13:1 - 33:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:14:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>14:1 - 33:2<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>15:5 - 15:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19: VarDecl=Error|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19 (Definition) <US>c:DS18B20.c@519@F@Init_18B20@Error<UE> <DS>Error<DE> Extent=<ES>15:5 - 15:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:17:5: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>17:5 - 17:12<EE>
@@ -5025,851 +5024,843 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:21:5: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>21:5 - 21:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:21:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:14 - 21:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:21:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:14 - 21:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:5: CallExpr=__no_operation|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:37:20 <US>c:@F@__no_operation<UE> <DS>void __no_operation(void)<DE> Extent=<ES>22:5 - 22:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:5: UnexposedExpr=__no_operation|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:37:20 <US>c:@F@__no_operation<UE> <DS>void __no_operation(void)<DE> Extent=<ES>22:5 - 22:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:22:5: DeclRefExpr=__no_operation|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:37:20 (Reference) <US>c:@F@__no_operation<UE> <DS>void __no_operation(void)<DE> Extent=<ES>22:5 - 22:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:29:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>29:5 - 29:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:29:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>29:5 - 29:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:29:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>29:5 - 29:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:31:5: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>31:5 - 31:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:31:5: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>31:5 - 31:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:31:5: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>31:5 - 31:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:31:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>31:14 - 31:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:31:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:14 - 31:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:33:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>33:5 - 33:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:33:12: UnexposedExpr=Error|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19 <US>c:DS18B20.c@519@F@Init_18B20@Error<UE> <DS>Error<DE> Extent=<ES>33:12 - 33:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:33:12: DeclRefExpr=Error|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19 (Reference) <US>c:DS18B20.c@519@F@Init_18B20@Error<UE> <DS>Error<DE> Extent=<ES>33:12 - 33:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Definition) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>37:1 - 48:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>38:1 - 48:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>39:3 - 39:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:17: VarDecl=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:17 (Definition) <US>c:DS18B20.c@1057@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>39:3 - 39:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>39:24 - 39:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:24 - 39:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>41:3 - 41:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>41:3 - 41:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>41:3 - 41:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>41:12 - 41:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:41:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:12 - 41:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>43:3 - 43:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>43:3 - 43:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>43:3 - 43:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:12 - 43:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:43:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:12 - 43:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:45:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>45:3 - 45:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:45:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>45:3 - 45:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:45:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>45:3 - 45:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:45:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>45:12 - 45:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:45:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:12 - 45:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>46:3 - 46:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>46:3 - 46:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>46:3 - 46:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>46:12 - 46:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:12 - 46:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:47:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>47:3 - 47:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:47:10: UnexposedExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:17 <US>c:DS18B20.c@1057@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>47:10 - 47:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:47:10: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:39:17 (Reference) <US>c:DS18B20.c@1057@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>47:10 - 47:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Definition) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>50:1 - 59:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:31: ParmDecl=aBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:31 (Definition) <US>c:DS18B20.c@1398@F@OWWriteBit@aBit<UE> <DS>unsigned char<DE> Extent=<ES>50:17 - 50:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:51:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>51:1 - 59:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>53:3 - 53:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>53:3 - 53:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>53:3 - 53:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>53:12 - 53:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:53:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:12 - 53:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>56:3 - 56:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>56:3 - 56:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>56:3 - 56:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:12 - 56:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:56:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:12 - 56:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:58:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>58:3 - 58:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:58:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>58:3 - 58:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:58:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>58:3 - 58:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:58:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:12 - 58:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:58:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:12 - 58:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Definition) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>61:1 - 73:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32: ParmDecl=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32 (Definition) <US>c:DS18B20.c@1671@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>61:18 - 61:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>62:1 - 73:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>63:5 - 63:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 (Definition) <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>63:5 - 63:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:5: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>65:5 - 65:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:5: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>65:5 - 65:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:5: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>65:5 - 65:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>66:5 - 71:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:9 - 66:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:9: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 (Reference) <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>66:9 - 66:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:13 - 66:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:13 - 66:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:16 - 66:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>66:16 - 66:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>66:16 - 66:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:16: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 (Reference) <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>66:16 - 66:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:20 - 66:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>66:22 - 66:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:22: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:63:19 (Reference) <US>c:DS18B20.c@1702@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>66:22 - 66:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>67:5 - 71:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>68:7 - 69:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>68:11 - 68:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:11: UnexposedExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32 <US>c:DS18B20.c@1671@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>68:11 - 68:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:11: UnexposedExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32 <US>c:DS18B20.c@1671@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>68:11 - 68:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:11: DeclRefExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32 (Reference) <US>c:DS18B20.c@1671@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>68:11 - 68:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:19 - 68:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:19 - 68:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:25: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:25 - 68:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:25: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:25 - 68:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:25: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:25 - 68:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:36 - 68:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:36 - 68:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:12: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>69:12 - 69:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:12: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>69:12 - 69:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:12: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>69:12 - 69:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>69:23 - 69:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:23 - 69:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:70:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>70:7 - 70:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:70:7: DeclRefExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:32 (Reference) <US>c:DS18B20.c@1671@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>70:7 - 70:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:70:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:17 - 70:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:72:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>72:5 - 72:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:72:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>72:5 - 72:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:72:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>72:5 - 72:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15: FunctionDecl=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 (Definition) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>75:1 - 86:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>76:1 - 86:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>77:5 - 77:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19: VarDecl=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19 (Definition) <US>c:DS18B20.c@2020@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>77:5 - 77:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>77:26 - 77:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:26 - 77:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:5: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>78:5 - 78:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:5: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>78:5 - 78:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:5: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>78:5 - 78:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>79:5 - 83:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>79:9 - 79:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23 (Definition) <US>c:DS18B20.c@2074@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>79:9 - 79:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:27 - 79:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:27 - 79:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:30 - 79:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:30: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23 <US>c:DS18B20.c@2074@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:30: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23 <US>c:DS18B20.c@2074@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:30: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23 (Reference) <US>c:DS18B20.c@2074@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:34 - 79:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:37: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>79:37 - 79:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:37: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:23 (Reference) <US>c:DS18B20.c@2074@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>79:37 - 79:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:80:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:5 - 83:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>81:7 - 81:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:7: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19 (Reference) <US>c:DS18B20.c@2020@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>81:7 - 81:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>81:16 - 81:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>82:7 - 82:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:11: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>82:11 - 82:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:11: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>82:11 - 82:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:11: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>82:11 - 82:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:24: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>82:24 - 82:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:24: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19 (Reference) <US>c:DS18B20.c@2020@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>82:24 - 82:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:82:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:32 - 82:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>84:5 - 84:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>84:5 - 84:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>84:5 - 84:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:85:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>85:5 - 85:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:85:13: UnexposedExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19 <US>c:DS18B20.c@2020@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>85:13 - 85:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:85:13: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:19 (Reference) <US>c:DS18B20.c@2020@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>85:13 - 85:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Declaration) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>91:1 - 91:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:32: ParmDecl=byte_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:32 (Definition) <US>c:DS18B20.c@2441@F@OWWriteByte@byte_value<UE> <DS>unsigned char<DE> Extent=<ES>91:18 - 91:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:92:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Declaration) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>92:1 - 92:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:92:31: ParmDecl=bit_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:92:31 (Definition) <US>c:DS18B20.c@2485@F@OWWriteBit@bit_value<UE> <DS>unsigned char<DE> Extent=<ES>92:17 - 92:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:93:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Declaration) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>93:1 - 93:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:94:6: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 (Declaration) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>94:1 - 94:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15: VarDecl=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Declaration) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>96:1 - 96:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>96:22 - 96:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5: VarDecl=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Declaration) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>97:1 - 97:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5: VarDecl=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Declaration) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>98:1 - 98:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5: VarDecl=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Declaration) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>99:1 - 99:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14: VarDecl=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 (Declaration) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>100:1 - 100:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15: VarDecl=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 (Declaration) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>101:1 - 101:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 (Definition) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>110:1 - 228:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>111:1 - 228:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>112:4 - 112:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8: VarDecl=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Definition) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>112:4 - 112:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>113:4 - 113:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8: VarDecl=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Definition) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>113:4 - 113:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19: VarDecl=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Declaration) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>113:19 - 113:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36: VarDecl=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Declaration) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>113:36 - 113:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>114:4 - 114:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8: VarDecl=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 (Definition) <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>114:4 - 114:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16: VarDecl=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 (Declaration) <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>114:16 - 114:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>115:4 - 115:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18: VarDecl=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Definition) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>115:4 - 115:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33: VarDecl=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Declaration) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>115:33 - 115:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>118:4 - 118:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:4: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>118:4 - 118:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:20 - 118:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:4 - 119:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:4: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>119:4 - 119:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:16 - 119:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>120:4 - 120:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:4: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>120:4 - 120:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:22 - 120:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:28:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>28:5 - 28:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:28:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>28:5 - 28:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:28:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>28:5 - 28:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:30:5: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>30:5 - 30:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:30:5: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>30:5 - 30:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:30:5: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>30:5 - 30:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:30:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>30:14 - 30:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:30:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:14 - 30:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:32:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>32:5 - 32:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:32:12: UnexposedExpr=Error|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19 <US>c:DS18B20.c@519@F@Init_18B20@Error<UE> <DS>Error<DE> Extent=<ES>32:12 - 32:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:32:12: DeclRefExpr=Error|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:15:19 (Reference) <US>c:DS18B20.c@519@F@Init_18B20@Error<UE> <DS>Error<DE> Extent=<ES>32:12 - 32:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Definition) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>36:1 - 47:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:1 - 47:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>38:3 - 38:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:17: VarDecl=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:17 (Definition) <US>c:DS18B20.c@1040@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>38:3 - 38:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:24 - 38:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:24 - 38:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>40:3 - 40:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>40:3 - 40:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>40:3 - 40:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:12 - 40:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:40:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:12 - 40:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>42:3 - 42:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>42:3 - 42:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>42:3 - 42:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:12 - 42:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:42:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:12 - 42:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>44:3 - 44:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>44:3 - 44:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>44:3 - 44:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:12 - 44:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:44:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:12 - 44:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>46:3 - 46:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:10: UnexposedExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:17 <US>c:DS18B20.c@1040@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>46:10 - 46:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:46:10: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:38:17 (Reference) <US>c:DS18B20.c@1040@F@OWReadBit@temp<UE> <DS>temp<DE> Extent=<ES>46:10 - 46:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Definition) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>49:1 - 58:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:31: ParmDecl=aBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:31 (Definition) <US>c:DS18B20.c@1383@F@OWWriteBit@aBit<UE> <DS>unsigned char<DE> Extent=<ES>49:17 - 49:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>50:1 - 58:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>52:3 - 52:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>52:3 - 52:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>52:3 - 52:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>52:12 - 52:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:52:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>52:12 - 52:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>55:3 - 55:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>55:3 - 55:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>55:3 - 55:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:12 - 55:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:55:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:12 - 55:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:3: CallExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>57:3 - 57:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:3: UnexposedExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>57:3 - 57:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:3: DeclRefExpr=delay_us|G:\Voodoo\MSP Projects\N6500\FRAM\delay.h:4:13 (Reference) <US>c:@F@delay_us<UE> <DS>void delay_us(unsigned int)<DE> Extent=<ES>57:3 - 57:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:12 - 57:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:57:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:12 - 57:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Definition) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>60:1 - 72:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32: ParmDecl=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32 (Definition) <US>c:DS18B20.c@1656@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>60:18 - 60:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:1 - 72:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>62:5 - 62:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 (Definition) <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>62:5 - 62:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:64:5: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>64:5 - 64:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:64:5: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>64:5 - 64:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:64:5: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>64:5 - 64:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>65:5 - 70:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:9 - 65:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:9: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 (Reference) <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>65:9 - 65:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:16 - 65:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>65:16 - 65:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>65:16 - 65:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:16: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 (Reference) <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>65:16 - 65:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:20 - 65:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>65:22 - 65:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:65:22: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:62:19 (Reference) <US>c:DS18B20.c@1687@F@OWWriteByte@i<UE> <DS>i<DE> Extent=<ES>65:22 - 65:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:66:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>66:5 - 70:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>67:7 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>67:11 - 67:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:11: UnexposedExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32 <US>c:DS18B20.c@1656@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>67:11 - 67:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:11: UnexposedExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32 <US>c:DS18B20.c@1656@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>67:11 - 67:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:11: DeclRefExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32 (Reference) <US>c:DS18B20.c@1656@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>67:11 - 67:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>67:19 - 67:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:19 - 67:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:25: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>67:25 - 67:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:25: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>67:25 - 67:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:25: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>67:25 - 67:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>67:36 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:67:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:36 - 67:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:12: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:12 - 68:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:12: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:12 - 68:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:12: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>68:12 - 68:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:23 - 68:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:68:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:23 - 68:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>69:7 - 69:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:7: DeclRefExpr=wdata|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:32 (Reference) <US>c:DS18B20.c@1656@F@OWWriteByte@wdata<UE> <DS>unsigned char<DE> Extent=<ES>69:7 - 69:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:69:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>69:17 - 69:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:71:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>71:5 - 71:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:71:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>71:5 - 71:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:71:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>71:5 - 71:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15: FunctionDecl=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 (Definition) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>74:1 - 85:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>75:1 - 85:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>76:5 - 76:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19: VarDecl=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19 (Definition) <US>c:DS18B20.c@2005@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>76:5 - 76:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:26 - 76:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:26 - 76:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:5: CallExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>77:5 - 77:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:5: UnexposedExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>77:5 - 77:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:77:5: DeclRefExpr=__disable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>77:5 - 77:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>78:5 - 82:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>78:9 - 78:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23 (Definition) <US>c:DS18B20.c@2059@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>78:9 - 78:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>78:27 - 78:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:27 - 78:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>78:30 - 78:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:30: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23 <US>c:DS18B20.c@2059@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>78:30 - 78:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:30: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23 <US>c:DS18B20.c@2059@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>78:30 - 78:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:30: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23 (Reference) <US>c:DS18B20.c@2059@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>78:30 - 78:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:34 - 78:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:37: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>78:37 - 78:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:37: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:78:23 (Reference) <US>c:DS18B20.c@2059@F@OWReadByte@i<UE> <DS>i<DE> Extent=<ES>78:37 - 78:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:79:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>79:5 - 82:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:80:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>80:7 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:80:7: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19 (Reference) <US>c:DS18B20.c@2005@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>80:7 - 80:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:80:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:16 - 80:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>81:7 - 81:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:11: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>81:11 - 81:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:11: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>81:11 - 81:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:11: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>81:11 - 81:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:24: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>81:24 - 81:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:24: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19 (Reference) <US>c:DS18B20.c@2005@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>81:24 - 81:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:81:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>81:32 - 81:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:83:5: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>83:5 - 83:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:83:5: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>83:5 - 83:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:83:5: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>83:5 - 83:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>84:5 - 84:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:13: UnexposedExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19 <US>c:DS18B20.c@2005@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>84:13 - 84:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:84:13: DeclRefExpr=temp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:76:19 (Reference) <US>c:DS18B20.c@2005@F@OWReadByte@temp<UE> <DS>temp<DE> Extent=<ES>84:13 - 84:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:90:6: FunctionDecl=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Declaration) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>90:1 - 90:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:90:32: ParmDecl=byte_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:90:32 (Definition) <US>c:DS18B20.c@2426@F@OWWriteByte@byte_value<UE> <DS>unsigned char<DE> Extent=<ES>90:18 - 90:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:6: FunctionDecl=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Declaration) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>91:1 - 91:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:31: ParmDecl=bit_value|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:91:31 (Definition) <US>c:DS18B20.c@2470@F@OWWriteBit@bit_value<UE> <DS>unsigned char<DE> Extent=<ES>91:17 - 91:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:92:15: FunctionDecl=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Declaration) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>92:1 - 92:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:93:6: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 (Declaration) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>93:1 - 93:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15: VarDecl=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Declaration) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>95:1 - 95:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:22 - 95:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5: VarDecl=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Declaration) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>96:1 - 96:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5: VarDecl=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Declaration) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>97:1 - 97:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5: VarDecl=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Declaration) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>98:1 - 98:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14: VarDecl=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 (Declaration) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>99:1 - 99:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15: VarDecl=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 (Declaration) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>100:1 - 100:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5: FunctionDecl=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 (Definition) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>109:1 - 227:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>110:1 - 227:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>111:4 - 111:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8: VarDecl=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Definition) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>111:4 - 111:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>112:4 - 112:50<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8: VarDecl=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Definition) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>112:4 - 112:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19: VarDecl=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Declaration) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>112:19 - 112:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36: VarDecl=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Declaration) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>112:36 - 112:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>113:4 - 113:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8: VarDecl=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Definition) <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>113:4 - 113:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16: VarDecl=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 (Declaration) <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>113:16 - 113:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:4: DeclStmt= <US><UE> <DS><DE> Extent=<ES>114:4 - 114:50<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18: VarDecl=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Definition) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>114:4 - 114:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33: VarDecl=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Declaration) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>114:33 - 114:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:117:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:4 - 117:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:117:4: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>117:4 - 117:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:117:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:20 - 117:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>118:4 - 118:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:4: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>118:4 - 118:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:118:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:16 - 118:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>119:4 - 119:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:4: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>119:4 - 119:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:119:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:22 - 119:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>120:4 - 120:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:4: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>120:4 - 120:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>120:20 - 120:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:120:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:20 - 120:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:121:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>121:4 - 121:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:121:4: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>121:4 - 121:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:121:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>121:20 - 121:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:121:4: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>121:4 - 121:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:121:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:20 - 121:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:4 - 122:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:4: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>122:4 - 122:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:20 - 122:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:123:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>123:4 - 123:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:123:4: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>123:4 - 123:9<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:123:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>123:12 - 123:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:123:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>123:12 - 123:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:126:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>126:4 - 217:5<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:126:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>126:8 - 126:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:126:9: UnexposedExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>126:9 - 126:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:126:9: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>126:9 - 126:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:127:4: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>127:4 - 217:5<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>129:7 - 136:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>129:11 - 129:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:12: CallExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5 <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>129:12 - 129:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:12: UnexposedExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5 <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>129:12 - 129:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:12: DeclRefExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5 (Reference) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>129:12 - 129:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:130:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>130:7 - 136:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>132:10 - 132:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:10: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>132:10 - 132:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:28 - 132:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>133:10 - 133:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:10: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>133:10 - 133:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:27 - 133:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>134:10 - 134:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:10: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>134:10 - 134:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:34 - 134:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:135:10: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>135:10 - 135:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:135:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>135:17 - 135:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:139:7: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>139:7 - 139:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:139:7: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>139:7 - 139:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:139:7: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>139:7 - 139:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:139:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>139:19 - 139:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:139:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:19 - 139:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:142:7: DoStmt= <US><UE> <DS><DE> Extent=<ES>142:7 - 202:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:143:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:7 - 201:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>145:10 - 145:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:10: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>145:10 - 145:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:19: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:19 - 145:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:19: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:19 - 145:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:19: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:19 - 145:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:19: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:19 - 145:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>146:10 - 146:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:10: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>146:10 - 146:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:23: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>146:23 - 146:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:23: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>146:23 - 146:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:23: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>146:23 - 146:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:146:23: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:37:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>146:23 - 146:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>149:10 - 200:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:14 - 149:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:14 - 149:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:15 - 149:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:15: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>149:15 - 149:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:15: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>149:15 - 149:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:25 - 149:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:31 - 149:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:32 - 149:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:32: UnexposedExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>149:32 - 149:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:32: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>149:32 - 149:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:46 - 149:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:150:13: BreakStmt= <US><UE> <DS><DE> Extent=<ES>150:13 - 150:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:152:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>152:10 - 200:11<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>154:13 - 175:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:17 - 154:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:17: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>154:17 - 154:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:17: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>154:17 - 154:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:27: UnexposedExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>154:27 - 154:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:27: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:16 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>154:27 - 154:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:155:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>155:16 - 155:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:155:16: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>155:16 - 155:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:155:35: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>155:35 - 155:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:155:35: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>155:35 - 155:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:155:35: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:8 (Reference) <US>c:DS18B20.c@3258@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>155:35 - 155:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:157:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>157:13 - 175:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:16: IfStmt= <US><UE> <DS><DE> Extent=<ES>160:16 - 164:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:20 - 160:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:20: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>160:20 - 160:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:20: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>160:20 - 160:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:36: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>160:36 - 160:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:36: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>160:36 - 160:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:19 - 161:85<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:19: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>161:19 - 161:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:38 - 161:85<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>161:38 - 161:85<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:39 - 161:84<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>161:39 - 161:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:40 - 161:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:40 - 161:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:40 - 161:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>161:40 - 161:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>161:40 - 161:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:40: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>161:40 - 161:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:47: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>161:47 - 161:62<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:47: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>161:47 - 161:62<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:66: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>161:66 - 161:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:66: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>161:66 - 161:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:66: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>161:66 - 161:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:161:83: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:83 - 161:84<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:19 - 164:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:19: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>164:19 - 164:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>164:38 - 164:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>164:38 - 164:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>164:39 - 164:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:39: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>164:39 - 164:52<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:39: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>164:39 - 164:52<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:56: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>164:56 - 164:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:164:56: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>164:56 - 164:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:16: IfStmt= <US><UE> <DS><DE> Extent=<ES>167:16 - 174:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>167:20 - 167:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:20: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>167:20 - 167:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:20: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>167:20 - 167:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:20: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>167:20 - 167:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>167:40 - 167:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:168:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>168:16 - 174:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:169:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>169:19 - 169:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:169:19: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>169:19 - 169:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:169:31: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>169:31 - 169:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:169:31: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>169:31 - 169:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:19: IfStmt= <US><UE> <DS><DE> Extent=<ES>172:19 - 173:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:23 - 172:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:23: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>172:23 - 172:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:23: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>172:23 - 172:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:35 - 172:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:173:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:22 - 173:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:173:22: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>173:22 - 173:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:173:46: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>173:46 - 173:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:173:46: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>173:46 - 173:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>179:13 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>179:17 - 179:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:17: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>179:17 - 179:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:17: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>179:17 - 179:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:17: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>179:17 - 179:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>179:37 - 179:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>180:15 - 180:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>180:15 - 180:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:15: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>180:15 - 180:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:15: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>180:15 - 180:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:22: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>180:22 - 180:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:22: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>180:22 - 180:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:42: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>180:42 - 180:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:42: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>180:42 - 180:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:180:42: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>180:42 - 180:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>182:15 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>182:15 - 182:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:15: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>182:15 - 182:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:15: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>182:15 - 182:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:22: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>182:22 - 182:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:22: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>182:22 - 182:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>182:42 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:43: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>182:43 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:43: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>182:43 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:182:43: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>182:43 - 182:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:185:13: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>185:13 - 185:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:185:13: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>185:13 - 185:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:185:13: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:50:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>185:13 - 185:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:185:24: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>185:24 - 185:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:185:24: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:33 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>185:24 - 185:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:189:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>189:13 - 189:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:189:13: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>189:13 - 189:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:190:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>190:13 - 190:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:190:13: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>190:13 - 190:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:190:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:31 - 190:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>193:13 - 199:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:17 - 193:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:17: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>193:17 - 193:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:17: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>193:17 - 193:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:17: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>193:17 - 193:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:34 - 193:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>194:13 - 199:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>195:17 - 195:66<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:17: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>195:17 - 195:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:25: CallExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>195:25 - 195:66<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:25: UnexposedExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>195:25 - 195:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:25: DeclRefExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 (Reference) <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>195:25 - 195:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>195:35 - 195:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>195:35 - 195:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:35: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>195:35 - 195:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:35: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>195:35 - 195:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:42: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>195:42 - 195:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:42: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>195:42 - 195:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:60: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>195:60 - 195:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:195:60: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>195:60 - 195:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>197:17 - 197:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:17: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>197:17 - 197:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:198:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>198:17 - 198:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:198:17: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:115:18 (Reference) <US>c:DS18B20.c@3286@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>198:17 - 198:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:198:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>198:33 - 198:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:198:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>198:33 - 198:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:202:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>202:13 - 202:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:202:13: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>202:13 - 202:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:202:13: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:19 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>202:13 - 202:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:202:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>202:31 - 202:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>205:7 - 216:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>205:11 - 205:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:12: ParenExpr= <US><UE> <DS><DE> Extent=<ES>205:12 - 205:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>205:13 - 205:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>205:13 - 205:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>205:14 - 205:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:14: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>205:14 - 205:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:14: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3184@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>205:14 - 205:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:30 - 205:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>205:37 - 205:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:38: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>205:38 - 205:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:38: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>205:38 - 205:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:38: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>205:38 - 205:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:38: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:101:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>205:38 - 205:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:47 - 205:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:206:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>206:7 - 216:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>208:10 - 208:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:10: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>208:10 - 208:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:28: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>208:28 - 208:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:28: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>208:28 - 208:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:209:10: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>209:10 - 209:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:209:10: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>209:10 - 209:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>212:10 - 213:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>212:14 - 212:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:14: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>212:14 - 212:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:14: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>212:14 - 212:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>212:33 - 212:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:213:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>213:13 - 213:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:213:13: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>213:13 - 213:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:213:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>213:30 - 213:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:215:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>215:10 - 215:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:215:10: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>215:10 - 215:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:215:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>215:26 - 215:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>219:4 - 225:5<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>219:8 - 219:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>219:8 - 219:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:9: UnexposedExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>219:9 - 219:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:9: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>219:9 - 219:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>219:26 - 219:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>219:27 - 219:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:27: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>219:27 - 219:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:27: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>219:27 - 219:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:27: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>219:27 - 219:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:34 - 219:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:220:4: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>220:4 - 225:5<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>221:7 - 221:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:7: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>221:7 - 221:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>221:25 - 221:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>222:7 - 222:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:7: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>222:7 - 222:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>222:24 - 222:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>223:7 - 223:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:7: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>223:7 - 223:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:31 - 223:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:224:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>224:7 - 224:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:224:7: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>224:7 - 224:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:224:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>224:23 - 224:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:227:4: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>227:4 - 227:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:227:11: UnexposedExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>227:11 - 227:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:227:11: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:36 (Reference) <US>c:DS18B20.c@3207@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>227:11 - 227:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5: FunctionDecl=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:5 (Definition) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>233:1 - 236:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>234:1 - 236:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:235:4: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>235:4 - 235:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:235:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>235:11 - 235:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:235:12: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>235:12 - 235:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:235:12: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>235:12 - 235:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:235:12: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>235:12 - 235:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10: VarDecl=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 (Declaration) <US>c:@device<UE> <DS>device<DE> Extent=<ES>239:1 - 239:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:1: TypeRef=s_DEV_ID|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:18:2 (Reference) <US>c:DS18B20.h@366@T@s_DEV_ID<UE> <DS>union s_DEV_ID<DE> Extent=<ES>239:1 - 239:9<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>239:17 - 239:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:17 - 239:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:21: VarDecl=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:21 (Definition) <US>c:@config<UE> <DS>config<DE> Extent=<ES>240:1 - 240:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:28 - 240:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:33: InitListExpr= <US><UE> <DS><DE> Extent=<ES>240:33 - 240:55<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>240:34 - 240:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:34 - 240:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>240:40 - 240:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:40 - 240:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>240:46 - 240:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:46: ParenExpr= <US><UE> <DS><DE> Extent=<ES>240:46 - 240:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:46 - 240:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15: VarDecl=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Declaration) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>241:1 - 241:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>241:22 - 241:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:243:6: FunctionDecl=OWConfig|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:243:6 (Definition) <US>c:@F@OWConfig<UE> <DS>void OWConfig(void)<DE> Extent=<ES>243:1 - 265:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>244:1 - 265:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>245:3 - 264:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>245:7 - 245:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 (Definition) <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>245:7 - 245:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:24 - 245:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>245:24 - 245:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:27 - 245:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:27: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>245:27 - 245:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:27: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 (Reference) <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>245:27 - 245:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:31: UnexposedExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>245:31 - 245:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:31: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>245:31 - 245:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:45: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>245:45 - 245:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 (Reference) <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>245:45 - 245:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>246:5 - 264:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>247:7 - 247:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:22: VarDecl=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:22 (Definition) <US>c:DS18B20.c@7665@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>247:7 - 247:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>247:27 - 247:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>247:27 - 247:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:248:7: DoStmt= <US><UE> <DS><DE> Extent=<ES>248:7 - 263:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>249:7 - 262:8<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:17: WhileStmt= <US><UE> <DS><DE> Extent=<ES>250:17 - 250:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:23: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>250:23 - 250:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:23: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>250:23 - 250:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:23: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>250:23 - 250:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:36: NullStmt= <US><UE> <DS><DE> Extent=<ES>250:36 - 250:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:17 - 251:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:17 - 251:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:17 - 251:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>251:29 - 251:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>251:29 - 251:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:29 - 251:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>252:17 - 252:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>252:21 - 252:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 (Definition) <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:21 - 252:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:38 - 252:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:38 - 252:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>252:41 - 252:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:41 - 252:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 (Reference) <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:41 - 252:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:45 - 252:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:45 - 252:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>252:48 - 252:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 (Reference) <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:48 - 252:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:53 - 252:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:53 - 252:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:53 - 252:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:65 - 252:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>252:65 - 252:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:75: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>252:65 - 252:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:75: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>252:65 - 252:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>252:65 - 252:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:65: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>252:65 - 252:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:65: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>252:65 - 252:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:72: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>252:72 - 252:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:72: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 (Reference) <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>252:72 - 252:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:80: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:80 - 252:81<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:80: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:34 (Reference) <US>c:DS18B20.c@7814@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>252:80 - 252:81<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:17 - 253:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:17 - 253:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:17 - 253:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:29 - 253:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>253:29 - 253:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>253:29 - 253:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>254:17 - 254:75<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>254:21 - 254:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 (Definition) <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:21 - 254:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>254:38 - 254:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>254:38 - 254:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>254:41 - 254:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:41 - 254:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 (Reference) <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:41 - 254:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>254:45 - 254:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>254:45 - 254:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>254:48 - 254:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 (Reference) <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:48 - 254:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>254:53 - 254:75<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>254:53 - 254:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>254:53 - 254:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>254:65 - 254:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>254:65 - 254:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:65: UnexposedExpr=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:21 <US>c:@config<UE> <DS>config<DE> Extent=<ES>254:65 - 254:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:65: DeclRefExpr=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:21 (Reference) <US>c:@config<UE> <DS>config<DE> Extent=<ES>254:65 - 254:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:72: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:72 - 254:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:72: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:254:34 (Reference) <US>c:DS18B20.c@7953@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>254:72 - 254:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:17: WhileStmt= <US><UE> <DS><DE> Extent=<ES>256:17 - 256:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:23: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>256:23 - 256:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:23: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>256:23 - 256:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:23: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>256:23 - 256:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:36: NullStmt= <US><UE> <DS><DE> Extent=<ES>256:36 - 256:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:17 - 257:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:17 - 257:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:17 - 257:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>257:29 - 257:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>257:29 - 257:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>257:29 - 257:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>258:17 - 258:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>258:21 - 258:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 (Definition) <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:21 - 258:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>258:38 - 258:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:38 - 258:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>258:41 - 258:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:41 - 258:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 (Reference) <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:41 - 258:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>258:45 - 258:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:45 - 258:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>258:48 - 258:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 (Reference) <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:48 - 258:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:53 - 258:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:53 - 258:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:53 - 258:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>258:65 - 258:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>258:65 - 258:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:75: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>258:65 - 258:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:75: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>258:65 - 258:79<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>258:65 - 258:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:65: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>258:65 - 258:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:65: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>258:65 - 258:71<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:72: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>258:72 - 258:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:72: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:20 (Reference) <US>c:DS18B20.c@7608@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>258:72 - 258:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:80: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:80 - 258:81<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:80: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:34 (Reference) <US>c:DS18B20.c@8127@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>258:80 - 258:81<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>259:17 - 259:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>259:17 - 259:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>259:17 - 259:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:29 - 259:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>259:29 - 259:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>259:29 - 259:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>260:17 - 260:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 (Definition) <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:21 - 260:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:38 - 260:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:38 - 260:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:41 - 260:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:41 - 260:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 (Reference) <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:41 - 260:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:45 - 260:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:45 - 260:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>260:48 - 260:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 (Reference) <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:48 - 260:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:53 - 260:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:53: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>260:53 - 260:62<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:53: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:53 - 260:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:53: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:53 - 260:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:60: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:60 - 260:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:60: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34 (Reference) <US>c:DS18B20.c@8265@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>260:60 - 260:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:65: CallExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>260:65 - 260:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:65: UnexposedExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>260:65 - 260:75<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:65: DeclRefExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 (Reference) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>260:65 - 260:75<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:17: IfStmt= <US><UE> <DS><DE> Extent=<ES>261:17 - 261:104<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:21 - 261:96<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:21 - 261:69<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:21 - 261:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:21 - 261:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>261:21 - 261:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:21 - 261:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:21: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:21 - 261:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:28 - 261:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:34: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>261:34 - 261:69<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:34: CallExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>261:34 - 261:69<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:34: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>261:34 - 261:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:34: DeclRefExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Reference) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>261:34 - 261:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:39: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:39 - 261:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:39: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:39 - 261:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:47: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:47 - 261:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:47 - 261:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:53: ParenExpr= <US><UE> <DS><DE> Extent=<ES>261:53 - 261:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:54: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:54 - 261:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:64: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:64 - 261:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:64: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:64 - 261:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:67: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:67 - 261:68<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:67: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:67 - 261:68<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:73: ParenExpr= <US><UE> <DS><DE> Extent=<ES>261:73 - 261:96<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:74 - 261:95<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:74 - 261:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:74 - 261:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>261:74 - 261:83<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:74 - 261:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:74: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>261:74 - 261:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:81: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:81 - 261:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:87: ParenExpr= <US><UE> <DS><DE> Extent=<ES>261:87 - 261:95<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:87: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:87 - 261:95<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:98: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:98 - 261:104<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:98: DeclRefExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:22 (Reference) <US>c:DS18B20.c@7665@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>261:98 - 261:100<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:103: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>261:103 - 261:104<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:261:103: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:103 - 261:104<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:263:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>263:13 - 263:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:263:14: UnexposedExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:22 <US>c:DS18B20.c@7665@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>263:14 - 263:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:263:14: DeclRefExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:22 (Reference) <US>c:DS18B20.c@7665@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>263:14 - 263:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:267:6: FunctionDecl=OWFind|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:267:6 (Definition) <US>c:@F@OWFind<UE> <DS>void OWFind(void)<DE> Extent=<ES>267:1 - 280:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:268:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>268:1 - 280:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>269:3 - 269:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:3: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>269:3 - 269:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>269:18 - 269:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:18 - 269:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>270:3 - 270:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:3: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>270:3 - 270:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>270:21 - 270:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>271:3 - 271:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:3: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>271:3 - 271:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>271:20 - 271:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:272:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>272:3 - 272:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:272:3: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>272:3 - 272:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:272:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>272:27 - 272:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:273:3: DoStmt= <US><UE> <DS><DE> Extent=<ES>273:3 - 279:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:274:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>274:3 - 278:4<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:13: CallExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>275:13 - 275:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:13: UnexposedExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>275:13 - 275:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:13: DeclRefExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:110:5 (Reference) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>275:13 - 275:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:13: ForStmt= <US><UE> <DS><DE> Extent=<ES>276:13 - 277:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:17: DeclStmt= <US><UE> <DS><DE> Extent=<ES>276:17 - 276:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 (Definition) <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:17 - 276:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>276:34 - 276:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>276:34 - 276:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:37: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>276:37 - 276:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:37: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:37 - 276:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:37: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 (Reference) <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:37 - 276:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>276:41 - 276:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>276:41 - 276:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:44: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>276:44 - 276:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:44: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 (Reference) <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:44 - 276:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>277:15 - 277:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>277:15 - 277:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:40: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>277:15 - 277:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:40: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>277:15 - 277:44<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>277:15 - 277:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:15: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>277:15 - 277:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:15: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>277:15 - 277:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>277:22 - 277:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:22: UnexposedExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>277:22 - 277:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:22: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>277:22 - 277:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>277:37 - 277:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>277:37 - 277:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:45: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>277:45 - 277:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 (Reference) <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>277:45 - 277:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>277:50 - 277:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:50: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>277:50 - 277:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:50: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>277:50 - 277:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:50: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>277:50 - 277:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:57: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>277:57 - 277:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:277:57: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:30 (Reference) <US>c:DS18B20.c@8737@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>277:57 - 277:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:279:10: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>279:10 - 279:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:279:11: UnexposedExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>279:11 - 279:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:279:11: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>279:11 - 279:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12: VarDecl=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12 (Declaration) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>282:1 - 282:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>282:24 - 282:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>282:24 - 282:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:6: FunctionDecl=readOWLine|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:6 (Definition) <US>c:@F@readOWLine<UE> <DS>void readOWLine(unsigned int)<DE> Extent=<ES>284:1 - 302:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30: ParmDecl=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 (Definition) <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>284:17 - 284:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:285:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>285:1 - 302:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:9: WhileStmt= <US><UE> <DS><DE> Extent=<ES>287:9 - 287:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:15: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>287:15 - 287:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:15: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>287:15 - 287:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:15: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>287:15 - 287:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:28: NullStmt= <US><UE> <DS><DE> Extent=<ES>287:28 - 287:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:9: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:9 - 288:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:9: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:9 - 288:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:9: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:9 - 288:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>288:21 - 288:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>288:21 - 288:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>288:21 - 288:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>289:9 - 289:78<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>289:13 - 289:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 (Definition) <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:13 - 289:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>289:30 - 289:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>289:30 - 289:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>289:33 - 289:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:33: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:33 - 289:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:33: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 (Reference) <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:33 - 289:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>289:37 - 289:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>289:37 - 289:38<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:40: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>289:40 - 289:43<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:40: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 (Reference) <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:40 - 289:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:45: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>289:45 - 289:78<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:45: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>289:45 - 289:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:45: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>289:45 - 289:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>289:57 - 289:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:57: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>289:57 - 289:77<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:70: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>289:57 - 289:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:70: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>289:57 - 289:74<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:57: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>289:57 - 289:69<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:57: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>289:57 - 289:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:57: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>289:57 - 289:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:64: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>289:64 - 289:68<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:64: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 (Reference) <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>289:64 - 289:68<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:75: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:75 - 289:76<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:75: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:289:26 (Reference) <US>c:DS18B20.c@9209@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>289:75 - 289:76<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:9: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>291:9 - 291:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:9: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>291:9 - 291:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:9: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:61:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>291:9 - 291:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>291:21 - 291:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>291:21 - 291:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:291:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>291:21 - 291:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>293:9 - 293:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 (Definition) <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>293:9 - 293:23<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>294:9 - 294:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>294:13 - 294:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26: VarDecl=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 (Definition) <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:13 - 294:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:30 - 294:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>294:30 - 294:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>294:33 - 294:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:33: UnexposedExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:33 - 294:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:33: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 (Reference) <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:33 - 294:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:37 - 294:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>294:43 - 294:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:44: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:44 - 294:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:53: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>294:53 - 294:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:53: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 (Reference) <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:53 - 294:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:58: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>294:58 - 294:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:58: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>294:58 - 294:67<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:58: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:58 - 294:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:58: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:58 - 294:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:65: UnexposedExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:65 - 294:66<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:65: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26 (Reference) <US>c:DS18B20.c@9373@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>294:65 - 294:66<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:70: CallExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>294:70 - 294:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:70: UnexposedExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>294:70 - 294:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:70: DeclRefExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:75:15 (Reference) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>294:70 - 294:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>295:9 - 300:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>295:13 - 295:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:13 - 295:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:13 - 295:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>295:13 - 295:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>295:13 - 295:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:13: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>295:13 - 295:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:20 - 295:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:26: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>295:26 - 295:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:26: CallExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>295:26 - 295:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:26: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>295:26 - 295:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:26: DeclRefExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Reference) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>295:26 - 295:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:31: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>295:31 - 295:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:31: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>295:31 - 295:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>295:39 - 295:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:39 - 295:53<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>295:45 - 295:53<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:46: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>295:46 - 295:52<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:56: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:56 - 295:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:56: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:56 - 295:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:59: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>295:59 - 295:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:59: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>295:59 - 295:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>296:9 - 300:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:11 - 297:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 (Reference) <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>297:11 - 297:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>297:17 - 297:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:18 - 297:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>297:18 - 297:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>297:18 - 297:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>297:18 - 297:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>297:18 - 297:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:18: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>297:18 - 297:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:25 - 297:26<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>297:30 - 297:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:31 - 297:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>297:31 - 297:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>297:31 - 297:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>297:31 - 297:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>297:31 - 297:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:31: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:241:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>297:31 - 297:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:38 - 297:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:44 - 297:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:11 - 298:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>122:4 - 122:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:4: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>122:4 - 122:9<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>122:12 - 122:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:122:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:12 - 122:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:125:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>125:4 - 216:5<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:125:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>125:8 - 125:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:125:9: UnexposedExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>125:9 - 125:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:125:9: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>125:9 - 125:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:126:4: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>126:4 - 216:5<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:128:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>128:7 - 135:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:128:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>128:11 - 128:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:128:12: CallExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5 <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>128:12 - 128:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:128:12: UnexposedExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5 <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>128:12 - 128:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:128:12: DeclRefExpr=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5 (Reference) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>128:12 - 128:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:129:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>129:7 - 135:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:131:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>131:10 - 131:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:131:10: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>131:10 - 131:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:131:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:28 - 131:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>132:10 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:10: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>132:10 - 132:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:132:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:27 - 132:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>133:10 - 133:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:10: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>133:10 - 133:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:133:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:34 - 133:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:10: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>134:10 - 134:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:134:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>134:17 - 134:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:138:7: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>138:7 - 138:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:138:7: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>138:7 - 138:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:138:7: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>138:7 - 138:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:138:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>138:19 - 138:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:138:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:19 - 138:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:141:7: DoStmt= <US><UE> <DS><DE> Extent=<ES>141:7 - 201:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:142:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>142:7 - 200:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:10 - 144:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:10: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>144:10 - 144:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:19: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>144:19 - 144:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:19: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>144:19 - 144:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:19: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>144:19 - 144:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:144:19: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>144:19 - 144:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>145:10 - 145:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:10: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>145:10 - 145:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:23: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:23 - 145:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:23: CallExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:23 - 145:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:23: UnexposedExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:23 - 145:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:145:23: DeclRefExpr=OWReadBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:36:15 (Reference) <US>c:@F@OWReadBit<UE> <DS>unsigned char OWReadBit(void)<DE> Extent=<ES>145:23 - 145:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>148:10 - 199:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:14 - 148:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>148:14 - 148:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:15 - 148:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:15: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>148:15 - 148:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:15: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>148:15 - 148:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:25 - 148:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>148:31 - 148:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>148:32 - 148:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:32: UnexposedExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>148:32 - 148:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:32: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>148:32 - 148:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:148:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:46 - 148:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:149:13: BreakStmt= <US><UE> <DS><DE> Extent=<ES>149:13 - 149:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:151:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>151:10 - 199:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>153:13 - 174:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:17 - 153:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:17: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>153:17 - 153:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:17: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>153:17 - 153:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:27: UnexposedExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>153:27 - 153:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:153:27: DeclRefExpr=cmp_id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:16 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@cmp_id_bit<UE> <DS>cmp_id_bit<DE> Extent=<ES>153:27 - 153:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:16 - 154:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:16: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>154:16 - 154:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:35: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>154:35 - 154:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:35: UnexposedExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>154:35 - 154:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:154:35: DeclRefExpr=id_bit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:113:8 (Reference) <US>c:DS18B20.c@3243@F@OWSearch@id_bit<UE> <DS>id_bit<DE> Extent=<ES>154:35 - 154:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:156:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>156:13 - 174:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:16: IfStmt= <US><UE> <DS><DE> Extent=<ES>159:16 - 163:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:20 - 159:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:20: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>159:20 - 159:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:20: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>159:20 - 159:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:36: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>159:36 - 159:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:159:36: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>159:36 - 159:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:19 - 160:85<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:19: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>160:19 - 160:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:38 - 160:85<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>160:38 - 160:85<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:39 - 160:84<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>160:39 - 160:80<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:40 - 160:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:40 - 160:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:40 - 160:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>160:40 - 160:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>160:40 - 160:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:40: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>160:40 - 160:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:47: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>160:47 - 160:62<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:47: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>160:47 - 160:62<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:66: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>160:66 - 160:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:66: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>160:66 - 160:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:66: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>160:66 - 160:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:160:83: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:83 - 160:84<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:19 - 163:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:19: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>163:19 - 163:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>163:38 - 163:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>163:38 - 163:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:39 - 163:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:39: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>163:39 - 163:52<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:39: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>163:39 - 163:52<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:56: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>163:56 - 163:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:163:56: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>163:56 - 163:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:16: IfStmt= <US><UE> <DS><DE> Extent=<ES>166:16 - 173:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>166:20 - 166:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:20: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>166:20 - 166:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:20: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>166:20 - 166:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:20: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>166:20 - 166:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:166:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>166:40 - 166:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:167:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>167:16 - 173:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:168:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>168:19 - 168:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:168:19: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>168:19 - 168:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:168:31: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>168:31 - 168:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:168:31: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>168:31 - 168:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:171:19: IfStmt= <US><UE> <DS><DE> Extent=<ES>171:19 - 172:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:171:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>171:23 - 171:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:171:23: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>171:23 - 171:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:171:23: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>171:23 - 171:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:171:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>171:35 - 171:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:22 - 172:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:22: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>172:22 - 172:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:46: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>172:46 - 172:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:172:46: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>172:46 - 172:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>178:13 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>178:17 - 178:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:17: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>178:17 - 178:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:17: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>178:17 - 178:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:17: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>178:17 - 178:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:178:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>178:37 - 178:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>179:15 - 179:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>179:15 - 179:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:15: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>179:15 - 179:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:15: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>179:15 - 179:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:22: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>179:22 - 179:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:22: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>179:22 - 179:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:42: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>179:42 - 179:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:42: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>179:42 - 179:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:179:42: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>179:42 - 179:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>181:15 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>181:15 - 181:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:15: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>181:15 - 181:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:15: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>181:15 - 181:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:22: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>181:22 - 181:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:22: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>181:22 - 181:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>181:42 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:43: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>181:43 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:43: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>181:43 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:181:43: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>181:43 - 181:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:184:13: CallExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>184:13 - 184:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:184:13: UnexposedExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>184:13 - 184:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:184:13: DeclRefExpr=OWWriteBit|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:49:6 (Reference) <US>c:@F@OWWriteBit<UE> <DS>void OWWriteBit(unsigned char)<DE> Extent=<ES>184:13 - 184:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:184:24: UnexposedExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>184:24 - 184:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:184:24: DeclRefExpr=search_direction|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:33 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@search_direction<UE> <DS>search_direction<DE> Extent=<ES>184:24 - 184:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:188:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>188:13 - 188:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:188:13: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>188:13 - 188:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:189:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>189:13 - 189:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:189:13: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>189:13 - 189:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:189:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>189:31 - 189:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>192:13 - 198:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:17 - 192:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:17: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>192:17 - 192:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:17: UnexposedExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>192:17 - 192:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:17: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>192:17 - 192:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:192:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:34 - 192:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:193:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>193:13 - 198:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:17 - 194:66<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:17: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>194:17 - 194:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:25: CallExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>194:25 - 194:66<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:25: UnexposedExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>194:25 - 194:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:25: DeclRefExpr=crc8_step|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:15:22 (Reference) <US>c:@F@crc8_step<UE> <DS>unsigned char crc8_step(unsigned char, unsigned char)<DE> Extent=<ES>194:25 - 194:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>194:35 - 194:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>194:35 - 194:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:35: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>194:35 - 194:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:35: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>194:35 - 194:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:42: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>194:42 - 194:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:42: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>194:42 - 194:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:60: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>194:60 - 194:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:194:60: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>194:60 - 194:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:196:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>196:17 - 196:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:196:17: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>196:17 - 196:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>197:17 - 197:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:17: DeclRefExpr=rom_byte_mask|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:114:18 (Reference) <US>c:DS18B20.c@3271@F@OWSearch@rom_byte_mask<UE> <DS>rom_byte_mask<DE> Extent=<ES>197:17 - 197:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>197:33 - 197:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:197:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>197:33 - 197:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:201:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>201:13 - 201:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:201:13: UnexposedExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>201:13 - 201:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:201:13: DeclRefExpr=rom_byte_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:19 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@rom_byte_number<UE> <DS>rom_byte_number<DE> Extent=<ES>201:13 - 201:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:201:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:31 - 201:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>204:7 - 215:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>204:11 - 204:50<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:12: ParenExpr= <US><UE> <DS><DE> Extent=<ES>204:12 - 204:50<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:13 - 204:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>204:13 - 204:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:14 - 204:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:14: UnexposedExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>204:14 - 204:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:14: DeclRefExpr=id_bit_number|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:111:8 (Reference) <US>c:DS18B20.c@3169@F@OWSearch@id_bit_number<UE> <DS>id_bit_number<DE> Extent=<ES>204:14 - 204:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:30 - 204:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>204:37 - 204:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:38: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:38 - 204:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:38: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>204:38 - 204:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:38: UnexposedExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>204:38 - 204:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:38: DeclRefExpr=crc8_|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:100:15 (Reference) <US>c:@crc8_<UE> <DS>crc8_<DE> Extent=<ES>204:38 - 204:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:204:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:47 - 204:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:205:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>205:7 - 215:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:207:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>207:10 - 207:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:207:10: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>207:10 - 207:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:207:28: UnexposedExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>207:28 - 207:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:207:28: DeclRefExpr=last_zero|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:8 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@last_zero<UE> <DS>last_zero<DE> Extent=<ES>207:28 - 207:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:10: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>208:10 - 208:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:208:10: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>208:10 - 208:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:211:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>211:10 - 212:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:211:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>211:14 - 211:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:211:14: UnexposedExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>211:14 - 211:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:211:14: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>211:14 - 211:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:211:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>211:33 - 211:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>212:13 - 212:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:13: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>212:13 - 212:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:212:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>212:30 - 212:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:214:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>214:10 - 214:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:214:10: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>214:10 - 214:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:214:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>214:26 - 214:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>218:4 - 224:5<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>218:8 - 218:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>218:8 - 218:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:9: UnexposedExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>218:9 - 218:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:9: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>218:9 - 218:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:26: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>218:26 - 218:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>218:27 - 218:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:27: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>218:27 - 218:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:27: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>218:27 - 218:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:27: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>218:27 - 218:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:218:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>218:34 - 218:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:219:4: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>219:4 - 224:5<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:220:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>220:7 - 220:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:220:7: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>220:7 - 220:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:220:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>220:25 - 220:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>221:7 - 221:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:7: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>221:7 - 221:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:221:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>221:24 - 221:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>222:7 - 222:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:7: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>222:7 - 222:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:222:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>222:31 - 222:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>223:7 - 223:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:7: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>223:7 - 223:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:223:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:23 - 223:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:226:4: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>226:4 - 226:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:226:11: UnexposedExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>226:11 - 226:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:226:11: DeclRefExpr=search_result|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:112:36 (Reference) <US>c:DS18B20.c@3192@F@OWSearch@search_result<UE> <DS>search_result<DE> Extent=<ES>226:11 - 226:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5: FunctionDecl=OWReset|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:232:5 (Definition) <US>c:@F@OWReset<UE> <DS>int OWReset(void)<DE> Extent=<ES>232:1 - 235:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:233:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>233:1 - 235:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:4: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>234:4 - 234:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:11: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>234:11 - 234:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:12: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>234:12 - 234:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:12: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>234:12 - 234:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:234:12: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>234:12 - 234:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10: VarDecl=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 (Declaration) <US>c:@device<UE> <DS>device<DE> Extent=<ES>238:1 - 238:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:1: TypeRef=s_DEV_ID|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:18:2 (Reference) <US>c:DS18B20.h@366@T@s_DEV_ID<UE> <DS>union s_DEV_ID<DE> Extent=<ES>238:1 - 238:9<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>238:17 - 238:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>238:17 - 238:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:21: VarDecl=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:21 (Definition) <US>c:@config<UE> <DS>config<DE> Extent=<ES>239:1 - 239:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:28 - 239:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:33: InitListExpr= <US><UE> <DS><DE> Extent=<ES>239:33 - 239:55<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>239:34 - 239:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:34 - 239:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>239:40 - 239:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:40 - 239:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>239:46 - 239:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:46: ParenExpr= <US><UE> <DS><DE> Extent=<ES>239:46 - 239:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:46 - 239:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15: VarDecl=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Declaration) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>240:1 - 240:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:22 - 240:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:242:6: FunctionDecl=OWConfig|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:242:6 (Definition) <US>c:@F@OWConfig<UE> <DS>void OWConfig(void)<DE> Extent=<ES>242:1 - 264:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:243:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>243:1 - 264:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>244:3 - 263:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>244:7 - 244:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 (Definition) <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>244:7 - 244:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>244:24 - 244:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>244:24 - 244:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>244:27 - 244:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:27: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>244:27 - 244:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:27: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 (Reference) <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>244:27 - 244:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:31: UnexposedExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>244:31 - 244:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:31: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>244:31 - 244:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:45: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>244:45 - 244:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 (Reference) <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>244:45 - 244:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:245:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>245:5 - 263:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>246:7 - 246:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:22: VarDecl=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:22 (Definition) <US>c:DS18B20.c@7650@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>246:7 - 246:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>246:27 - 246:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>246:27 - 246:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:247:7: DoStmt= <US><UE> <DS><DE> Extent=<ES>247:7 - 262:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:248:7: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>248:7 - 261:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:17: WhileStmt= <US><UE> <DS><DE> Extent=<ES>249:17 - 249:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:23: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>249:23 - 249:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:23: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>249:23 - 249:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:23: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>249:23 - 249:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:249:36: NullStmt= <US><UE> <DS><DE> Extent=<ES>249:36 - 249:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>250:17 - 250:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>250:17 - 250:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>250:17 - 250:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>250:29 - 250:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>250:29 - 250:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:250:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:29 - 250:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>251:17 - 251:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>251:21 - 251:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 (Definition) <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:21 - 251:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>251:38 - 251:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:38 - 251:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>251:41 - 251:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:41 - 251:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 (Reference) <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:41 - 251:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>251:45 - 251:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:45 - 251:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>251:48 - 251:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 (Reference) <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:48 - 251:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:53 - 251:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:53 - 251:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>251:53 - 251:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>251:65 - 251:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>251:65 - 251:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:75: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>251:65 - 251:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:75: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>251:65 - 251:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>251:65 - 251:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:65: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>251:65 - 251:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:65: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>251:65 - 251:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:72: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>251:72 - 251:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:72: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 (Reference) <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>251:72 - 251:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:80: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:80 - 251:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:80: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:251:34 (Reference) <US>c:DS18B20.c@7799@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>251:80 - 251:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:17 - 252:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:17 - 252:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>252:17 - 252:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:29 - 252:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>252:29 - 252:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:252:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:29 - 252:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>253:17 - 253:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>253:21 - 253:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 (Definition) <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:21 - 253:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:38 - 253:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>253:38 - 253:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>253:41 - 253:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:41 - 253:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 (Reference) <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:41 - 253:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:45 - 253:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>253:45 - 253:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>253:48 - 253:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 (Reference) <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:48 - 253:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:53 - 253:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:53 - 253:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>253:53 - 253:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:65 - 253:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>253:65 - 253:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:65: UnexposedExpr=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:21 <US>c:@config<UE> <DS>config<DE> Extent=<ES>253:65 - 253:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:65: DeclRefExpr=config|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:239:21 (Reference) <US>c:@config<UE> <DS>config<DE> Extent=<ES>253:65 - 253:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:72: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:72 - 253:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:72: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:253:34 (Reference) <US>c:DS18B20.c@7938@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>253:72 - 253:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:255:17: WhileStmt= <US><UE> <DS><DE> Extent=<ES>255:17 - 255:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:255:23: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>255:23 - 255:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:255:23: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>255:23 - 255:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:255:23: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>255:23 - 255:33<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:255:36: NullStmt= <US><UE> <DS><DE> Extent=<ES>255:36 - 255:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>256:17 - 256:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>256:17 - 256:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>256:17 - 256:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>256:29 - 256:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>256:29 - 256:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:256:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>256:29 - 256:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>257:17 - 257:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>257:21 - 257:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 (Definition) <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:21 - 257:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>257:38 - 257:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>257:38 - 257:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>257:41 - 257:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:41 - 257:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 (Reference) <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:41 - 257:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>257:45 - 257:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>257:45 - 257:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>257:48 - 257:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 (Reference) <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:48 - 257:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:53: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:53 - 257:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:53: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:53 - 257:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:53: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>257:53 - 257:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:65: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>257:65 - 257:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>257:65 - 257:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:75: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>257:65 - 257:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:75: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>257:65 - 257:79<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>257:65 - 257:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:65: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>257:65 - 257:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:65: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>257:65 - 257:71<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:72: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>257:72 - 257:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:72: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:244:20 (Reference) <US>c:DS18B20.c@7593@F@OWConfig@i<UE> <DS>i<DE> Extent=<ES>257:72 - 257:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:80: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:80 - 257:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:80: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:257:34 (Reference) <US>c:DS18B20.c@8112@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>257:80 - 257:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:17: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:17 - 258:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:17: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:17 - 258:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:17: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>258:17 - 258:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>258:29 - 258:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>258:29 - 258:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:258:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:29 - 258:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:17: ForStmt= <US><UE> <DS><DE> Extent=<ES>259:17 - 259:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:21: DeclStmt= <US><UE> <DS><DE> Extent=<ES>259:21 - 259:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 (Definition) <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:21 - 259:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:38 - 259:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>259:38 - 259:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:41: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>259:41 - 259:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:41: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:41 - 259:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:41: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 (Reference) <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:41 - 259:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>259:45 - 259:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>259:45 - 259:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:48: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>259:48 - 259:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:48: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 (Reference) <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:48 - 259:49<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>259:53 - 259:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:53: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>259:53 - 259:62<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:53: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>259:53 - 259:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:53: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>259:53 - 259:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:60: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:60 - 259:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:60: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:34 (Reference) <US>c:DS18B20.c@8250@F@OWConfig@k<UE> <DS>k<DE> Extent=<ES>259:60 - 259:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:65: CallExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>259:65 - 259:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:65: UnexposedExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>259:65 - 259:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:259:65: DeclRefExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 (Reference) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>259:65 - 259:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:17: IfStmt= <US><UE> <DS><DE> Extent=<ES>260:17 - 260:104<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:96<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:69<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>260:21 - 260:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:21 - 260:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:21: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:21 - 260:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:28 - 260:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>260:34 - 260:69<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34: CallExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>260:34 - 260:69<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>260:34 - 260:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:34: DeclRefExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Reference) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>260:34 - 260:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:39: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:39 - 260:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:39: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:39 - 260:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:47: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:47 - 260:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:47: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:47 - 260:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:53: ParenExpr= <US><UE> <DS><DE> Extent=<ES>260:53 - 260:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:54: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:54 - 260:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:64: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:64 - 260:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:64: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:64 - 260:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:67: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:67 - 260:68<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:67: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:67 - 260:68<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:73: ParenExpr= <US><UE> <DS><DE> Extent=<ES>260:73 - 260:96<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:74 - 260:95<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:74 - 260:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:74 - 260:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>260:74 - 260:83<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:74 - 260:80<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:74: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>260:74 - 260:80<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:81: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:81 - 260:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:87: ParenExpr= <US><UE> <DS><DE> Extent=<ES>260:87 - 260:95<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:87: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:87 - 260:95<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:98: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>260:98 - 260:104<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:98: DeclRefExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:22 (Reference) <US>c:DS18B20.c@7650@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>260:98 - 260:100<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:103: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>260:103 - 260:104<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:260:103: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>260:103 - 260:104<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:262:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>262:13 - 262:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:262:14: UnexposedExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:22 <US>c:DS18B20.c@7650@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>262:14 - 262:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:262:14: DeclRefExpr=ok|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:246:22 (Reference) <US>c:DS18B20.c@7650@F@OWConfig@ok<UE> <DS>ok<DE> Extent=<ES>262:14 - 262:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:266:6: FunctionDecl=OWFind|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:266:6 (Definition) <US>c:@F@OWFind<UE> <DS>void OWFind(void)<DE> Extent=<ES>266:1 - 279:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:267:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>267:1 - 279:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:268:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>268:3 - 268:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:268:3: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>268:3 - 268:15<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:268:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>268:18 - 268:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:268:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>268:18 - 268:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>269:3 - 269:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:3: DeclRefExpr=LastDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:96:5 (Reference) <US>c:@LastDiscrepancy<UE> <DS>LastDiscrepancy<DE> Extent=<ES>269:3 - 269:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:269:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:21 - 269:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>270:3 - 270:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:3: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>270:3 - 270:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:270:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>270:20 - 270:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>271:3 - 271:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:3: DeclRefExpr=LastFamilyDiscrepancy|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:97:5 (Reference) <US>c:@LastFamilyDiscrepancy<UE> <DS>LastFamilyDiscrepancy<DE> Extent=<ES>271:3 - 271:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:271:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>271:27 - 271:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:272:3: DoStmt= <US><UE> <DS><DE> Extent=<ES>272:3 - 278:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:273:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>273:3 - 277:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:274:13: CallExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>274:13 - 274:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:274:13: UnexposedExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>274:13 - 274:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:274:13: DeclRefExpr=OWSearch|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:109:5 (Reference) <US>c:@F@OWSearch<UE> <DS>int OWSearch(void)<DE> Extent=<ES>274:13 - 274:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:13: ForStmt= <US><UE> <DS><DE> Extent=<ES>275:13 - 276:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:17: DeclStmt= <US><UE> <DS><DE> Extent=<ES>275:17 - 275:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 (Definition) <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>275:17 - 275:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>275:34 - 275:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>275:34 - 275:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:37: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>275:37 - 275:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:37: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>275:37 - 275:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:37: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 (Reference) <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>275:37 - 275:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>275:41 - 275:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>275:41 - 275:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:44: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>275:44 - 275:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:44: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 (Reference) <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>275:44 - 275:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>276:15 - 276:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>276:15 - 276:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:40: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>276:15 - 276:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:40: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>276:15 - 276:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:15: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>276:15 - 276:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:15: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>276:15 - 276:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:15: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>276:15 - 276:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>276:22 - 276:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:22: UnexposedExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>276:22 - 276:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:22: DeclRefExpr=DevicesCount|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:99:14 (Reference) <US>c:@DevicesCount<UE> <DS>DevicesCount<DE> Extent=<ES>276:22 - 276:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>276:37 - 276:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>276:37 - 276:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:45: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:45 - 276:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 (Reference) <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:45 - 276:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>276:50 - 276:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:50: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>276:50 - 276:59<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:50: UnexposedExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>276:50 - 276:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:50: DeclRefExpr=ROM_NO|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:95:15 (Reference) <US>c:@ROM_NO<UE> <DS>ROM_NO<DE> Extent=<ES>276:50 - 276:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:57: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:57 - 276:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:276:57: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:275:30 (Reference) <US>c:DS18B20.c@8722@F@OWFind@i<UE> <DS>i<DE> Extent=<ES>276:57 - 276:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:278:10: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>278:10 - 278:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:278:11: UnexposedExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>278:11 - 278:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:278:11: DeclRefExpr=LastDeviceFlag|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:98:5 (Reference) <US>c:@LastDeviceFlag<UE> <DS>LastDeviceFlag<DE> Extent=<ES>278:11 - 278:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12: VarDecl=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12 (Declaration) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>281:1 - 281:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>281:24 - 281:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>281:24 - 281:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:6: FunctionDecl=readOWLine|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:6 (Definition) <US>c:@F@readOWLine<UE> <DS>void readOWLine(unsigned int)<DE> Extent=<ES>283:1 - 301:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30: ParmDecl=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 (Definition) <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>283:17 - 283:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>284:1 - 301:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:286:9: WhileStmt= <US><UE> <DS><DE> Extent=<ES>286:9 - 286:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:286:15: CallExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>286:15 - 286:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:286:15: UnexposedExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>286:15 - 286:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:286:15: DeclRefExpr=Init_18B20|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:13:15 (Reference) <US>c:@F@Init_18B20<UE> <DS>unsigned char Init_18B20(void)<DE> Extent=<ES>286:15 - 286:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:286:28: NullStmt= <US><UE> <DS><DE> Extent=<ES>286:28 - 286:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:9: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>287:9 - 287:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:9: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>287:9 - 287:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:9: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>287:9 - 287:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>287:21 - 287:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>287:21 - 287:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:287:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>287:21 - 287:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>288:9 - 288:78<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>288:13 - 288:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26: VarDecl=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 (Definition) <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:13 - 288:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>288:30 - 288:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>288:30 - 288:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>288:33 - 288:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:33: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:33 - 288:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:33: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 (Reference) <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:33 - 288:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>288:37 - 288:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>288:37 - 288:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:40: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>288:40 - 288:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:40: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 (Reference) <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:40 - 288:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:45: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:45 - 288:78<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:45: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:45 - 288:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:45: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>288:45 - 288:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>288:57 - 288:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:57: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>288:57 - 288:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:70: UnexposedExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>288:57 - 288:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:70: MemberRefExpr=data|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.h:11:17 (Reference) <US>c:@UA@s_DEV_ID@FI@data<UE> <DS>data<DE> Extent=<ES>288:57 - 288:74<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:57: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>288:57 - 288:69<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:57: UnexposedExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 <US>c:@device<UE> <DS>device<DE> Extent=<ES>288:57 - 288:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:57: DeclRefExpr=device|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:238:10 (Reference) <US>c:@device<UE> <DS>device<DE> Extent=<ES>288:57 - 288:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:64: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>288:64 - 288:68<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:64: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 (Reference) <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>288:64 - 288:68<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:75: UnexposedExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:75 - 288:76<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:75: DeclRefExpr=k|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:288:26 (Reference) <US>c:DS18B20.c@9194@F@readOWLine@k<UE> <DS>k<DE> Extent=<ES>288:75 - 288:76<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:9: CallExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>290:9 - 290:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:9: UnexposedExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>290:9 - 290:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:9: DeclRefExpr=OWWriteByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:60:6 (Reference) <US>c:@F@OWWriteByte<UE> <DS>void OWWriteByte(unsigned char)<DE> Extent=<ES>290:9 - 290:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>290:21 - 290:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>290:21 - 290:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:290:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>290:21 - 290:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>292:9 - 292:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 (Definition) <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>292:9 - 292:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>293:9 - 293:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>293:13 - 293:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26: VarDecl=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 (Definition) <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:13 - 293:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>293:30 - 293:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>293:30 - 293:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:33 - 293:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:33: UnexposedExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:33 - 293:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:33: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 (Reference) <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:33 - 293:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>293:37 - 293:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>293:43 - 293:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:44: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>293:44 - 293:50<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:53: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>293:53 - 293:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:53: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 (Reference) <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:53 - 293:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:58: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>293:58 - 293:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:58: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>293:58 - 293:67<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:58: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>293:58 - 293:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:58: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>293:58 - 293:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:65: UnexposedExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:65 - 293:66<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:65: DeclRefExpr=n|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:26 (Reference) <US>c:DS18B20.c@9358@F@readOWLine@n<UE> <DS>n<DE> Extent=<ES>293:65 - 293:66<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:70: CallExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>293:70 - 293:82<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:70: UnexposedExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>293:70 - 293:80<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:70: DeclRefExpr=OWReadByte|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:74:15 (Reference) <US>c:@F@OWReadByte<UE> <DS>unsigned char OWReadByte(void)<DE> Extent=<ES>293:70 - 293:80<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>294:9 - 299:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>294:13 - 294:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:13 - 294:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:13 - 294:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>294:13 - 294:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:13 - 294:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:13: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:13 - 294:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>294:20 - 294:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>294:26 - 294:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26: CallExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>294:26 - 294:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26: UnexposedExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>294:26 - 294:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:26: DeclRefExpr=crc8|G:\Voodoo\MSP Projects\N6500\FRAM\crc.h:11:22 (Reference) <US>c:@F@crc8<UE> <DS>unsigned char crc8(unsigned char *, unsigned int, unsigned char)<DE> Extent=<ES>294:26 - 294:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:31: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:31 - 294:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:31: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:31 - 294:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:39: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>294:39 - 294:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:39 - 294:53<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>294:45 - 294:53<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:46: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>294:46 - 294:52<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:56: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:56 - 294:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:56: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>294:56 - 294:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:59: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>294:59 - 294:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:294:59: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>294:59 - 294:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:295:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>295:9 - 299:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>296:11 - 296:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:11: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 (Reference) <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>296:11 - 296:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>296:17 - 296:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>296:18 - 296:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>296:18 - 296:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>296:18 - 296:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>296:18 - 296:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>296:18 - 296:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:18: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>296:18 - 296:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:25 - 296:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>296:30 - 296:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>296:31 - 296:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>296:31 - 296:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>296:31 - 296:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>296:31 - 296:40<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: UnexposedExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>296:31 - 296:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:31: DeclRefExpr=tmpBuf|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:240:15 (Reference) <US>c:@tmpBuf<UE> <DS>tmpBuf<DE> Extent=<ES>296:31 - 296:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:38 - 296:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:296:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>296:44 - 296:45<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:11 - 297:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>297:11 - 297:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: UnexposedExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12 <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>297:11 - 297:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:11: DeclRefExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12 (Reference) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>297:11 - 297:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:23: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>297:23 - 297:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:23: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 (Reference) <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>297:23 - 297:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:32 - 297:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:32: ParenExpr= <US><UE> <DS><DE> Extent=<ES>297:32 - 297:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>297:33 - 297:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:33: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>297:33 - 297:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:33: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 (Reference) <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>297:33 - 297:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:40 - 297:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:297:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>297:44 - 297:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>298:11 - 298:72<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>298:11 - 298:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: UnexposedExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12 <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>298:11 - 298:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: DeclRefExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12 (Reference) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>298:11 - 298:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:23: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>298:23 - 298:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:23: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 (Reference) <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>298:23 - 298:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: ParenExpr= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:42<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:33 - 298:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:33: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>298:33 - 298:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:33: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 (Reference) <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>298:33 - 298:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>298:40 - 298:41<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>298:44 - 298:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:11: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>299:11 - 299:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:11: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>299:11 - 299:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:11: UnexposedExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12 <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>299:11 - 299:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:11: DeclRefExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:282:12 (Reference) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>299:11 - 299:22<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:23: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>299:23 - 299:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:23: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:284:30 (Reference) <US>c:DS18B20.c@9093@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>299:23 - 299:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:32 - 299:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:32 - 299:67<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>299:32 - 299:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:32: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>299:32 - 299:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:44: ParenExpr= <US><UE> <DS><DE> Extent=<ES>299:44 - 299:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>299:45 - 299:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:45: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>299:45 - 299:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:45: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:293:20 (Reference) <US>c:DS18B20.c@9344@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>299:45 - 299:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:51: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>299:51 - 299:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:61: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>299:61 - 299:67<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:70: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>299:70 - 299:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:299:70: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>299:70 - 299:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: UnexposedExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12 <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>298:11 - 298:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:11: DeclRefExpr=temp_buffer|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:281:12 (Reference) <US>c:@temp_buffer<UE> <DS>temp_buffer<DE> Extent=<ES>298:11 - 298:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:23: UnexposedExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>298:23 - 298:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:23: DeclRefExpr=aDev|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:283:30 (Reference) <US>c:DS18B20.c@9078@F@readOWLine@aDev<UE> <DS>unsigned int<DE> Extent=<ES>298:23 - 298:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:67<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:32: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>298:32 - 298:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:44: ParenExpr= <US><UE> <DS><DE> Extent=<ES>298:44 - 298:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>298:45 - 298:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:45: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>298:45 - 298:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:45: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:292:20 (Reference) <US>c:DS18B20.c@9329@F@readOWLine@tmp<UE> <DS>tmp<DE> Extent=<ES>298:45 - 298:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:51: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>298:51 - 298:57<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:61: FloatingLiteral= <US><UE> <DS><DE> Extent=<ES>298:61 - 298:67<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:70: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>298:70 - 298:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\DS18B20.c:298:70: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>298:70 - 298:72<EE>

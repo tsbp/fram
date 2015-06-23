@@ -14,7 +14,7 @@ unsigned char daysInMonth[]  = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 const char   Months[12][3] = {{"янв"},{"фев"},{"мар"},{"апр"},{"мая"},{"июн"},
                               {"июл"},{"авг"},{"сен"},{"окт"},{"ноя"},{"дек"}};
 const char   Days[7][3]    = {{" Сб"},{" Вс"},{" Пн"},{" Вт"},{" Ср"},{" Чт"},{" Пт"}};
-e_keyCode keyCode;
+e_keyCode keyCode, keyCode2;
 s_STATUS status = {.mainScreen = 1, .modeChanged = 1};
 unsigned int menuPointer = 0, pagePointer = 0, modeMenuPointer = 0, backLight = 0, dayIntPointer = 0;
 unsigned int tInterval;
@@ -102,7 +102,13 @@ void SetTime(void)
 }
 
 //==============================================================================
-int  dayOfWeek;
+int getDayOfWeek(void)
+{
+  int m, Y = date_time.DATE.year;
+  if (date_time.DATE.month < 2) { Y = Y - 1; m = date_time.DATE.month + 13;} 
+  else                          {            m = date_time.DATE.month + 1;}   
+  return (date_time.DATE.day + (26*(m+1)/10) + Y + Y/4 + 6*Y/100 + Y/400) % 7;
+}
 //==============================================================================
 void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol)
 {
@@ -114,7 +120,6 @@ void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol)
     k += 12;
   }
   else    char_6x8(aX,    aY,  aCol,aBGCol, ' ');
-    
   
   char_6x8(k, aY, aCol, aBGCol, date_time.DATE.day%10 + 0x30); k += 12;
   char_6x8(k, aY,  aCol,aBGCol, ' ');    k += 12;
@@ -126,10 +131,7 @@ void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol)
   char_6x8(k, aY, aCol, aBGCol,  date_time.DATE.year%10       + 0x30);k += 12;
   char_6x8(k, aY, aCol, aBGCol,  ',');k += 12;
   
-  int m, Y = date_time.DATE.year;
-  if (date_time.DATE.month < 2) { Y = Y - 1; m = date_time.DATE.month + 13;} 
-  else                          {            m = date_time.DATE.month + 1;}   
-  int dayOfWeek = (date_time.DATE.day + (26*(m+1)/10) + Y + Y/4 + 6*Y/100 + Y/400) % 7;
+  int dayOfWeek  = getDayOfWeek();
   
   for (unsigned int i = 0; i < 3; i++) {char_6x8(k, aY, aCol, aBGCol,  Days[dayOfWeek][i]);k += 12;}
   char_6x8(k, aY, aCol, aBGCol,  ' ');  
@@ -239,7 +241,7 @@ void keypressedProceed(void)
         status.keyPressed = 0;
         delay_ms(KEY_INTERVAL);
 //        DA_EN(0);
-        switch(keyCode)
+        switch(keyCode2)
         {
               case upButt:
                 pagePointer++;
@@ -257,6 +259,7 @@ void keypressedProceed(void)
                 //picFromFlash(0, 0, 240, 200, FLASH_MAIN_SCR);
                 break;
         }
+        keyCode2 = none;
         switch(pagePointer)
         {
         case 0: picFromFlash(0, 0, 240, 320, 100); break;

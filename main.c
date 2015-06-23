@@ -115,7 +115,7 @@ void main(void)
        P2OUT |= BIT0;
        keypressedProceed(); 
      }
-    
+    //===========================================  
     if(lineStatus.msgIn && (crc8(rxBuffer+(bcnt-8), 5, 0) == rxBuffer[bcnt-3]))
     {
         lineStatus.msgIn = 0;
@@ -131,6 +131,11 @@ void main(void)
         OWWriteByte(CONVERT);    
         if(pagePointer == 0) printTemp();      
     }
+    else 
+    {
+      lineStatus.msgIn = 0;
+      bcnt = 0;
+    } 
     //===========================================    
     if(rcEnCntr) rcEnCntr--;
     else DA_EN(1);
@@ -142,6 +147,26 @@ void main(void)
         tBuffer[POINTS_CNT - 1] = temp_buffer[0];
         tData.msgHeader = 'I';
         formTXBuffer(tBuffer,  espRXbuffer[1] - '0');
+        //============ set time ===================
+        if(espRXbuffer[1] == '1')
+        {
+              date_time.DATE.year  = (espRXbuffer[2] - '0')*1000 +
+                                     (espRXbuffer[3] - '0')*100  +
+                                     (espRXbuffer[4] - '0')*10   +
+                                     (espRXbuffer[5] - '0');       
+              date_time.DATE.month = (espRXbuffer[7] - '0')*10 +                               
+                                     (espRXbuffer[8] - '0' - 1);
+              date_time.DATE.day   = (espRXbuffer[10] - '0')*10 +                               
+                                     (espRXbuffer[11] - '0');
+              
+              date_time.TIME.hour =  (espRXbuffer[13] - '0')*10 +                               
+                                     (espRXbuffer[14] - '0');       
+              date_time.TIME.min   = (espRXbuffer[16] - '0')*10 +                               
+                                     (espRXbuffer[17] - '0');
+              date_time.TIME.sec   = (espRXbuffer[19] - '0')*10 +                               
+                                 (espRXbuffer[20] - '0');
+        }        
+        //=========================================
       }
       else
       {
