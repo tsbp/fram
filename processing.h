@@ -113,14 +113,13 @@ extern unsigned int hysteresis;
 extern unsigned  pagePointer, tInterval;
 extern int  dayOfWeek;
 extern unsigned char STT;
-extern s_CONFIG configs[];
 extern signed int rcTemper;
 //==============================================================================
 void mainMenu(void);
 void keypressedProceed(void);
 void printTime(void);
 void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol);
-void write_flash(unsigned char * value);
+void write_flash(unsigned char * value, unsigned int aCnt);
 void lightCheck(void);
 void ventilationCheck(void);
 int getDayOfWeek(void);

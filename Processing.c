@@ -38,9 +38,6 @@ const char modeMenuHead[MODES_MENU_ITEMS_CNT][13] = {{" Температура "},
                                                      {" Вентиляция  "},
                                                      {" Выход       "}};
 #define PAGES_CNT               (2)
-
-s_CONFIG configs[MODES_CNT];
-
 //==============================================================================
 void printTime(void)
 {  
@@ -304,27 +301,26 @@ void timeIncrement(void)
   }
 }
 
-////==============================================================================
-//void write_flash(unsigned char * value)
-//{
-//  char *Flash_ptr;                          // Flash pointer
-//  unsigned int i;
-//
-//  Flash_ptr = (char *)0x1000;               // Initialize Flash pointer
-//  FCTL3 = FWKEY;                            // Clear Lock bit
-//  FCTL1 = FWKEY + ERASE + EEI;              // Set Erase bit, allow interrupts
-//  *Flash_ptr = 0;                           // Dummy write to erase Flash seg
-//
-//  FCTL1 = FWKEY + WRT;                      // Set WRT bit for write operation
-//
-//  for (i = 0; i < 8*MODES_CNT; i++)
-//  {
-//    *Flash_ptr++ = *value++;                   // Write value to flash
-//  }  
-//  *Flash_ptr = (CURR_MODE);
-//  FCTL1 = FWKEY;                            // Clear WRT bit
-//  FCTL3 = FWKEY + LOCK;                     // Set LOCK bit
-//}
+//==============================================================================
+void write_flash(unsigned char * value, unsigned int aCnt)
+{
+  char *Flash_ptr;                          // Flash pointer
+  unsigned int i;
+
+  Flash_ptr = (char *)0x1800;               // Initialize Flash pointer
+  FCTL3 = FWKEY;                            // Clear Lock bit
+  FCTL1 = FWKEY + ERASE ;              // Set Erase bit, allow interrupts
+  *Flash_ptr = 0;                           // Dummy write to erase Flash seg
+
+  FCTL1 = FWKEY + WRT;                      // Set WRT bit for write operation
+
+  for (i = 0; i < aCnt; i++)  
+    *Flash_ptr++ = *value++;                   // Write value to flash
+  
+  
+  FCTL1 = FWKEY;                            // Clear WRT bit
+  FCTL3 = FWKEY + LOCK;                     // Set LOCK bit
+}
 //==============================================================================
 signed int rcTemper;
 //==============================================================================

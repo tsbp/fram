@@ -8,6 +8,7 @@
 #include "dali.h"
 #include "crc.h"
 #include "ESP8266.h"
+#include "configs.h"
 //==============================================================================
 unsigned int  min, hour, measint;
 //==============================================================================
@@ -19,8 +20,6 @@ unsigned int  min, hour, measint;
 #define STEP_P            (3)
 unsigned int step = STEP_Q, steps_count = STEPS_COUNT_Q;
 unsigned int curStep = 1;unsigned int goUP = 1;
-
-
 //==============================================================================
 unsigned char test[24] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
 //unsigned char rxBuffer[15];
@@ -66,7 +65,11 @@ void main(void)
   tData.__0a = 0x0a;
   tData.__0d = 0x0d;
   
+  
   __enable_interrupt();    
+  
+  
+  //write_flash(configs.byte, CONF_ARRAY_LENGTH);
   
   df_Init();
   
@@ -141,41 +144,54 @@ void main(void)
     else DA_EN(1);
     //===========================================
     if(status.espMsgIn)
-    {
-      if(espRXbuffer[0] == 'I')
+    {      
+      if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'O' && espRXbuffer[2] == 'N' && espRXbuffer[3] == 'F')
       {
-        tBuffer[POINTS_CNT - 1] = temp_buffer[0];
-        tData.msgHeader = 'I';
-        formTXBuffer(tBuffer,  espRXbuffer[1] - '0');
-        //============ set time ===================
-        if(espRXbuffer[1] == '1')
-        {
-              date_time.DATE.year  = (espRXbuffer[2] - '0')*1000 +
-                                     (espRXbuffer[3] - '0')*100  +
-                                     (espRXbuffer[4] - '0')*10   +
-                                     (espRXbuffer[5] - '0');       
-              date_time.DATE.month = (espRXbuffer[7] - '0')*10 +                               
-                                     (espRXbuffer[8] - '0' - 1);
-              date_time.DATE.day   = (espRXbuffer[10] - '0')*10 +                               
-                                     (espRXbuffer[11] - '0');
-              
-              date_time.TIME.hour =  (espRXbuffer[13] - '0')*10 +                               
-                                     (espRXbuffer[14] - '0');       
-              date_time.TIME.min   = (espRXbuffer[16] - '0')*10 +                               
-                                     (espRXbuffer[17] - '0');
-              date_time.TIME.sec   = (espRXbuffer[19] - '0')*10 +                               
-                                 (espRXbuffer[20] - '0');
-        }        
-        //=========================================
+            configTXBuffer.msgNumber  = espRXbuffer[4];
+            configTXBuffer.partsCount = cPtr -> periodsCnt;
+            
+            for(unsigned int i = 0; i < sizeof(s_PCONFIG); i++)
+              configTXBuffer.config.byte[i] = cPtr->pConfig[espRXbuffer[4]-'0'-1].byte[i];
+            
+            espTxMessage(configTXBuffer.byte, sizeof(configTXBuffer.byte));
       }
-      else
+      else 
       {
-        tBuffer2[POINTS_CNT - 1] = rcTemper;
-        tData.msgHeader = 'O';
-        formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
+        if(espRXbuffer[0] == 'I')
+          {
+            tBuffer[POINTS_CNT - 1] = temp_buffer[0];
+            tData.msgHeader = 'I';
+            formTXBuffer(tBuffer,  espRXbuffer[1] - '0');
+            //============ set time ===================
+            if(espRXbuffer[1] == '1')
+            {
+                  date_time.DATE.year  = (espRXbuffer[2] - '0')*1000 +
+                                         (espRXbuffer[3] - '0')*100  +
+                                         (espRXbuffer[4] - '0')*10   +
+                                         (espRXbuffer[5] - '0');       
+                  date_time.DATE.month = (espRXbuffer[7] - '0')*10 +                               
+                                         (espRXbuffer[8] - '0' - 1);
+                  date_time.DATE.day   = (espRXbuffer[10] - '0')*10 +                               
+                                         (espRXbuffer[11] - '0');
+                  
+                  date_time.TIME.hour =  (espRXbuffer[13] - '0')*10 +                               
+                                         (espRXbuffer[14] - '0');       
+                  date_time.TIME.min   = (espRXbuffer[16] - '0')*10 +                               
+                                         (espRXbuffer[17] - '0');
+                  date_time.TIME.sec   = (espRXbuffer[19] - '0')*10 +                               
+                                         (espRXbuffer[20] - '0');
+            }        
+            //=========================================
+          }
+          else
+          {
+            tBuffer2[POINTS_CNT - 1] = rcTemper;
+            tData.msgHeader = 'O';
+            formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
+          }
+          
+          espTxMessage(tData.byte, sizeof(tData.byte));
       }
-      
-      espTxMessage(tData.byte, sizeof(tData.byte));
      
       status.espMsgIn = 0;
       rxCntr = 0;

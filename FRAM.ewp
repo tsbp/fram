@@ -1951,6 +1951,9 @@
     </settings>
   </configuration>
   <file>
+    <name>$PROJ_DIR$\Configs.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\crc.c</name>
   </file>
   <file>
