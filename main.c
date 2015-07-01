@@ -26,6 +26,7 @@ unsigned char test[24] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
 //unsigned int bcnt = 0;
 //long t;
 int rcEnCntr;
+unsigned char tmpRxBuf[1 + 70];
 //==============================================================================
 void printTemp(void)
 {
@@ -69,7 +70,7 @@ void main(void)
   __enable_interrupt();    
   
   
-  //write_flash(configs.byte, CONF_ARRAY_LENGTH);
+  //write_flash(configs.byte, sizeof(u_CONFIG));
   
   df_Init();
   
@@ -145,7 +146,23 @@ void main(void)
     //===========================================
     if(status.espMsgIn)
     {      
-      if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'O' && espRXbuffer[2] == 'N' && espRXbuffer[3] == 'F')
+      if     (espRXbuffer[0] == 'C' && espRXbuffer[1] == 'S' && espRXbuffer[2] == 'A' && espRXbuffer[3] == 'V')
+      {
+          
+          for(unsigned int j = 0; j < 7; j++)        
+            tmpRxBuf[7*(espRXbuffer[4] - '0'-1) + j + 1] = espRXbuffer[6+j];
+          
+          if(espRXbuffer[4] == espRXbuffer[5]) 
+          {
+              tmpRxBuf[0] = espRXbuffer[5];
+              write_flash(tmpRxBuf, (espRXbuffer[5] - '0')*7 + 1);
+          }
+          
+          unsigned char ok[] = {"OKA"};
+          ok[2] = espRXbuffer[4];
+          espTxMessage(ok, sizeof(ok));       
+      }
+      else if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'O' && espRXbuffer[2] == 'N' && espRXbuffer[3] == 'F')
       {
             configTXBuffer.msgNumber  = espRXbuffer[4];
             configTXBuffer.partsCount = cPtr -> periodsCnt;
