@@ -43,4 +43,6 @@ extern u_CONFIG_TX_BUFFER configTXBuffer;
 //==============================================================================
 extern u_CONFIG configs;
 extern u_CONFIG *cPtr;
+//==============================================================================
+unsigned char* configProceed(unsigned int aTime);
   

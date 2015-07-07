@@ -30,23 +30,33 @@ unsigned char tmpRxBuf[1 + 70];
 //==============================================================================
 void printTemp(void)
 {
-  int a = temp_buffer[0];    
-  picFromFlash(121, 74, 20, 30, (a / 100) *4); a %=100;
-  picFromFlash(141, 74, 20, 30, (a / 10)  *4);
-  picFromFlash(161, 74, 20, 30, 12 *4);
-  picFromFlash(171, 74, 20, 30, (a % 10 ) *4);
-  picFromFlash(191, 74, 20, 30, 10 *4);  
+  int a = temp_buffer[0];  
+  if (a < 0) { picFromFlash(104, 74, 20, 30, 14 *4); a *= (-1);}
+  else         picFromFlash(104, 74, 20, 30, 13 *4);
+  picFromFlash(124, 74, 20, 30, (a / 100) *4); a %=100;
+  picFromFlash(144, 74, 20, 30, (a / 10)  *4);
+  picFromFlash(164, 74, 20, 30, 12 *4);
+  picFromFlash(174, 74, 20, 30, (a % 10 ) *4);
+  picFromFlash(194, 74, 20, 30, 10 *4);  
   
-  //temp_buffer[0] = 0;
-
   a = (int)rcTemper;
-  picFromFlash(28, 217, 20, 30, (a / 100) *4); a %=100;
-  picFromFlash(48, 217, 20, 30, (a / 10)  *4);
-  picFromFlash(68, 217, 20, 30, 12 *4);
-  picFromFlash(78, 217, 20, 30, (a % 10 ) *4);
-  picFromFlash(98, 217, 20, 30, 10 *4);  
+  if (a < 0) { picFromFlash(20, 217, 20, 30, 14 *4); a *= (-1);}
+  else         picFromFlash(20, 217, 20, 30, 13 *4);
+  picFromFlash(40, 217, 20, 30, (a / 100) *4); a %=100;
+  picFromFlash(60, 217, 20, 30, (a / 10)  *4);
+  picFromFlash(80, 217, 20, 30, 12 *4);
+  picFromFlash(90, 217, 20, 30, (a % 10 ) *4);
+  picFromFlash(110, 217, 20, 30, 10 *4);  
 }
-
+//==============================================================================
+void showSetTemp (void)
+{
+  unsigned char* t = configProceed(date_time.TIME.hour * 60 + date_time.TIME.min);
+  char_6x8(50, 74, YELLOW, BLACK, t[0]);
+  char_6x8(62, 74, YELLOW, BLACK, t[1]);
+  char_6x8(74, 74, YELLOW, BLACK, ',');
+  char_6x8(86, 74, YELLOW, BLACK, t[2]);
+}
 //==============================================================================
 void main(void)
 {
@@ -134,6 +144,8 @@ void main(void)
         OWWriteByte(SKIP_ROM);
         OWWriteByte(CONVERT);    
         if(pagePointer == 0) printTemp();      
+        
+        showSetTemp();
     }
     else 
     {

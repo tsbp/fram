@@ -180,7 +180,57 @@ void SetDate(void)
   }  
   picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR); 
 }
-
+//==============================================================================
+unsigned int plotInterval = PLOT_INTERVAL;
+//==============================================================================
+void configure(void)
+{
+  status.subMenu = 1;
+  rectangle (35, 35, 220, 120, 0xffffff);; 
+  printString (40, 40, BLUE, WHITE, "Интервал, мин"); 
+  unsigned char val[3]; 
+  val[0] =  plotInterval / 100;
+  val[1] = (plotInterval % 100) / 10;
+  val[2] = (plotInterval % 100) % 10;  
+  unsigned int cntrl = 0;  
+  
+  while(status.subMenu == 1)
+  {
+    if (status.keyPressed) 
+    {
+      status.keyPressed = 0;
+      delay_ms(KEY_INTERVAL);
+      switch(keyCode)
+        {
+              case downButt:
+                val[cntrl]++;
+                if (val[cntrl] > 9) val[cntrl] = 0;                
+                break;
+              case upButt:
+                if (val[cntrl] == 0) val[cntrl] = 10;
+                val[cntrl]--;
+                break;
+              case okButt:                
+                if(cntrl >= 2) status.subMenu = 0;
+                  else  cntrl++; 
+                break;
+        }        
+    }     
+    for(unsigned int i = 0; i < 3; i++)
+    {
+      if (cntrl == i) char_6x8 (60 + 12 * i, 80, WHITE, BLUE, val[i] + '0');
+      else            char_6x8 (60 + 12 * i, 80, BLUE, WHITE, val[i] + '0');
+    }
+    
+    CLR_BUTT_INT();
+    if(status.subMenu == 1) __low_power_mode_1();     
+  }  
+  plotInterval = (val[0]) *100 +
+                 (val[1]) *10  +
+                 (val[2]);
+  plotIntervalCntr = plotInterval;
+  picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR); 
+}
 //==============================================================================
 void mainMenu(void)
 {
@@ -211,7 +261,7 @@ void mainMenu(void)
                       if      (menuPointer == 0) {TA_STOP; SetTime();TA_RUN;}
                       else if (menuPointer == 1) SetDate();
                       else if (menuPointer == 2) ;//setContrast();   
-                      else if (menuPointer == 3) ;//config();
+                      else if (menuPointer == 3) configure();
                       else if (menuPointer == 4) status.menuMode = 0;                       
                       break;
         }        
@@ -332,7 +382,7 @@ __interrupt void TA0_ISR (void)
      if (plotIntervalCntr) plotIntervalCntr--;
      else 
      {
-       plotIntervalCntr = PLOT_INTERVAL;
+       plotIntervalCntr = plotInterval;//PLOT_INTERVAL;
        valueToBuffer(temp_buffer[0], tBuffer);
        valueToBuffer((signed int)rcTemper, tBuffer2);
        status.plotRedraw = 1;
