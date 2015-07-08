@@ -46,9 +46,11 @@ void espTxMessage(unsigned char *aBuf, unsigned int aCnt)
 //==============================================================================
 void convertInoToCharArray(signed int aVal, unsigned char* aArr)
 {
-      aArr[0] = (aVal /100)+ '0'; aVal %= 100;
-      aArr[1] = (aVal /10)+ '0';      
-      aArr[2] = (aVal %10)+ '0';
+      if(aVal < 0){ aArr[0] = '-'; aVal *= (-1);} 
+      else aArr[0] = '+';
+      aArr[1] = (aVal /100)+ '0'; aVal %= 100;
+      aArr[2] = (aVal /10)+ '0';      
+      aArr[3] = (aVal %10)+ '0';
 }
 
 //==============================================================================

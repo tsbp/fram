@@ -186,11 +186,17 @@ void main(void)
       }
       else 
       {
-        if(espRXbuffer[0] == 'I')
+        if(espRXbuffer[0] == 'O')
           {
             tBuffer[POINTS_CNT - 1] = temp_buffer[0];
+            tData.msgHeader = 'O';
+            formTXBuffer(tBuffer,  espRXbuffer[1] - '0');            
+          }
+          else
+          {
+            tBuffer2[POINTS_CNT - 1] = rcTemper;
             tData.msgHeader = 'I';
-            formTXBuffer(tBuffer,  espRXbuffer[1] - '0');
+            formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
             //============ set time ===================
             if(espRXbuffer[1] == '1')
             {
@@ -211,12 +217,6 @@ void main(void)
                                          (espRXbuffer[20] - '0');
             }        
             //=========================================
-          }
-          else
-          {
-            tBuffer2[POINTS_CNT - 1] = rcTemper;
-            tData.msgHeader = 'O';
-            formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
           }
           
           espTxMessage(tData.byte, sizeof(tData.byte));

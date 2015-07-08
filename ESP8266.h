@@ -16,18 +16,18 @@
 #define RST_BIT   (BIT2)
 #define ESP_RST(n) {if(n) OUT(ESPPORT) |= RST_BIT; else OUT(ESPPORT) &= ~RST_BIT;}
 //==============================================================================
-#define PARTS_COUNT       (3)
+#define PARTS_COUNT       (4)
 #define VALS_TX_CNT       (POINTS_CNT / PARTS_COUNT)
 #define VALS_TX_CNT_LAST  (POINTS_CNT % PARTS_COUNT) 
 //==============================================================================
 typedef struct
 {
-  unsigned char byte[3]; 
+  unsigned char byte[4]; 
 }s_CTEMPERATURE;
 //==============================================================================
 typedef union
 {
-  unsigned char byte[1 + 3 + /*6 + */VALS_TX_CNT*3 + 2];
+  unsigned char byte[1 + 3 + /*6 + */VALS_TX_CNT*4 + 2];
   struct
   {
     unsigned char  msgHeader;

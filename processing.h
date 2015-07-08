@@ -76,29 +76,6 @@ typedef struct
   }TIME;
 }s_DATE_TIME;
 //==============================================================================
-typedef struct
-{
-  union
-  {
-    unsigned char byte[8];
-    struct
-    {      
-      int temper;
-      int hysteresis;
-      struct
-      {
-        unsigned char timeStart;
-        unsigned char timeStop;
-      }light; 
-      struct
-      {
-        unsigned char timeON;
-        unsigned char timeOFF;
-      }ventilation; 
-    };
-  };
-}s_CONFIG;
-//==============================================================================
 extern unsigned int dayPointer;
 typedef enum {none, downButt, upButt, okButt} e_keyCode;
 extern e_keyCode keyCode, keyCode2;

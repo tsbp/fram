@@ -187,12 +187,13 @@ void configure(void)
 {
   status.subMenu = 1;
   rectangle (35, 35, 220, 120, 0xffffff);; 
-  printString (40, 40, BLUE, WHITE, "Интервал, мин"); 
-  unsigned char val[3]; 
-  val[0] =  plotInterval / 100;
-  val[1] = (plotInterval % 100) / 10;
-  val[2] = (plotInterval % 100) % 10;  
-  unsigned int cntrl = 0;  
+  printString (40, 40, BLUE, WHITE, "Интервал, сек"); 
+  unsigned char val[4];
+  unsigned int cntrl = 0, a = plotInterval; 
+  val[0] =  a / 1000;  a %= 1000;
+  val[1] =  a / 100;   a %= 100;
+  val[2] =  a / 10;  
+  val[3] =  a % 10;  
   
   while(status.subMenu == 1)
   {
@@ -211,23 +212,24 @@ void configure(void)
                 val[cntrl]--;
                 break;
               case okButt:                
-                if(cntrl >= 2) status.subMenu = 0;
+                if(cntrl >= 3) status.subMenu = 0;
                   else  cntrl++; 
                 break;
         }        
     }     
-    for(unsigned int i = 0; i < 3; i++)
+    for(unsigned int i = 0; i < 4; i++)
     {
-      if (cntrl == i) char_6x8 (60 + 12 * i, 80, WHITE, BLUE, val[i] + '0');
-      else            char_6x8 (60 + 12 * i, 80, BLUE, WHITE, val[i] + '0');
+      if (cntrl == i) char_6x8 (84 + 12 * i, 80, WHITE, BLUE, val[i] + '0');
+      else            char_6x8 (82 + 12 * i, 80, BLUE, WHITE, val[i] + '0');
     }
     
     CLR_BUTT_INT();
     if(status.subMenu == 1) __low_power_mode_1();     
   }  
-  plotInterval = (val[0]) *100 +
-                 (val[1]) *10  +
-                 (val[2]);
+  plotInterval = (val[0]) *1000 +
+                 (val[1]) *100  +
+                 (val[2]) *10   +
+                 (val[3])  ;
   plotIntervalCntr = plotInterval;
   picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR); 
 }

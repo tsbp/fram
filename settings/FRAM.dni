@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1406535399
+Checksum=-488678664
 [State Storage]
 Control Register=0
 [Sequencer]
@@ -44,7 +44,7 @@ Control Register=0
 NextState0=0
 NextState1=0
 [Action Register]
-Break=3
+Break=2
 State Storage=0
 [CallStack]
 ShowArgs=0
@@ -54,10 +54,6 @@ MixedMode=1
 Fmt0={W}0:((unsigned char *)&rcTemper)[0]	3	0
 Fmt1={W}0:aSr	1	0
 Fmt2={W}0:sr	1	0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -70,8 +66,7 @@ Graph=0
 Symbiont=0
 Exclusions=
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\Processing.c}.385.8" 1 0 0 0 "" 0 ""
-Count=1
+Count=0
 [FET]
 Clock mode=14
 Extended Clock mode=-1
@@ -92,6 +87,10 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Aliases]
 Count=0
 SuppressDialog=0
