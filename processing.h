@@ -79,9 +79,6 @@ typedef struct
 extern unsigned int dayPointer;
 typedef enum {none, downButt, upButt, okButt} e_keyCode;
 extern e_keyCode keyCode, keyCode2;
-//typedef enum {normal, menu,setTime} e_mode;
-//extern e_mode mode;
-
 extern s_STATUS status;
 extern unsigned int backLight;
 extern s_DATE_TIME date_time;
@@ -91,14 +88,16 @@ extern unsigned  pagePointer, tInterval;
 extern int  dayOfWeek;
 extern unsigned char STT;
 extern signed int rcTemper;
+//extern unsigned int delta;
 //==============================================================================
 void mainMenu(void);
 void keypressedProceed(void);
 void printTime(void);
 void printDate(int aX, int aY, unsigned long aCol, unsigned  long aBGCol);
-void write_flash(unsigned char * value, unsigned int aCnt);
+void write_flash(unsigned char * value, unsigned int aCnt , unsigned int aAddr);
 void lightCheck(void);
 void ventilationCheck(void);
 int getDayOfWeek(void);
+void printTemp(void);
 //==============================================================================
 #endif

@@ -28,7 +28,7 @@ typedef union
 //==============================================================================
 typedef union
 {
-  unsigned char byte[sizeof(u_CONFIG) + 3];
+  unsigned char byte[sizeof(u_CONFIG) + 5];
   struct
   {
     unsigned char  msgHeader;
@@ -41,8 +41,21 @@ typedef union
 }u_CONFIG_TX_BUFFER;
 extern u_CONFIG_TX_BUFFER configTXBuffer;
 //==============================================================================
-extern u_CONFIG configs;
-extern u_CONFIG *cPtr;
+typedef union
+{
+  unsigned char byte[11];
+  struct
+  {
+    unsigned int interval;
+    unsigned int delta;
+    unsigned char day[7];
+  };  
+}u_NASTROYKI;
+extern u_NASTROYKI *nastroyki;
 //==============================================================================
-unsigned char* configProceed(unsigned int aTime);
+extern u_NASTROYKI nastr;
+extern u_CONFIG configs;
+extern u_CONFIG *cPtrH, *cPtrW;
+//==============================================================================
+unsigned char* configProceed(unsigned int aTime, u_CONFIG *aPtr);
   

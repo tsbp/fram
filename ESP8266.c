@@ -33,7 +33,7 @@ void ESP8266Init(void)
 //==============================================================================
 unsigned int txCnt, txAmnt;
 unsigned char *txByte;
-u_TDATA tData = {.msgHeader = 'S'};
+u_TDATA tData = {.msgHeader = 'S', .__0a = 0x0a, .__0d = 0x0d};
 //==============================================================================
 void espTxMessage(unsigned char *aBuf, unsigned int aCnt)
 {
@@ -52,12 +52,9 @@ void convertInoToCharArray(signed int aVal, unsigned char* aArr)
       aArr[2] = (aVal /10)+ '0';      
       aArr[3] = (aVal %10)+ '0';
 }
-
 //==============================================================================
 void formTXBuffer(signed int * aBuf, unsigned int aMsgNumb)
 {
-//      convertInoToCharArray((signed int)rcTemper, tData.inT);
-//      convertInoToCharArray(temp_buffer[0], tData.outT);
   tData.msgNumber = aMsgNumb + '0';
  
   tData.partsCount = PARTS_COUNT +'0';
@@ -106,8 +103,7 @@ __interrupt void esp_timeout_isr ( void )
   else 
   {
     cnt = CNT;
-    TIMEOUT_STOP;
-    //rxCntr = 0;
+    TIMEOUT_STOP;    
     status.espMsgIn = 1;
     __low_power_mode_off_on_exit();
   }

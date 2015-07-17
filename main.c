@@ -21,41 +21,29 @@ unsigned int  min, hour, measint;
 unsigned int step = STEP_Q, steps_count = STEPS_COUNT_Q;
 unsigned int curStep = 1;unsigned int goUP = 1;
 //==============================================================================
-unsigned char test[24] = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
-//unsigned char rxBuffer[15];
-//unsigned int bcnt = 0;
-//long t;
 int rcEnCntr;
 unsigned char tmpRxBuf[1 + 70];
 //==============================================================================
-void printTemp(void)
-{
-  int a = temp_buffer[0];  
-  if (a < 0) { picFromFlash(104, 74, 20, 30, 14 *4); a *= (-1);}
-  else         picFromFlash(104, 74, 20, 30, 13 *4);
-  picFromFlash(124, 74, 20, 30, (a / 100) *4); a %=100;
-  picFromFlash(144, 74, 20, 30, (a / 10)  *4);
-  picFromFlash(164, 74, 20, 30, 12 *4);
-  picFromFlash(174, 74, 20, 30, (a % 10 ) *4);
-  picFromFlash(194, 74, 20, 30, 10 *4);  
+void showSetTemp (unsigned char *aT)
+{  
+  static unsigned long col;
+  int tmp = (aT[0] - '0') * 100 + (aT[1] - '0') * 10 + (aT[2] - '0');
+  if      (rcTemper > tmp + (nastroyki -> delta)) 
+  {
+    col = 0x44916c;
+  }
+  else if (rcTemper < tmp - (nastroyki -> delta)) 
+  {
+    col = 0xdb214c;
+  }
   
-  a = (int)rcTemper;
-  if (a < 0) { picFromFlash(20, 217, 20, 30, 14 *4); a *= (-1);}
-  else         picFromFlash(20, 217, 20, 30, 13 *4);
-  picFromFlash(40, 217, 20, 30, (a / 100) *4); a %=100;
-  picFromFlash(60, 217, 20, 30, (a / 10)  *4);
-  picFromFlash(80, 217, 20, 30, 12 *4);
-  picFromFlash(90, 217, 20, 30, (a % 10 ) *4);
-  picFromFlash(110, 217, 20, 30, 10 *4);  
-}
-//==============================================================================
-void showSetTemp (void)
-{
-  unsigned char* t = configProceed(date_time.TIME.hour * 60 + date_time.TIME.min);
-  char_6x8(50, 74, YELLOW, BLACK, t[0]);
-  char_6x8(62, 74, YELLOW, BLACK, t[1]);
-  char_6x8(74, 74, YELLOW, BLACK, ',');
-  char_6x8(86, 74, YELLOW, BLACK, t[2]);
+  if(pagePointer == 0)
+  {
+      char_6x8(174, 284, col, 0xffff64, aT[0]);
+      char_6x8(186, 284, col, 0xffff64, aT[1]);
+      char_6x8(198, 284, col, 0xffff64, ',');
+      char_6x8(206, 284, col, 0xffff64, aT[2]);
+  }  
 }
 //==============================================================================
 void main(void)
@@ -66,25 +54,17 @@ void main(void)
   initClocks(25000000);   
   
   DA_Init();
-  
-  
   LCD_Init();
-  LCD_wakeup();
-  
+  LCD_wakeup();  
   ESP8266Init();
-
-  tData.__0a = 0x0a;
-  tData.__0d = 0x0d;
   
+  __enable_interrupt();   
   
-  __enable_interrupt();    
+//  write_flash(configs.byte, sizeof(u_CONFIG), 0x1800);
+//  write_flash(configs.byte, sizeof(u_CONFIG), 0x1880);
+//  write_flash(nastr.byte, sizeof(u_NASTROYKI), 0x1900);
   
-  
-  //write_flash(configs.byte, sizeof(u_CONFIG));
-  
-  df_Init();
-  
-//  rectangle (0, 0,240, 320, BLACK);
+    df_Init();  
     picFromFlash(0, 0, 240, 320, 100);
   
    //======== buttons ========
@@ -111,7 +91,7 @@ void main(void)
     P2DS  |= (BIT0 | BIT1);
     P2OUT |= (BIT0);
     TA1CCR0 = 100;
-    TA1CTL = TASSEL_2/* + MC_1*/ + ID_3;                // ACLK, upmode
+    TA1CTL = TASSEL_2 + ID_3;                // ACLK, upmode
     TA1CCTL0 |= CCIE; 
     //=====================
   
@@ -145,7 +125,7 @@ void main(void)
         OWWriteByte(CONVERT);    
         if(pagePointer == 0) printTemp();      
         
-        showSetTemp();
+        showSetTemp(configProceed(date_time.TIME.hour * 60 + date_time.TIME.min, cPtrW));
     }
     else 
     {
@@ -160,27 +140,43 @@ void main(void)
     {      
       if     (espRXbuffer[0] == 'C' && espRXbuffer[1] == 'S' && espRXbuffer[2] == 'A' && espRXbuffer[3] == 'V')
       {
+            u_CONFIG *ptr;
+            if(espRXbuffer[4]== 'H') ptr = cPtrH;
+            else                     ptr = cPtrW;
           
           for(unsigned int j = 0; j < 7; j++)        
-            tmpRxBuf[7*(espRXbuffer[4] - '0'-1) + j + 1] = espRXbuffer[6+j];
+            tmpRxBuf[7*(espRXbuffer[5] - '0'-1) + j + 1] = espRXbuffer[7+j];
           
-          if(espRXbuffer[4] == espRXbuffer[5]) 
+          if(espRXbuffer[5] == espRXbuffer[6]) 
           {
-              tmpRxBuf[0] = espRXbuffer[5];
-              write_flash(tmpRxBuf, (espRXbuffer[5] - '0')*7 + 1);
+              tmpRxBuf[0] = espRXbuffer[6];
+              write_flash(tmpRxBuf, (espRXbuffer[6] - '0')*7 + 1, (unsigned int) ptr);
           }
           
           unsigned char ok[] = {"OKA"};
-          ok[2] = espRXbuffer[4];
+          ok[2] = espRXbuffer[6];
           espTxMessage(ok, sizeof(ok));       
+      }
+      else if(espRXbuffer[0] == 'W' && espRXbuffer[1] == 'E' && espRXbuffer[2] == 'E' && espRXbuffer[3] == 'K')
+      {
+        unsigned char weekTxBuf[11];
+        weekTxBuf[0] = 'W';
+        weekTxBuf[1] = 'C';
+        weekTxBuf[9] = 0x0a;
+        weekTxBuf[10] = 0x0d;
+        for(unsigned int i = 0; i < 7; i++) weekTxBuf[i+2] = nastroyki -> byte[i+4];
+        espTxMessage(weekTxBuf, sizeof(weekTxBuf));
       }
       else if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'O' && espRXbuffer[2] == 'N' && espRXbuffer[3] == 'F')
       {
-            configTXBuffer.msgNumber  = espRXbuffer[4];
-            configTXBuffer.partsCount = cPtr -> periodsCnt;
+            u_CONFIG *ptr;
+            if(espRXbuffer[4]== 'H') ptr = cPtrH;
+            else                     ptr = cPtrW;
+            configTXBuffer.msgNumber  = espRXbuffer[5];
+            configTXBuffer.partsCount = ptr -> periodsCnt;
             
             for(unsigned int i = 0; i < sizeof(s_PCONFIG); i++)
-              configTXBuffer.config.byte[i] = cPtr->pConfig[espRXbuffer[4]-'0'-1].byte[i];
+              configTXBuffer.config.byte[i] = ptr->pConfig[espRXbuffer[5]-'0'-1].byte[i];
             
             espTxMessage(configTXBuffer.byte, sizeof(configTXBuffer.byte));
       }
@@ -217,13 +213,12 @@ void main(void)
                                          (espRXbuffer[20] - '0');
             }        
             //=========================================
-          }
-          
+          }          
           espTxMessage(tData.byte, sizeof(tData.byte));
-      }
-     
+      }     
       status.espMsgIn = 0;
       rxCntr = 0;
+      for(unsigned int i = 0; i < 100; i++) espRXbuffer[i] = 0;
     }
     //===========================================
     if(status.timeChanged)
@@ -239,8 +234,8 @@ void main(void)
              case 1:
                if(status.plotRedraw)
                   {
-                    showGraphic(tBuffer, 0);//(temp_buffer[0]);  
-                    showGraphic(tBuffer2, 160);//(temp_buffer[0]);  
+                    showGraphic(tBuffer, 0);
+                    showGraphic(tBuffer2, 160);
                     status.plotRedraw = 0;
                   }
                break;         

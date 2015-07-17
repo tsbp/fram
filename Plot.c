@@ -1,11 +1,11 @@
 //==============================================================================
 #include "plot.h"
 #include "n6500s.h"
-
+#include "configs.h"
 //==============================================================================
 signed int tBuffer[POINTS_CNT];// = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 signed int tBuffer2[POINTS_CNT];// = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-unsigned int plotIntervalCntr = PLOT_INTERVAL;
+unsigned int plotIntervalCntr;// = nastroyki -> interval;
 //==============================================================================
 void valueToBuffer(signed int aVal, signed int *aBuf)
 {

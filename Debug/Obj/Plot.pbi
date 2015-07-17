@@ -4032,9 +4032,14 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:100:9: macro definition=FLASH_DIGIT <US>c:macro@FLASH_DIGIT<UE> <DS>FLASH_DIGIT<DE> Extent=<ES>100:9 - 100:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:101:9: macro definition=FLASH_MAIN_SCR <US>c:macro@FLASH_MAIN_SCR<UE> <DS>FLASH_MAIN_SCR<DE> Extent=<ES>101:9 - 101:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:102:9: macro definition=FLASH_MENU_SCR <US>c:macro@FLASH_MENU_SCR<UE> <DS>FLASH_MENU_SCR<DE> Extent=<ES>102:9 - 102:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:4:1: inclusion directive=configs.h <US><UE> <DS><DE> <IS>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h<IE>  Extent=<ES>4:1 - 4:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:2:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>2:1 - 2:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:4:9: macro definition=PERIODS_CNT <US>c:macro@PERIODS_CNT<UE> <DS>PERIODS_CNT<DE> Extent=<ES>4:9 - 4:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:17:9: macro definition=CONF_ARRAY_LENGTH <US>c:macro@CONF_ARRAY_LENGTH<UE> <DS>CONF_ARRAY_LENGTH<DE> Extent=<ES>17:9 - 17:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: macro expansion=CONF_ARRAY_LENGTH|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:17:9 <US>c:macro@CONF_ARRAY_LENGTH<UE> <DS>CONF_ARRAY_LENGTH<DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:23: macro expansion=PERIODS_CNT|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:4:9 <US>c:macro@PERIODS_CNT<UE> <DS>PERIODS_CNT<DE> Extent=<ES>25:23 - 25:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:6:20: macro expansion=POINTS_CNT|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:17:9 <US>c:macro@POINTS_CNT<UE> <DS>POINTS_CNT<DE> Extent=<ES>6:20 - 6:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:7:21: macro expansion=POINTS_CNT|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:17:9 <US>c:macro@POINTS_CNT<UE> <DS>POINTS_CNT<DE> Extent=<ES>7:21 - 7:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:33: macro expansion=PLOT_INTERVAL|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:22:9 <US>c:macro@PLOT_INTERVAL<UE> <DS>PLOT_INTERVAL<DE> Extent=<ES>8:33 - 8:46<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:25: macro expansion=POINTS_CNT|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:17:9 <US>c:macro@POINTS_CNT<UE> <DS>POINTS_CNT<DE> Extent=<ES>12:25 - 12:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:10: macro expansion=POINTS_CNT|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:17:9 <US>c:macro@POINTS_CNT<UE> <DS>POINTS_CNT<DE> Extent=<ES>13:10 - 13:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:20:9: macro definition=BGCOL <US>c:macro@BGCOL<UE> <DS>BGCOL<DE> Extent=<ES>20:9 - 20:27<EE>
@@ -5058,7 +5063,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:24:40: VarDecl=tBuffer2|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:24:40 (Declaration) <US>c:@tBuffer2<UE> <DS>tBuffer2<DE> Extent=<ES>24:1 - 24:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:24:49: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:49 - 24:59<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:24:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:49 - 24:59<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:25:21: VarDecl=plotIntervalCntr|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:14 (Declaration) <US>c:@plotIntervalCntr<UE> <DS>plotIntervalCntr<DE> Extent=<ES>25:1 - 25:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:25:21: VarDecl=plotIntervalCntr|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:25:21 (Declaration) <US>c:@plotIntervalCntr<UE> <DS>plotIntervalCntr<DE> Extent=<ES>25:1 - 25:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:27:6: FunctionDecl=valueToBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:6 (Declaration) <US>c:@F@valueToBuffer<UE> <DS>void valueToBuffer(int, int *)<DE> Extent=<ES>27:1 - 27:54<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:27:31: ParmDecl=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:27:31 (Definition) <US>c:plot.h@1242@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>27:20 - 27:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:27:49: ParmDecl=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\plot.h:27:49 (Definition) <US>c:plot.h@1259@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>27:37 - 27:53<EE>
@@ -5140,82 +5145,201 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:66: ParmDecl=aXe|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:66 (Definition) <US>c:n6500s.h@6744@F@rectangle@aXe<UE> <DS>unsigned int<DE> Extent=<ES>120:53 - 120:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:84: ParmDecl=aYe|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:84 (Definition) <US>c:n6500s.h@6762@F@rectangle@aYe<UE> <DS>unsigned int<DE> Extent=<ES>120:71 - 120:87<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:103: ParmDecl=aCOL|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:103 (Definition) <US>c:n6500s.h@6780@F@rectangle@aCOL<UE> <DS>unsigned long<DE> Extent=<ES>120:89 - 120:107<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:6:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:6:9 (Definition) <US>c:@UA@s_PCONFIG<UE> <DS><DE> Extent=<ES>6:9 - 15:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:19: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:19 (Definition) <US>c:@UA@s_PCONFIG@FI@byte<UE> <DS>byte<DE> Extent=<ES>8:5 - 8:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>8:24 - 8:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:9:5: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:9:5 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa<UE> <DS><DE> Extent=<ES>9:5 - 14:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:22: FieldDecl=hStart|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@hStart<UE> <DS>hStart<DE> Extent=<ES>11:8 - 11:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:29 - 11:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:22: FieldDecl=mStart|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@mStart<UE> <DS>mStart<DE> Extent=<ES>12:8 - 12:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:29 - 12:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:22: FieldDecl=temperature|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@temperature<UE> <DS>temperature<DE> Extent=<ES>13:8 - 13:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:34 - 13:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2: TypedefDecl=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Definition) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>6:1 - 15:11<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:6:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:6:9 (Definition) <US>c:@UA@s_PCONFIG<UE> <DS><DE> Extent=<ES>6:9 - 15:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:19: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:19 (Definition) <US>c:@UA@s_PCONFIG@FI@byte<UE> <DS>byte<DE> Extent=<ES>8:5 - 8:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:8:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>8:24 - 8:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:9:5: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:9:5 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa<UE> <DS><DE> Extent=<ES>9:5 - 14:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:22: FieldDecl=hStart|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@hStart<UE> <DS>hStart<DE> Extent=<ES>11:8 - 11:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:11:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:29 - 11:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:22: FieldDecl=mStart|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@mStart<UE> <DS>mStart<DE> Extent=<ES>12:8 - 12:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:12:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:29 - 12:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:22: FieldDecl=temperature|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:22 (Definition) <US>c:configs.h@346@UA@s_PCONFIG@Sa@FI@temperature<UE> <DS>temperature<DE> Extent=<ES>13:8 - 13:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:13:34: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:34 - 13:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:19:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:19:9 (Definition) <US>c:@UA@u_CONFIG<UE> <DS><DE> Extent=<ES>19:9 - 27:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:17 (Definition) <US>c:@UA@u_CONFIG@FI@byte<UE> <DS>byte<DE> Extent=<ES>21:3 - 21:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:22:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:22:3 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa<UE> <DS><DE> Extent=<ES>22:3 - 26:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:24:19: FieldDecl=periodsCnt|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:24:19 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa@FI@periodsCnt<UE> <DS>periodsCnt<DE> Extent=<ES>24:5 - 24:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:15: FieldDecl=pConfig|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:15 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa@FI@pConfig<UE> <DS>pConfig<DE> Extent=<ES>25:5 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:5: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>25:5 - 25:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:23 - 25:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:23 - 25:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2: TypedefDecl=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Definition) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>19:1 - 27:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:19:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:19:9 (Definition) <US>c:@UA@u_CONFIG<UE> <DS><DE> Extent=<ES>19:9 - 27:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:17 (Definition) <US>c:@UA@u_CONFIG@FI@byte<UE> <DS>byte<DE> Extent=<ES>21:3 - 21:44<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:22 - 21:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: ParenExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:21:26: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>21:26 - 21:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:22:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:22:3 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa<UE> <DS><DE> Extent=<ES>22:3 - 26:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:24:19: FieldDecl=periodsCnt|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:24:19 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa@FI@periodsCnt<UE> <DS>periodsCnt<DE> Extent=<ES>24:5 - 24:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:15: FieldDecl=pConfig|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:15 (Definition) <US>c:configs.h@777@UA@u_CONFIG@Sa@FI@pConfig<UE> <DS>pConfig<DE> Extent=<ES>25:5 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:5: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>25:5 - 25:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:23 - 25:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:25:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:23 - 25:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:29:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:29:9 (Definition) <US>c:@UA@u_CONFIG_TX_BUFFER<UE> <DS><DE> Extent=<ES>29:9 - 41:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:17 (Definition) <US>c:@UA@u_CONFIG_TX_BUFFER@FI@byte<UE> <DS>byte<DE> Extent=<ES>31:3 - 31:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>31:22 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>31:22 - 31:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:29: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>31:29 - 31:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:32:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:32:3 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa<UE> <DS><DE> Extent=<ES>32:3 - 40:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:34:20: FieldDecl=msgHeader|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:34:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@msgHeader<UE> <DS>msgHeader<DE> Extent=<ES>34:5 - 34:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:35:20: FieldDecl=msgNumber|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:35:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@msgNumber<UE> <DS>msgNumber<DE> Extent=<ES>35:5 - 35:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:36:20: FieldDecl=partsCount|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:36:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@partsCount<UE> <DS>partsCount<DE> Extent=<ES>36:5 - 36:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:15: FieldDecl=config|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:15 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@config<UE> <DS>config<DE> Extent=<ES>37:5 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:5: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>37:5 - 37:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:38:19: FieldDecl=_0a|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:38:19 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@_0a<UE> <DS>_0a<DE> Extent=<ES>38:5 - 38:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:39:19: FieldDecl=_0d|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:39:19 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@_0d<UE> <DS>_0d<DE> Extent=<ES>39:5 - 39:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:41:2: TypedefDecl=u_CONFIG_TX_BUFFER|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:41:2 (Definition) <US>c:configs.h@962@T@u_CONFIG_TX_BUFFER<UE> <DS>union u_CONFIG_TX_BUFFER<DE> Extent=<ES>29:1 - 41:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:29:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:29:9 (Definition) <US>c:@UA@u_CONFIG_TX_BUFFER<UE> <DS><DE> Extent=<ES>29:9 - 41:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:17 (Definition) <US>c:@UA@u_CONFIG_TX_BUFFER@FI@byte<UE> <DS>byte<DE> Extent=<ES>31:3 - 31:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>31:22 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>31:22 - 31:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:29: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>31:29 - 31:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:31:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:41 - 31:42<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:32:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:32:3 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa<UE> <DS><DE> Extent=<ES>32:3 - 40:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:34:20: FieldDecl=msgHeader|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:34:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@msgHeader<UE> <DS>msgHeader<DE> Extent=<ES>34:5 - 34:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:35:20: FieldDecl=msgNumber|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:35:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@msgNumber<UE> <DS>msgNumber<DE> Extent=<ES>35:5 - 35:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:36:20: FieldDecl=partsCount|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:36:20 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@partsCount<UE> <DS>partsCount<DE> Extent=<ES>36:5 - 36:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:15: FieldDecl=config|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:15 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@config<UE> <DS>config<DE> Extent=<ES>37:5 - 37:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:37:5: TypeRef=s_PCONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:15:2 (Reference) <US>c:configs.h@296@T@s_PCONFIG<UE> <DS>union s_PCONFIG<DE> Extent=<ES>37:5 - 37:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:38:19: FieldDecl=_0a|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:38:19 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@_0a<UE> <DS>_0a<DE> Extent=<ES>38:5 - 38:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:39:19: FieldDecl=_0d|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:39:19 (Definition) <US>c:configs.h@1027@UA@u_CONFIG_TX_BUFFER@Sa@FI@_0d<UE> <DS>_0d<DE> Extent=<ES>39:5 - 39:22<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:42:27: VarDecl=configTXBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:42:27 (Declaration) <US>c:@configTXBuffer<UE> <DS>configTXBuffer<DE> Extent=<ES>42:1 - 42:41<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:42:8: TypeRef=u_CONFIG_TX_BUFFER|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:41:2 (Reference) <US>c:configs.h@962@T@u_CONFIG_TX_BUFFER<UE> <DS>union u_CONFIG_TX_BUFFER<DE> Extent=<ES>42:8 - 42:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:44:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:44:9 (Definition) <US>c:@UA@u_NASTROYKI<UE> <DS><DE> Extent=<ES>44:9 - 53:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:17 (Definition) <US>c:@UA@u_NASTROYKI@FI@byte<UE> <DS>byte<DE> Extent=<ES>46:3 - 46:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:22 - 46:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:47:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:47:3 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa<UE> <DS><DE> Extent=<ES>47:3 - 52:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:49:18: FieldDecl=interval|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:49:18 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@interval<UE> <DS>interval<DE> Extent=<ES>49:5 - 49:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18: FieldDecl=delta|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@delta<UE> <DS>delta<DE> Extent=<ES>50:5 - 50:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:19: FieldDecl=day|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:19 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@day<UE> <DS>day<DE> Extent=<ES>51:5 - 51:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:23 - 51:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:53:2: TypedefDecl=u_NASTROYKI|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:53:2 (Definition) <US>c:configs.h@1358@T@u_NASTROYKI<UE> <DS>union u_NASTROYKI<DE> Extent=<ES>44:1 - 53:13<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:44:9: UnionDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:44:9 (Definition) <US>c:@UA@u_NASTROYKI<UE> <DS><DE> Extent=<ES>44:9 - 53:2<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:17: FieldDecl=byte|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:17 (Definition) <US>c:@UA@u_NASTROYKI@FI@byte<UE> <DS>byte<DE> Extent=<ES>46:3 - 46:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:46:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:22 - 46:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:47:3: StructDecl=|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:47:3 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa<UE> <DS><DE> Extent=<ES>47:3 - 52:4<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:49:18: FieldDecl=interval|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:49:18 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@interval<UE> <DS>interval<DE> Extent=<ES>49:5 - 49:26<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18: FieldDecl=delta|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@delta<UE> <DS>delta<DE> Extent=<ES>50:5 - 50:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:19: FieldDecl=day|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:19 (Definition) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@day<UE> <DS>day<DE> Extent=<ES>51:5 - 51:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:51:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:23 - 51:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:54:21: VarDecl=nastroyki|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:54:21 (Declaration) <US>c:@nastroyki<UE> <DS>nastroyki<DE> Extent=<ES>54:1 - 54:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:54:8: TypeRef=u_NASTROYKI|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:53:2 (Reference) <US>c:configs.h@1358@T@u_NASTROYKI<UE> <DS>union u_NASTROYKI<DE> Extent=<ES>54:8 - 54:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:56:20: VarDecl=nastr|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:56:20 (Declaration) <US>c:@nastr<UE> <DS>nastr<DE> Extent=<ES>56:1 - 56:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:56:8: TypeRef=u_NASTROYKI|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:53:2 (Reference) <US>c:configs.h@1358@T@u_NASTROYKI<UE> <DS>union u_NASTROYKI<DE> Extent=<ES>56:8 - 56:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:57:17: VarDecl=configs|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:57:17 (Declaration) <US>c:@configs<UE> <DS>configs<DE> Extent=<ES>57:1 - 57:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:57:8: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>57:8 - 57:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:18: VarDecl=cPtrH|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:18 (Declaration) <US>c:@cPtrH<UE> <DS>cPtrH<DE> Extent=<ES>58:1 - 58:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:8: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>58:8 - 58:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:26: VarDecl=cPtrW|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:26 (Declaration) <US>c:@cPtrW<UE> <DS>cPtrW<DE> Extent=<ES>58:1 - 58:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:58:8: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>58:8 - 58:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:16: FunctionDecl=configProceed|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:16 (Declaration) <US>c:@F@configProceed<UE> <DS>unsigned char * configProceed(unsigned int, u_CONFIG *)<DE> Extent=<ES>60:1 - 60:65<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:43: ParmDecl=aTime|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:43 (Definition) <US>c:configs.h@1832@F@configProceed@aTime<UE> <DS>unsigned int<DE> Extent=<ES>60:30 - 60:48<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:60: ParmDecl=aPtr|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:60 (Definition) <US>c:configs.h@1852@F@configProceed@aPtr<UE> <DS>u_CONFIG *<DE> Extent=<ES>60:50 - 60:64<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:60:50: TypeRef=u_CONFIG|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:27:2 (Reference) <US>c:configs.h@711@T@u_CONFIG<UE> <DS>union u_CONFIG<DE> Extent=<ES>60:50 - 60:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:6:12: VarDecl=tBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:6:12 (Declaration) <US>c:@tBuffer<UE> <DS>tBuffer<DE> Extent=<ES>6:1 - 6:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:6:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>6:20 - 6:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:6:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>6:20 - 6:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:7:12: VarDecl=tBuffer2|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:7:12 (Declaration) <US>c:@tBuffer2<UE> <DS>tBuffer2<DE> Extent=<ES>7:1 - 7:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:7:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>7:21 - 7:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:7:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:21 - 7:31<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:14: VarDecl=plotIntervalCntr|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:14 (Definition) <US>c:@plotIntervalCntr<UE> <DS>plotIntervalCntr<DE> Extent=<ES>8:1 - 8:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>8:33 - 8:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>8:33 - 8:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>8:33 - 8:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:14: VarDecl=plotIntervalCntr|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:8:14 (Declaration) <US>c:@plotIntervalCntr<UE> <DS>plotIntervalCntr<DE> Extent=<ES>8:1 - 8:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:6: FunctionDecl=valueToBuffer|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:6 (Definition) <US>c:@F@valueToBuffer<UE> <DS>void valueToBuffer(int, int *)<DE> Extent=<ES>10:1 - 14:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31: ParmDecl=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 (Definition) <US>c:Plot.c@578@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>10:20 - 10:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49: ParmDecl=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Definition) <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>10:37 - 10:53<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31: ParmDecl=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 (Definition) <US>c:Plot.c@609@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>10:20 - 10:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49: ParmDecl=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Definition) <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>10:37 - 10:53<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:11:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>11:1 - 14:2<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>12:5 - 12:66<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>12:9 - 12:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Definition) <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:9 - 12:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Definition) <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:9 - 12:18<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:17 - 12:18<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:20 - 12:40<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:20: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:20 - 12:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:20: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:20 - 12:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:20: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:20 - 12:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:20: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:20 - 12:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:24 - 12:40<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:25 - 12:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:25: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:25 - 12:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:25 - 12:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:38 - 12:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>12:42 - 12:45<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:42: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:42 - 12:43<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:42: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:42 - 12:43<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:47 - 12:66<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>12:47 - 12:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:47 - 12:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:47 - 12:51<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:52: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:52 - 12:53<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:52: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:52 - 12:53<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:47 - 12:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:47: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:47 - 12:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:52: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:52 - 12:53<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:52: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:52 - 12:53<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>12:57 - 12:66<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>12:57 - 12:66<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:57 - 12:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:57 - 12:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:57 - 12:61<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:57: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>12:57 - 12:61<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:62: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:62 - 12:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:62: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:62 - 12:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:62: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@625@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:62 - 12:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:62: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:62 - 12:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:62: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:13 (Reference) <US>c:Plot.c@656@F@valueToBuffer@i<UE> <DS>i<DE> Extent=<ES>12:62 - 12:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:12:64: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:64 - 12:65<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:5 - 13:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>13:5 - 13:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>13:5 - 13:9<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@595@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>13:5 - 13:9<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>13:5 - 13:9<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:5: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:49 (Reference) <US>c:Plot.c@626@F@valueToBuffer@aBuf<UE> <DS>int *<DE> Extent=<ES>13:5 - 13:9<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:10 - 13:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>13:10 - 13:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:10 - 13:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:23 - 13:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:28: UnexposedExpr=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 <US>c:Plot.c@578@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>13:28 - 13:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:28: DeclRefExpr=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 (Reference) <US>c:Plot.c@578@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>13:28 - 13:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:28: UnexposedExpr=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 <US>c:Plot.c@609@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>13:28 - 13:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:13:28: DeclRefExpr=aVal|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:10:31 (Reference) <US>c:Plot.c@609@F@valueToBuffer@aVal<UE> <DS>int<DE> Extent=<ES>13:28 - 13:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:6: FunctionDecl=showGraphic|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:6 (Definition) <US>c:@F@showGraphic<UE> <DS>void showGraphic(int *, unsigned int)<DE> Extent=<ES>16:1 - 65:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30: ParmDecl=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Definition) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>16:18 - 16:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49: ParmDecl=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Definition) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>16:36 - 16:51<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30: ParmDecl=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Definition) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>16:18 - 16:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49: ParmDecl=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Definition) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>16:36 - 16:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:17:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:1 - 65:2<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>18:3 - 18:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16: VarDecl=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Definition) <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>18:3 - 18:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16: VarDecl=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Definition) <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>18:3 - 18:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:23 - 18:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:23 - 18:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>19:3 - 19:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21: VarDecl=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Definition) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>19:3 - 19:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27: VarDecl=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Declaration) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>19:27 - 19:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21: VarDecl=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Definition) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>19:3 - 19:25<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27: VarDecl=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Declaration) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>19:27 - 19:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:3: CallExpr=rectangle|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:6 <US>c:@F@rectangle<UE> <DS>void rectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>22:3 - 22:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:3: UnexposedExpr=rectangle|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:6 <US>c:@F@rectangle<UE> <DS>void rectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>22:3 - 22:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:3: DeclRefExpr=rectangle|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:120:6 (Reference) <US>c:@F@rectangle<UE> <DS>void rectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>22:3 - 22:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>22:14 - 22:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:14 - 22:15<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:17: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:17 - 22:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:17: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:17 - 22:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:17: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:17 - 22:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:17: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:17 - 22:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>22:21 - 22:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>22:21 - 22:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:21 - 22:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:33: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>22:33 - 22:48<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:33: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:33 - 22:35<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:33: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:33 - 22:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:33: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:33 - 22:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:33: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>22:33 - 22:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:38: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>22:38 - 22:48<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:38: ParenExpr= <US><UE> <DS><DE> Extent=<ES>22:38 - 22:48<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:22:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>22:38 - 22:48<EE>
@@ -5229,8 +5353,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>23:9 - 23:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:9 - 23:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>23:22 - 23:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:22: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>23:22 - 23:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:22: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>23:22 - 23:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:22: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>23:22 - 23:24<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:22: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>23:22 - 23:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>23:27 - 23:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>23:27 - 23:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:27 - 23:37<EE>
@@ -5249,17 +5373,17 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:23:52: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:52 - 23:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>24:3 - 24:132<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>24:7 - 24:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Definition) <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:7 - 24:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Definition) <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:7 - 24:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:15 - 24:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:18 - 24:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:18 - 24:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:18 - 24:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:18 - 24:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:18 - 24:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:22 - 24:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:22 - 24:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:22 - 24:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:32 - 24:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>24:36 - 24:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:36: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:36 - 24:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:36: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:36 - 24:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:41: CallExpr=lineH|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:119:6 <US>c:@F@lineH<UE> <DS>void lineH(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>24:41 - 24:132<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:41: UnexposedExpr=lineH|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:119:6 <US>c:@F@lineH<UE> <DS>void lineH(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>24:41 - 24:46<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:41: DeclRefExpr=lineH|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:119:6 (Reference) <US>c:@F@lineH<UE> <DS>void lineH(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>24:41 - 24:46<EE>
@@ -5269,8 +5393,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:61 - 24:108<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:61 - 24:95<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:61 - 24:76<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>24:61 - 24:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>24:61 - 24:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>24:61 - 24:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:61: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>24:61 - 24:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:66: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>24:66 - 24:76<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:66: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:66 - 24:76<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:66: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:66 - 24:76<EE>
@@ -5284,8 +5408,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:66: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:66 - 24:76<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>24:80 - 24:95<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:80 - 24:95<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:80 - 24:81<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1082@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:80 - 24:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:80 - 24:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:80: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:11 (Reference) <US>c:Plot.c@1113@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>24:80 - 24:81<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:82: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:82 - 24:95<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:82: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>24:82 - 24:95<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:82: ParenExpr= <US><UE> <DS><DE> Extent=<ES>24:82 - 24:95<EE>
@@ -5318,23 +5442,23 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:24:123: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>24:123 - 24:131<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>25:3 - 25:115<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>25:7 - 25:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Definition) <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:7 - 25:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Definition) <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:7 - 25:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:15 - 25:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:18 - 25:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:18 - 25:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:18 - 25:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:18 - 25:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:18 - 25:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:22 - 25:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:22 - 25:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:34: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>25:34 - 25:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:34 - 25:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:34 - 25:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:39: CallExpr=lineV|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:118:6 <US>c:@F@lineV<UE> <DS>void lineV(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>25:39 - 25:115<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:39: UnexposedExpr=lineV|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:118:6 <US>c:@F@lineV<UE> <DS>void lineV(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>25:39 - 25:44<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:39: DeclRefExpr=lineV|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:118:6 (Reference) <US>c:@F@lineV<UE> <DS>void lineV(unsigned int, unsigned int, unsigned int, unsigned long)<DE> Extent=<ES>25:39 - 25:44<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>25:45 - 25:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:45 - 25:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:45 - 25:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:45 - 25:46<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1216@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:45 - 25:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:45 - 25:46<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:45: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:11 (Reference) <US>c:Plot.c@1247@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>25:45 - 25:46<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:47: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:47 - 25:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:47: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:47 - 25:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:47: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:47 - 25:60<EE>
@@ -5355,8 +5479,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:63: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:63 - 25:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:63: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:63 - 25:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:76: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>25:76 - 25:91<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:76: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>25:76 - 25:78<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:76: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>25:76 - 25:78<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:76: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>25:76 - 25:78<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:76: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>25:76 - 25:78<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:81: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>25:81 - 25:91<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:81: ParenExpr= <US><UE> <DS><DE> Extent=<ES>25:81 - 25:91<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:81: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:81 - 25:91<EE>
@@ -5375,105 +5499,105 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:25:106: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>25:106 - 25:114<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>27:3 - 27:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>27:3 - 27:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:3: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>27:3 - 27:7<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:3: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>27:3 - 27:7<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>27:10 - 27:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>27:10 - 27:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:10 - 27:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:10 - 27:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:10 - 27:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:10: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:10 - 27:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:15 - 27:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>27:19 - 27:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:19: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>27:19 - 27:23<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:19: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>27:19 - 27:23<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>27:26 - 27:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>27:26 - 27:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:26 - 27:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:26 - 27:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:26 - 27:30<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:26: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>27:26 - 27:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:27:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:31 - 27:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>28:3 - 28:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>28:7 - 28:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Definition) <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:7 - 28:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Definition) <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:7 - 28:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:15 - 28:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>28:18 - 28:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:18 - 28:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:18 - 28:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:18 - 28:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:18 - 28:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>28:22 - 28:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:22 - 28:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:34: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>28:34 - 28:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:34 - 28:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:34 - 28:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:39: IfStmt= <US><UE> <DS><DE> Extent=<ES>28:39 - 28:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>28:43 - 28:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:43: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:43 - 28:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:43: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:43 - 28:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:43: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:43 - 28:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:43: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:43 - 28:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:50 - 28:57<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>28:50 - 28:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:50 - 28:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:50 - 28:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:55: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:55 - 28:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:55: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:55 - 28:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:50 - 28:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:50: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:50 - 28:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:55: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:55 - 28:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:55: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:55 - 28:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:59: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>28:59 - 28:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:59: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:59 - 28:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:59: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>28:59 - 28:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:66 - 28:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>28:66 - 28:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:66 - 28:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:66 - 28:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:71: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:71 - 28:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:71: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1372@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:71 - 28:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:66 - 28:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:66: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>28:66 - 28:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:71: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:71 - 28:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:71: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:28:11 (Reference) <US>c:Plot.c@1403@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>28:71 - 28:72<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>29:3 - 29:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>29:7 - 29:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Definition) <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:7 - 29:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Definition) <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:7 - 29:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:15 - 29:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:18 - 29:32<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:18 - 29:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:18 - 29:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:18 - 29:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:18 - 29:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>29:22 - 29:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:22 - 29:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:34: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>29:34 - 29:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:34 - 29:35<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:34: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:34 - 29:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:39: IfStmt= <US><UE> <DS><DE> Extent=<ES>29:39 - 29:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:43 - 29:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:43: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:43 - 29:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:43: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:43 - 29:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:43: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:43 - 29:47<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:43: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:43 - 29:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>29:50 - 29:57<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>29:50 - 29:57<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:50 - 29:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:50 - 29:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:55: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:55 - 29:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:55: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:55 - 29:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:50 - 29:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:50: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:50 - 29:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:55: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:55 - 29:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:55: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:55 - 29:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:59: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>29:59 - 29:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:59: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:59 - 29:63<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:59: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>29:59 - 29:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>29:66 - 29:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>29:66 - 29:73<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:66 - 29:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:66 - 29:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:71: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:71 - 29:72<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:71: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1455@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:71 - 29:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:66 - 29:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:66: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>29:66 - 29:70<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:71: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:71 - 29:72<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:71: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:29:11 (Reference) <US>c:Plot.c@1486@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>29:71 - 29:72<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>31:3 - 31:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:3: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:3 - 31:7<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:3: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:3 - 31:7<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:11 - 31:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>31:15 - 31:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:15: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:15 - 31:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:15: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:15 - 31:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:23 - 31:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:27: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>31:27 - 31:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:27: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:27 - 31:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:27: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>31:27 - 31:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:31:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:35 - 31:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>32:3 - 32:13<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:3: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:3 - 32:7<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:3: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:3 - 32:7<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:11 - 32:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:15: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>32:15 - 32:25<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:15: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:15 - 32:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:15: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:15 - 32:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:23 - 32:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:27: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>32:27 - 32:37<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:27: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:27 - 32:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:27: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>32:27 - 32:31<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:32:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:35 - 32:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>34:3 - 34:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9: VarDecl=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 (Definition) <US>c:Plot.c@1620@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>34:3 - 34:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9: VarDecl=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 (Definition) <US>c:Plot.c@1651@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>34:3 - 34:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>34:17 - 34:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>34:17 - 34:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>34:17 - 34:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>34:17 - 34:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:24: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>34:24 - 34:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:24: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>34:24 - 34:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>34:17 - 34:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:17: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>34:17 - 34:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:24: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>34:24 - 34:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:24: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>34:24 - 34:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:3 - 36:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:3: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>36:3 - 36:7<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:3: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>36:3 - 36:7<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:20<EE>
@@ -5486,16 +5610,16 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>36:10 - 36:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:23: UnexposedExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 <US>c:Plot.c@1620@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>36:23 - 36:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:23: DeclRefExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 (Reference) <US>c:Plot.c@1620@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>36:23 - 36:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:23: UnexposedExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 <US>c:Plot.c@1651@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>36:23 - 36:28<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:36:23: DeclRefExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:34:9 (Reference) <US>c:Plot.c@1651@F@showGraphic@delta<UE> <DS>delta<DE> Extent=<ES>36:23 - 36:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>37:3 - 37:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Definition) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>37:3 - 37:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:14: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>37:14 - 37:18<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:14: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@892@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>37:14 - 37:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Definition) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>37:3 - 37:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:14: UnexposedExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>37:14 - 37:18<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:14: DeclRefExpr=tmax|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:21 (Reference) <US>c:Plot.c@923@F@showGraphic@tmax<UE> <DS>tmax<DE> Extent=<ES>37:14 - 37:18<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>38:3 - 39:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:7 - 38:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:7 - 38:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:7 - 38:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:7 - 38:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:7 - 38:10<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:13 - 38:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>38:16 - 38:88<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:18: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>38:18 - 38:72<EE>
@@ -5505,8 +5629,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:29 - 38:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:32 - 38:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>38:32 - 38:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>38:32 - 38:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>38:32 - 38:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>38:32 - 38:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>38:32 - 38:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:37 - 38:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>38:37 - 38:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:37 - 38:47<EE>
@@ -5521,7 +5645,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:68: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>38:68 - 38:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:68: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>38:68 - 38:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:75: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>38:75 - 38:86<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:75: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:75 - 38:78<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:75: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>38:75 - 38:78<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:82: ParenExpr= <US><UE> <DS><DE> Extent=<ES>38:82 - 38:86<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:83: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>38:83 - 38:85<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:38:84: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>38:84 - 38:85<EE>
@@ -5533,8 +5657,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:29 - 39:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>39:32 - 39:51<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>39:32 - 39:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>39:32 - 39:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>39:32 - 39:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>39:32 - 39:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>39:32 - 39:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>39:37 - 39:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>39:37 - 39:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:39:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>39:37 - 39:47<EE>
@@ -5555,8 +5679,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:14 - 40:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>40:18 - 40:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>40:18 - 40:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>40:18 - 40:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>40:18 - 40:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>40:18 - 40:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>40:18 - 40:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>40:23 - 40:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>40:23 - 40:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:23 - 40:33<EE>
@@ -5572,12 +5696,12 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:54: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>40:54 - 40:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:54: ParenExpr= <US><UE> <DS><DE> Extent=<ES>40:54 - 40:64<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:55: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>40:55 - 40:63<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:55 - 40:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:55 - 40:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:55 - 40:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:55 - 40:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:60: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:60 - 40:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:66: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>40:66 - 40:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:72: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>40:72 - 40:82<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:72: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:72 - 40:75<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:72: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>40:72 - 40:75<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:40:79: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:79 - 40:82<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>41:3 - 41:70<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:3: UnexposedExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>41:3 - 41:13<EE>
@@ -5586,8 +5710,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:14 - 41:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:18 - 41:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:18 - 41:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>41:18 - 41:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>41:18 - 41:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>41:18 - 41:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>41:18 - 41:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>41:23 - 41:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>41:23 - 41:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:23 - 41:33<EE>
@@ -5603,8 +5727,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:54: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:54 - 41:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:54: ParenExpr= <US><UE> <DS><DE> Extent=<ES>41:54 - 41:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:55: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>41:55 - 41:62<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>41:55 - 41:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>41:55 - 41:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>41:55 - 41:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>41:55 - 41:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:60: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>41:60 - 41:62<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:41:66: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>41:66 - 41:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>42:3 - 42:58<EE>
@@ -5614,8 +5738,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:14 - 42:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:18 - 42:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:18 - 42:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>42:18 - 42:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>42:18 - 42:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>42:18 - 42:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>42:18 - 42:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>42:23 - 42:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>42:23 - 42:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:42:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:23 - 42:33<EE>
@@ -5636,8 +5760,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:14 - 43:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:18 - 43:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:18 - 43:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>43:18 - 43:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>43:18 - 43:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>43:18 - 43:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>43:18 - 43:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>43:23 - 43:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>43:23 - 43:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:23 - 43:33<EE>
@@ -5653,18 +5777,18 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:54: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:54 - 43:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:54: ParenExpr= <US><UE> <DS><DE> Extent=<ES>43:54 - 43:63<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:55: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>43:55 - 43:62<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>43:55 - 43:58<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>43:55 - 43:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:55: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>43:55 - 43:58<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:55: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>43:55 - 43:58<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:60: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:60 - 43:62<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:43:66: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>43:66 - 43:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>45:3 - 45:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:3: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>45:3 - 45:6<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:10: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>45:10 - 45:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:10: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>45:10 - 45:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:3: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>45:3 - 45:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:10: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>45:10 - 45:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:45:10: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>45:10 - 45:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>46:3 - 47:72<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:7 - 46:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:7 - 46:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:7 - 46:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:7 - 46:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:7 - 46:10<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:13 - 46:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>46:16 - 46:86<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:18: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>46:18 - 46:70<EE>
@@ -5674,8 +5798,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:29 - 46:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:32 - 46:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>46:32 - 46:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>46:32 - 46:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>46:32 - 46:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>46:32 - 46:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>46:32 - 46:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>46:37 - 46:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>46:37 - 46:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:37 - 46:47<EE>
@@ -5690,7 +5814,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:66: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>46:66 - 46:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:66: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>46:66 - 46:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:73: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>46:73 - 46:84<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:73: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:73 - 46:76<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:73: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>46:73 - 46:76<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:80: ParenExpr= <US><UE> <DS><DE> Extent=<ES>46:80 - 46:84<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:81: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>46:81 - 46:83<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:46:82: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:82 - 46:83<EE>
@@ -5702,8 +5826,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:29 - 47:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:32 - 47:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>47:32 - 47:47<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>47:32 - 47:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>47:32 - 47:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>47:32 - 47:34<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:32: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>47:32 - 47:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:37: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:37 - 47:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:37: ParenExpr= <US><UE> <DS><DE> Extent=<ES>47:37 - 47:47<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:47:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:37 - 47:47<EE>
@@ -5724,8 +5848,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:14 - 48:15<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:18 - 48:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:18 - 48:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>48:18 - 48:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>48:18 - 48:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>48:18 - 48:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>48:18 - 48:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>48:23 - 48:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>48:23 - 48:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:23 - 48:33<EE>
@@ -5741,12 +5865,12 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:52 - 48:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:52: ParenExpr= <US><UE> <DS><DE> Extent=<ES>48:52 - 48:62<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>48:53 - 48:61<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:53 - 48:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:53 - 48:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:53 - 48:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:53 - 48:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:58: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:58 - 48:61<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:64: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>48:64 - 48:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:70: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>48:70 - 48:80<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:70: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:70 - 48:73<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:70: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>48:70 - 48:73<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:48:77: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>48:77 - 48:80<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>49:3 - 49:68<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:3: UnexposedExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>49:3 - 49:13<EE>
@@ -5755,8 +5879,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:14 - 49:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>49:18 - 49:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>49:18 - 49:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>49:18 - 49:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>49:18 - 49:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>49:18 - 49:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>49:18 - 49:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>49:23 - 49:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>49:23 - 49:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:23 - 49:33<EE>
@@ -5772,8 +5896,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>49:52 - 49:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:52: ParenExpr= <US><UE> <DS><DE> Extent=<ES>49:52 - 49:61<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>49:53 - 49:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>49:53 - 49:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>49:53 - 49:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>49:53 - 49:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>49:53 - 49:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:58: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:58 - 49:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:49:64: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>49:64 - 49:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>50:3 - 50:56<EE>
@@ -5783,8 +5907,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:14 - 50:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>50:18 - 50:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>50:18 - 50:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>50:18 - 50:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>50:18 - 50:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>50:18 - 50:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>50:18 - 50:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>50:23 - 50:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>50:23 - 50:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:50:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>50:23 - 50:33<EE>
@@ -5805,8 +5929,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:14 - 51:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>51:18 - 51:35<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>51:18 - 51:33<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>51:18 - 51:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>51:18 - 51:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>51:18 - 51:20<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:18: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>51:18 - 51:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>51:23 - 51:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>51:23 - 51:33<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:23 - 51:33<EE>
@@ -5822,24 +5946,24 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>51:52 - 51:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:52: ParenExpr= <US><UE> <DS><DE> Extent=<ES>51:52 - 51:61<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:53: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>51:53 - 51:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>51:53 - 51:56<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>51:53 - 51:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:53: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>51:53 - 51:56<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:53: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>51:53 - 51:56<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:58: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:58 - 51:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:51:64: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>51:64 - 51:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>53:3 - 53:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:3: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>53:3 - 53:6<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:3: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>53:3 - 53:6<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>53:10 - 53:28<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>53:10 - 53:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>53:10 - 53:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>53:10 - 53:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>53:10 - 53:14<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:10: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>53:10 - 53:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>53:15 - 53:27<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>53:15 - 53:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:15 - 53:25<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:53:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:26 - 53:27<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>54:3 - 55:77<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:7 - 54:14<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:7 - 54:10<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:7 - 54:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:7: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:7 - 54:10<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:7: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:7 - 54:10<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:13 - 54:14<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>54:16 - 54:91<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:18: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>54:18 - 54:75<EE>
@@ -5849,8 +5973,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:29 - 54:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:34 - 54:54<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>54:34 - 54:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>54:34 - 54:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>54:34 - 54:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>54:34 - 54:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:34: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>54:34 - 54:36<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:39 - 54:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:39 - 54:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:39 - 54:49<EE>
@@ -5865,7 +5989,7 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:71: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>54:71 - 54:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:71: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>54:71 - 54:74<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:78: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>54:78 - 54:89<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:78: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:78 - 54:81<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:78: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>54:78 - 54:81<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:85: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:85 - 54:89<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:86: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>54:86 - 54:88<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:54:87: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:87 - 54:88<EE>
@@ -5877,8 +6001,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:29 - 55:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:34 - 55:54<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:34 - 55:49<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>55:34 - 55:36<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>55:34 - 55:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>55:34 - 55:36<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:34: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>55:34 - 55:36<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:39 - 55:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:39: ParenExpr= <US><UE> <DS><DE> Extent=<ES>55:39 - 55:49<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:55:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:39 - 55:49<EE>
@@ -5899,8 +6023,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:14 - 56:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:19 - 56:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:19 - 56:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>56:19 - 56:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>56:19 - 56:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>56:19 - 56:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>56:19 - 56:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>56:24 - 56:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:24 - 56:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:24 - 56:34<EE>
@@ -5916,12 +6040,12 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:56: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:56 - 56:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:56: ParenExpr= <US><UE> <DS><DE> Extent=<ES>56:56 - 56:66<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:57: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>56:57 - 56:65<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:57 - 56:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:57 - 56:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:57 - 56:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:57 - 56:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:62 - 56:65<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:68: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>56:68 - 56:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:74: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>56:74 - 56:84<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:74: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:74 - 56:77<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:74: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>56:74 - 56:77<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:56:81: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>56:81 - 56:84<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>57:3 - 57:72<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:3: UnexposedExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>57:3 - 57:13<EE>
@@ -5930,8 +6054,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:14 - 57:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:19 - 57:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:19 - 57:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>57:19 - 57:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>57:19 - 57:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>57:19 - 57:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>57:19 - 57:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>57:24 - 57:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:24 - 57:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:24 - 57:34<EE>
@@ -5947,8 +6071,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:56: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:56 - 57:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:56: ParenExpr= <US><UE> <DS><DE> Extent=<ES>57:56 - 57:65<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:57: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>57:57 - 57:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>57:57 - 57:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>57:57 - 57:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>57:57 - 57:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>57:57 - 57:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:62 - 57:64<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:57:68: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>57:68 - 57:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:3: CallExpr=char_6x8_s|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:108:6 <US>c:@F@char_6x8_s<UE> <DS>void char_6x8_s(unsigned int, unsigned int, unsigned long, unsigned long, unsigned char)<DE> Extent=<ES>58:3 - 58:60<EE>
@@ -5958,8 +6082,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:14 - 58:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:19 - 58:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>58:19 - 58:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>58:19 - 58:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>58:19 - 58:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>58:19 - 58:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>58:19 - 58:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>58:24 - 58:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>58:24 - 58:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:58:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>58:24 - 58:34<EE>
@@ -5980,8 +6104,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:14 - 59:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:19 - 59:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:19 - 59:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>59:19 - 59:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>59:19 - 59:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>59:19 - 59:21<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:19: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>59:19 - 59:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:24 - 59:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:24: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:24 - 59:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:24 - 59:34<EE>
@@ -5997,30 +6121,30 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:56: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:56 - 59:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:56: ParenExpr= <US><UE> <DS><DE> Extent=<ES>59:56 - 59:65<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:57: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>59:57 - 59:64<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>59:57 - 59:60<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1684@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>59:57 - 59:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:57: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>59:57 - 59:60<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:57: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:37:7 (Reference) <US>c:Plot.c@1715@F@showGraphic@tmp<UE> <DS>tmp<DE> Extent=<ES>59:57 - 59:60<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:62: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:62 - 59:64<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:59:68: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>59:68 - 59:71<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>62:3 - 64:129<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:7: DeclStmt= <US><UE> <DS><DE> Extent=<ES>62:7 - 62:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Definition) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:7 - 62:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11: VarDecl=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Definition) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:7 - 62:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:15 - 62:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:18 - 62:34<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:18 - 62:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:18 - 62:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:18: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:18 - 62:19<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:18: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:18 - 62:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:22 - 62:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:22 - 62:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:22 - 62:32<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:33 - 62:34<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>62:36 - 62:39<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:36: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:36 - 62:37<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:36: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>62:36 - 62:37<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:9: CallExpr=line|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:117:6 <US>c:@F@line<UE> <DS>void line(int, int, int, int, unsigned long)<DE> Extent=<ES>63:9 - 64:129<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:9: UnexposedExpr=line|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:117:6 <US>c:@F@line<UE> <DS>void line(int, int, int, int, unsigned long)<DE> Extent=<ES>63:9 - 63:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:9: DeclRefExpr=line|G:\Voodoo\MSP Projects\N6500\FRAM\n6500s.h:117:6 (Reference) <US>c:@F@line<UE> <DS>void line(int, int, int, int, unsigned long)<DE> Extent=<ES>63:9 - 63:13<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:15 - 63:44<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:15 - 63:30<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:15 - 63:16<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:15 - 63:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:15 - 63:16<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:15: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:15 - 63:16<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:17 - 63:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:17 - 63:30<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:17: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:17 - 63:30<EE>
@@ -6044,8 +6168,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:52 - 63:122<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:52 - 63:80<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:52 - 63:67<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>63:52 - 63:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>63:52 - 63:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>63:52 - 63:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:52: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>63:52 - 63:54<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:57 - 63:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:57: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:57 - 63:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:57: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:57 - 63:67<EE>
@@ -6068,20 +6192,20 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:99 - 63:115<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:99 - 63:106<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>63:99 - 63:106<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>63:99 - 63:103<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>63:99 - 63:103<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:104: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:104 - 63:105<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:104: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:104 - 63:105<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:111: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>63:111 - 63:115<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:111: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>63:111 - 63:115<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:117: UnexposedExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>63:117 - 63:121<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:117: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>63:117 - 63:121<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>63:99 - 63:103<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:99: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>63:99 - 63:103<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:104: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:104 - 63:105<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:104: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>63:104 - 63:105<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:111: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>63:111 - 63:115<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:111: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>63:111 - 63:115<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:117: UnexposedExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>63:117 - 63:121<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:63:117: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>63:117 - 63:121<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:15 - 64:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:15 - 64:36<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>64:15 - 64:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:16 - 64:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:16 - 64:17<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:16: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:16 - 64:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:16: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:16 - 64:17<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:16: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:16 - 64:17<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:19 - 64:20<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>64:23 - 64:36<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:23: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:23 - 64:36<EE>
@@ -6106,8 +6230,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:52 - 64:122<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:52 - 64:80<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:52 - 64:67<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>64:52 - 64:54<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@841@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>64:52 - 64:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: UnexposedExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>64:52 - 64:54<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:52: DeclRefExpr=aY|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:49 (Reference) <US>c:Plot.c@872@F@showGraphic@aY<UE> <DS>unsigned int<DE> Extent=<ES>64:52 - 64:54<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:57: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:57 - 64:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:57: ParenExpr= <US><UE> <DS><DE> Extent=<ES>64:57 - 64:67<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:57: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:57 - 64:67<EE>
@@ -6130,16 +6254,16 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:99 - 64:115<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:99 - 64:108<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>64:99 - 64:108<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>64:99 - 64:103<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@823@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>64:99 - 64:103<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: UnexposedExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>64:99 - 64:103<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:99: DeclRefExpr=aBuf|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:16:30 (Reference) <US>c:Plot.c@854@F@showGraphic@aBuf<UE> <DS>int *<DE> Extent=<ES>64:99 - 64:103<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:104: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>64:104 - 64:107<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:104: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:104 - 64:105<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:104: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3139@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:104 - 64:105<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:104: UnexposedExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:104 - 64:105<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:104: DeclRefExpr=i|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:62:11 (Reference) <US>c:Plot.c@3170@F@showGraphic@i<UE> <DS>i<DE> Extent=<ES>64:104 - 64:105<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:106: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:106 - 64:107<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:111: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>64:111 - 64:115<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:111: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@892@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>64:111 - 64:115<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:117: UnexposedExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>64:117 - 64:121<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:117: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@866@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>64:117 - 64:121<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:111: UnexposedExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>64:111 - 64:115<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:111: DeclRefExpr=tmin|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:19:27 (Reference) <US>c:Plot.c@923@F@showGraphic@tmin<UE> <DS>tmin<DE> Extent=<ES>64:111 - 64:115<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:117: UnexposedExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>64:117 - 64:121<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:117: DeclRefExpr=cena|G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:18:16 (Reference) <US>c:Plot.c@897@F@showGraphic@cena<UE> <DS>cena<DE> Extent=<ES>64:117 - 64:121<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:125: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:125 - 64:128<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:125: ParenExpr= <US><UE> <DS><DE> Extent=<ES>64:125 - 64:128<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Plot.c:64:125: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:125 - 64:128<EE>

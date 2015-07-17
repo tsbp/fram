@@ -5,39 +5,50 @@
 #include "plot.h"
 #include "ds18b20.h"
 #include "DALI.h"
+#include "configs.h"
 //==============================================================================
 unsigned char STT = 0;
-s_DATE_TIME date_time = {.DATE.day   = 8,
-                         .DATE.month = 2,
-                         .DATE.year  = 2013};
+s_DATE_TIME date_time = {.DATE.day   = 10,
+                         .DATE.month = 6,
+                         .DATE.year  = 2015};
 unsigned char daysInMonth[]  = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 const char   Months[12][3] = {{"янв"},{"фев"},{"мар"},{"апр"},{"мая"},{"июн"},
                               {"июл"},{"авг"},{"сен"},{"окт"},{"ноя"},{"дек"}};
 const char   Days[7][3]    = {{" Сб"},{" Вс"},{" Пн"},{" Вт"},{" Ср"},{" Чт"},{" Пт"}};
 e_keyCode keyCode, keyCode2;
 s_STATUS status = {.mainScreen = 1, .modeChanged = 1};
-unsigned int menuPointer = 0, pagePointer = 0, modeMenuPointer = 0, backLight = 0, dayIntPointer = 0;
+unsigned int menuPointer = 0, pagePointer = 0, modeMenuPointer = 0;
 unsigned int tInterval;
 
 #define  MENU_ITEMS_CNT  (5)
 const char menuHead[MENU_ITEMS_CNT][14] = {{" Уст. времени "},
                                            {" Уст. даты    "},                                          
-                                           {" Контраст     "},
-                                           {" Конфигурация "},
+                                           {" Гистерезис   "},
+                                           {" Интервал     "},
                                            {" Выход        "}};
 
-const char configMenuHead[MODES_CNT+1][14] = {{" Простой      "},
-                                              {" Вегетация    "},
-                                              {" Плодоношение "},
-                                              {" Обслуживание "},
-                                              {" Выход        "}};
-
-#define MODES_MENU_ITEMS_CNT               (4)
-const char modeMenuHead[MODES_MENU_ITEMS_CNT][13] = {{" Температура "},
-                                                     {" Освещение   "},
-                                                     {" Вентиляция  "},
-                                                     {" Выход       "}};
 #define PAGES_CNT               (2)
+//==============================================================================
+void printTemp(void)
+{
+  int a = temp_buffer[0];  
+  if (a < 0) { picFromFlash(104, 74, 20, 30, 14 *4); a *= (-1);}
+  else         picFromFlash(104, 74, 20, 30, 13 *4);
+  picFromFlash(124, 74, 20, 30, (a / 100) *4); a %=100;
+  picFromFlash(144, 74, 20, 30, (a / 10)  *4);
+  picFromFlash(164, 74, 20, 30, 12 *4);
+  picFromFlash(174, 74, 20, 30, (a % 10 ) *4);
+  picFromFlash(194, 74, 20, 30, 10 *4);  
+  
+  a = (int)rcTemper;
+  if (a < 0) { picFromFlash(20, 217, 20, 30, 14 *4); a *= (-1);}
+  else         picFromFlash(20, 217, 20, 30, 13 *4);
+  picFromFlash(40, 217, 20, 30, (a / 100) *4); a %=100;
+  picFromFlash(60, 217, 20, 30, (a / 10)  *4);
+  picFromFlash(80, 217, 20, 30, 12 *4);
+  picFromFlash(90, 217, 20, 30, (a % 10 ) *4);
+  picFromFlash(110, 217, 20, 30, 10 *4);  
+}
 //==============================================================================
 void printTime(void)
 {  
@@ -182,14 +193,15 @@ void SetDate(void)
 }
 //==============================================================================
 unsigned int plotInterval = PLOT_INTERVAL;
+unsigned char tmp[sizeof(u_NASTROYKI)];
 //==============================================================================
-void configure(void)
+void intervalSet(void)
 {
   status.subMenu = 1;
   rectangle (35, 35, 220, 120, 0xffffff);; 
   printString (40, 40, BLUE, WHITE, "Интервал, сек"); 
   unsigned char val[4];
-  unsigned int cntrl = 0, a = plotInterval; 
+  unsigned int cntrl = 0, a = nastroyki -> interval; 
   val[0] =  a / 1000;  a %= 1000;
   val[1] =  a / 100;   a %= 100;
   val[2] =  a / 10;  
@@ -219,28 +231,85 @@ void configure(void)
     }     
     for(unsigned int i = 0; i < 4; i++)
     {
-      if (cntrl == i) char_6x8 (84 + 12 * i, 80, WHITE, BLUE, val[i] + '0');
-      else            char_6x8 (82 + 12 * i, 80, BLUE, WHITE, val[i] + '0');
+      if (cntrl == i) char_6x8 (96 + 12 * i, 80, WHITE, BLUE, val[i] + '0');
+      else            char_6x8 (96 + 12 * i, 80, BLUE, WHITE, val[i] + '0');
     }
     
     CLR_BUTT_INT();
     if(status.subMenu == 1) __low_power_mode_1();     
   }  
-  plotInterval = (val[0]) *1000 +
+  cntrl = (val[0]) *1000 +
                  (val[1]) *100  +
                  (val[2]) *10   +
                  (val[3])  ;
-  plotIntervalCntr = plotInterval;
+  plotIntervalCntr = cntrl;
+  
+  //== write flash ================
+  for(unsigned int m = 0; m < (sizeof(u_NASTROYKI)); m++) tmp[m] = nastroyki -> byte[m];
+  tmp[0] = ((unsigned char *) (&cntrl))[0];
+  tmp[1] = ((unsigned char *) (&cntrl))[1];
+  write_flash(tmp, sizeof(u_NASTROYKI), 0x1900);
+
+  picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR); 
+}
+//==============================================================================
+void deltaSet (void)
+{
+  status.subMenu = 1;
+  rectangle (35, 35, 220, 120, 0xffffff);; 
+  printString (46, 40, BLUE, WHITE, " Гистерезис "); 
+  unsigned char val[4];
+  unsigned int cntrl = 0, a = nastroyki-> delta;   
+  val[0] =  a / 10;  
+  val[1] =  a % 10;  
+  
+  while(status.subMenu == 1)
+  {
+    if (status.keyPressed) 
+    {
+      status.keyPressed = 0;
+      delay_ms(KEY_INTERVAL);
+      switch(keyCode)
+        {
+              case downButt:
+                val[cntrl]++;
+                if (val[cntrl] > 9) val[cntrl] = 0;                
+                break;
+              case upButt:
+                if (val[cntrl] == 0) val[cntrl] = 10;
+                val[cntrl]--;
+                break;
+              case okButt:                
+                if(cntrl >= 1) status.subMenu = 0;
+                  else  cntrl++; 
+                break;
+        }        
+    }     
+    char_6x8 (102 + 12, 80, BLUE, WHITE, '.');
+    for(unsigned int i = 0; i < 2; i++)
+    {
+      if (cntrl == i) char_6x8 (102 + 12 * i *2, 80, WHITE, BLUE, val[i] + '0');
+      else            char_6x8 (102 + 12 * i *2, 80, BLUE, WHITE, val[i] + '0');
+    }
+    
+    CLR_BUTT_INT();
+    if(status.subMenu == 1) __low_power_mode_1();     
+  }  
+  cntrl = (val[0]) *10   +
+          (val[1])  ;
+  //== write flash ================
+  for(unsigned int m = 0; m < (sizeof(u_NASTROYKI)); m++) tmp[m] = nastroyki -> byte[m];
+  tmp[2] = ((unsigned char *) (&cntrl))[0];
+  tmp[3] = ((unsigned char *) (&cntrl))[1];
+  write_flash(tmp, sizeof(u_NASTROYKI), 0x1900);
+             
   picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR); 
 }
 //==============================================================================
 void mainMenu(void)
 {
   status.menuMode = 1;  
-  
-  //lcd_clear();//lcd_clear_menu();                
-  //printString (70, 20, BLUE, WHITE, "Меню");
-  
+   
   while(status.menuMode == 1)
   {    
     if (status.keyPressed) 
@@ -262,8 +331,8 @@ void mainMenu(void)
               case okButt:
                       if      (menuPointer == 0) {TA_STOP; SetTime();TA_RUN;}
                       else if (menuPointer == 1) SetDate();
-                      else if (menuPointer == 2) ;//setContrast();   
-                      else if (menuPointer == 3) configure();
+                      else if (menuPointer == 2) deltaSet();   
+                      else if (menuPointer == 3) intervalSet();
                       else if (menuPointer == 4) status.menuMode = 0;                       
                       break;
         }        
@@ -354,12 +423,12 @@ void timeIncrement(void)
 }
 
 //==============================================================================
-void write_flash(unsigned char * value, unsigned int aCnt)
+void write_flash(unsigned char * value, unsigned int aCnt , unsigned int aAddr)
 {
   char *Flash_ptr;                          // Flash pointer
   unsigned int i;
 
-  Flash_ptr = (char *)0x1800;               // Initialize Flash pointer
+  Flash_ptr = (char *) aAddr;               // Initialize Flash pointer
   FCTL3 = FWKEY;                            // Clear Lock bit
   FCTL1 = FWKEY + ERASE ;              // Set Erase bit, allow interrupts
   *Flash_ptr = 0;                           // Dummy write to erase Flash seg
@@ -384,7 +453,7 @@ __interrupt void TA0_ISR (void)
      if (plotIntervalCntr) plotIntervalCntr--;
      else 
      {
-       plotIntervalCntr = plotInterval;//PLOT_INTERVAL;
+       plotIntervalCntr = nastroyki -> interval;//PLOT_INTERVAL;
        valueToBuffer(temp_buffer[0], tBuffer);
        valueToBuffer((signed int)rcTemper, tBuffer2);
        status.plotRedraw = 1;
