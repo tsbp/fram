@@ -1,5 +1,7 @@
 //==============================================================================
 #include "configs.h"
+#include "processing.h"
+#include "n6500s.h"
 //==============================================================================
 u_CONFIG_TX_BUFFER configTXBuffer = {.msgHeader = 'C', ._0a = 0x0a, ._0d = 0x0d};
 //u_CONFIG configs ={.periodsCnt = '6', 
@@ -23,15 +25,58 @@ u_CONFIG *cPtrH  = (u_CONFIG*) 0x1880;
 //                             .day[6] = 'H'};
 u_NASTROYKI *nastroyki = (u_NASTROYKI*) 0x1900;
 //==============================================================================
-unsigned char* configProceed(unsigned int aTime, u_CONFIG *aPtr)
+unsigned char* getSetTemperature(unsigned int aTime)  // return ptr to set temper to INFO
 {
+  int aDayNumber = getDayOfWeek();
+  unsigned char aDay;
+  u_CONFIG *aPtr;
+  unsigned long col;
+  
+  if      (aDayNumber == 0)  aDay = nastroyki -> day[5];
+  else if (aDayNumber == 1)  aDay = nastroyki -> day[6];
+  else                       aDay = nastroyki -> day[aDayNumber - 2]; 
+  
+  aPtr = (aDay == 'H') ? cPtrH : cPtrW;
+  
+  if(pagePointer == 0)
+  {
+    if(aDay == 'W') { aDay = 'P'; col = BLUE;}
+    else            { aDay = 'B'; col = RED;}
+    char_6x8(160, 284, col, 0xffff64, aDay);  
+  }
+      
   unsigned int curPeriod;
   for(curPeriod = 0; curPeriod < (aPtr -> periodsCnt - '0' - 1); curPeriod++)
   {
     unsigned int end = ((aPtr -> pConfig[curPeriod + 1].hStart[0] - '0') * 10 +   (aPtr -> pConfig[curPeriod + 1].hStart[1] - '0')) * 60 +
-                       ((aPtr -> pConfig[curPeriod + 1].mStart[0] - '0') * 10 +   (aPtr -> pConfig[curPeriod + 1].mStart[1] - '0'));
-    
+                       ((aPtr -> pConfig[curPeriod + 1].mStart[0] - '0') * 10 +   (aPtr -> pConfig[curPeriod + 1].mStart[1] - '0'));    
     if(aTime < end)  break;     
   }
   return aPtr -> pConfig[curPeriod].temperature;
+}
+//==============================================================================
+unsigned char cmpTemperature (unsigned char *aT, signed int arcTemper)
+{  
+  unsigned char out;
+  static unsigned long col;
+  int tmp = (aT[0] - '0') * 100 + (aT[1] - '0') * 10 + (aT[2] - '0');
+  if      (arcTemper > tmp + (nastroyki -> delta)) 
+  {
+    col = 0x44916c;
+    out = 0;
+  }
+  else if (arcTemper < tmp - (nastroyki -> delta)) 
+  {
+    col = 0xdb214c;
+    out = 1;
+  }
+  
+  if(pagePointer == 0)
+  {
+      char_6x8(174, 284, col, 0xffff64, aT[0]);
+      char_6x8(186, 284, col, 0xffff64, aT[1]);
+      char_6x8(198, 284, col, 0xffff64, ',');
+      char_6x8(206, 284, col, 0xffff64, aT[2]);
+  } 
+ return out; 
 }

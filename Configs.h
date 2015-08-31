@@ -57,5 +57,6 @@ extern u_NASTROYKI nastr;
 extern u_CONFIG configs;
 extern u_CONFIG *cPtrH, *cPtrW;
 //==============================================================================
-unsigned char* configProceed(unsigned int aTime, u_CONFIG *aPtr);
+unsigned char* getSetTemperature(unsigned int aTime);
+unsigned char cmpTemperature (unsigned char *aT, signed int arcTemper);
   

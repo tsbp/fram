@@ -58,6 +58,7 @@ __interrupt void start_bit_ISR ( void )
     status.keyPressed = 1; 
     P2IFG &= ~(UP_BUTTON | DOWN_BUTTON | OK_BUTTON);
     P2IE  &= ~(UP_BUTTON | DOWN_BUTTON | OK_BUTTON);
+    menuTimeout = M_TIMEOUT;
      __low_power_mode_off_on_exit();
   }
   else

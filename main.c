@@ -23,28 +23,12 @@ unsigned int curStep = 1;unsigned int goUP = 1;
 //==============================================================================
 int rcEnCntr;
 unsigned char tmpRxBuf[1 + 70];
+unsigned char okAnswer[] = {"OKA"};
 //==============================================================================
-void showSetTemp (unsigned char *aT)
-{  
-  static unsigned long col;
-  int tmp = (aT[0] - '0') * 100 + (aT[1] - '0') * 10 + (aT[2] - '0');
-  if      (rcTemper > tmp + (nastroyki -> delta)) 
-  {
-    col = 0x44916c;
-  }
-  else if (rcTemper < tmp - (nastroyki -> delta)) 
-  {
-    col = 0xdb214c;
-  }
-  
-  if(pagePointer == 0)
-  {
-      char_6x8(174, 284, col, 0xffff64, aT[0]);
-      char_6x8(186, 284, col, 0xffff64, aT[1]);
-      char_6x8(198, 284, col, 0xffff64, ',');
-      char_6x8(206, 284, col, 0xffff64, aT[2]);
-  }  
-}
+#define HEAT_BIT        (BIT0)
+#define HEAT_OUT        (P3OUT)
+#define HEAT_DIR        (P3DIR)
+#define HEAT(n) {if (n) HEAT_OUT |= HEAT_BIT; else HEAT_OUT &= ~HEAT_BIT;}
 //==============================================================================
 void main(void)
 {
@@ -57,6 +41,9 @@ void main(void)
   LCD_Init();
   LCD_wakeup();  
   ESP8266Init();
+  
+  HEAT_OUT &= ~HEAT_BIT;
+  HEAT_DIR |=  HEAT_BIT;
   
   __enable_interrupt();   
   
@@ -123,9 +110,14 @@ void main(void)
         while(Init_18B20());
         OWWriteByte(SKIP_ROM);
         OWWriteByte(CONVERT);    
-        if(pagePointer == 0) printTemp();      
+        if(pagePointer == 0) printTemp();  
         
-        showSetTemp(configProceed(date_time.TIME.hour * 60 + date_time.TIME.min, cPtrW));
+        //======== heater manage ======================            
+        if(cmpTemperature(getSetTemperature(date_time.TIME.hour * 60 + date_time.TIME.min),
+                          rcTemper))        
+          HEAT(1)// heating
+        else
+          HEAT(0);// heating off       
     }
     else 
     {
@@ -137,7 +129,8 @@ void main(void)
     else DA_EN(1);
     //===========================================
     if(status.espMsgIn)
-    {      
+    {       
+      //========= save day configs ===========================    
       if     (espRXbuffer[0] == 'C' && espRXbuffer[1] == 'S' && espRXbuffer[2] == 'A' && espRXbuffer[3] == 'V')
       {
             u_CONFIG *ptr;
@@ -151,12 +144,23 @@ void main(void)
           {
               tmpRxBuf[0] = espRXbuffer[6];
               write_flash(tmpRxBuf, (espRXbuffer[6] - '0')*7 + 1, (unsigned int) ptr);
-          }
+          }          
           
-          unsigned char ok[] = {"OKA"};
-          ok[2] = espRXbuffer[6];
-          espTxMessage(ok, sizeof(ok));       
+          okAnswer[2] = espRXbuffer[5];
+          espTxMessage(okAnswer, sizeof(okAnswer));       
       }
+      //========= save week configs ===========================
+      else if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'S' && espRXbuffer[2] == 'A' && espRXbuffer[3] == 'W')
+      {
+         //== write flash ================
+          for(unsigned int m = 0; m < (sizeof(u_NASTROYKI)); m++) tmp[m] = nastroyki -> byte[m];
+          for(unsigned int m = 4; m < (sizeof(u_NASTROYKI)); m++) tmp[m] = espRXbuffer[m];
+          write_flash(tmp, sizeof(u_NASTROYKI), 0x1900);
+          
+          okAnswer[2] = 'W';
+          espTxMessage(okAnswer, sizeof(okAnswer));          
+      }
+      //========= read week configs ===========================
       else if(espRXbuffer[0] == 'W' && espRXbuffer[1] == 'E' && espRXbuffer[2] == 'E' && espRXbuffer[3] == 'K')
       {
         unsigned char weekTxBuf[11];
@@ -167,6 +171,7 @@ void main(void)
         for(unsigned int i = 0; i < 7; i++) weekTxBuf[i+2] = nastroyki -> byte[i+4];
         espTxMessage(weekTxBuf, sizeof(weekTxBuf));
       }
+      //========= read day configs ===========================
       else if(espRXbuffer[0] == 'C' && espRXbuffer[1] == 'O' && espRXbuffer[2] == 'N' && espRXbuffer[3] == 'F')
       {
             u_CONFIG *ptr;
@@ -180,6 +185,7 @@ void main(void)
             
             espTxMessage(configTXBuffer.byte, sizeof(configTXBuffer.byte));
       }
+      //========= read plot data ===========================
       else 
       {
         if(espRXbuffer[0] == 'O')
@@ -193,15 +199,15 @@ void main(void)
             tBuffer2[POINTS_CNT - 1] = rcTemper;
             tData.msgHeader = 'I';
             formTXBuffer(tBuffer2, espRXbuffer[1] - '0');
-            //============ set time ===================
+            //============ time syncronization ===================
             if(espRXbuffer[1] == '1')
             {
-                  date_time.DATE.year  = (espRXbuffer[2] - '0')*1000 +
-                                         (espRXbuffer[3] - '0')*100  +
-                                         (espRXbuffer[4] - '0')*10   +
-                                         (espRXbuffer[5] - '0');       
-                  date_time.DATE.month = (espRXbuffer[7] - '0')*10 +                               
-                                         (espRXbuffer[8] - '0' - 1);
+                  date_time.DATE.year  = (espRXbuffer[2]  - '0')*1000 +
+                                         (espRXbuffer[3]  - '0')*100  +
+                                         (espRXbuffer[4]  - '0')*10   +
+                                         (espRXbuffer[5]  - '0');       
+                  date_time.DATE.month = (espRXbuffer[7]  - '0')*10 +                               
+                                         (espRXbuffer[8]  - '0' - 1);
                   date_time.DATE.day   = (espRXbuffer[10] - '0')*10 +                               
                                          (espRXbuffer[11] - '0');
                   
@@ -241,10 +247,8 @@ void main(void)
                break;         
      }       
     }
-
     __low_power_mode_0();
   }
-
 }
 //==============================================================================
 #define MAX_BCOUNT       (3)
@@ -252,12 +256,8 @@ unsigned char bCount = MAX_BCOUNT;
 //==============================================================================
 #pragma vector = TIMER1_A0_VECTOR
 __interrupt void siren_isr (void)
-{
-  
-  TA1CCR0 = curStep*step;                   
-  
-//  if(curStep & BIT0) TA2CCR0 = curStep*step;
-//                    else            TA2CCR0 = 20;
+{  
+  TA1CCR0 = curStep*step;   
   
   if(P2OUT & BIT0) {P2OUT &= ~BIT0; P2OUT |= BIT1;}
   else

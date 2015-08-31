@@ -26,16 +26,13 @@ typedef union
   {
     unsigned char keyPressed       :   1;
     unsigned char timeChanged      :   1;
-    unsigned char lcdOff           :   1;
+    unsigned char timeSet          :   1;
     unsigned char menuMode         :   1;   
     unsigned char subMenu          :   1;     
     unsigned char subsubMenu       :   1;     
     unsigned char espMsgIn         :   1;
-    unsigned char modeChanged      :   1;
-    unsigned char relLightON       :   1;
-    unsigned char relVentON        :   1;
-    unsigned char mainScreen       :   1; 
-    unsigned char setTT            :   1;
+    unsigned char modeChanged      :   1;    
+    unsigned char mainScreen       :   1;     
     unsigned char plotRedraw       :   1;
     unsigned char set1             :   1;   
     unsigned char set2             :   1;   
@@ -76,6 +73,9 @@ typedef struct
   }TIME;
 }s_DATE_TIME;
 //==============================================================================
+#define M_TIMEOUT       (10)
+extern unsigned char menuTimeout;
+//==============================================================================
 extern unsigned int dayPointer;
 typedef enum {none, downButt, upButt, okButt} e_keyCode;
 extern e_keyCode keyCode, keyCode2;
@@ -88,7 +88,7 @@ extern unsigned  pagePointer, tInterval;
 extern int  dayOfWeek;
 extern unsigned char STT;
 extern signed int rcTemper;
-//extern unsigned int delta;
+extern unsigned char tmp[];
 //==============================================================================
 void mainMenu(void);
 void keypressedProceed(void);

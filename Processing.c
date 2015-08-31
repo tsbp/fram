@@ -64,13 +64,13 @@ void printTime(void)
 //==============================================================================
 void SetTime(void)
 {
+  status.timeSet = 1;
   status.subMenu = 1;
   picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR);
   printString (50, 40, BLUE, WHITE, "Уст. времени");  
   printTime();
   unsigned int tmp = date_time.TIME.sec;  
-  status.set1 = 1;
-  
+  status.set1 = 1;  
   printString (80, 80, BLUE, WHITE, "Секунды");
   while(status.subMenu == 1)
   {    
@@ -104,9 +104,8 @@ void SetTime(void)
 
     if(status.subMenu == 1)__low_power_mode_1();     
   }
+  status.timeSet = 0;
   picFromFlash(0, 0, 240, 135, FLASH_MENU_SCR);
-//  lcd_clear();//lcd_clear_menu();  
-//  printString (51, 12, WHITE, BLUE, "Меню");
 }
 
 //==============================================================================
@@ -329,7 +328,7 @@ void mainMenu(void)
                       else menuPointer--;
                       break;
               case okButt:
-                      if      (menuPointer == 0) {TA_STOP; SetTime();TA_RUN;}
+                      if      (menuPointer == 0) {/*TA_STOP;*/ SetTime();/*TA_RUN;*/}
                       else if (menuPointer == 1) SetDate();
                       else if (menuPointer == 2) deltaSet();   
                       else if (menuPointer == 3) intervalSet();
@@ -353,6 +352,8 @@ void mainMenu(void)
 //  else lcd_clear();
   //printString (70, 20, BLUE, WHITE, "Меню");
 }
+//==============================================================================
+unsigned char menuTimeout = M_TIMEOUT;
 //==============================================================================
 void keypressedProceed(void)
 {
@@ -448,17 +449,34 @@ signed int rcTemper;
 #pragma vector = TIMER0_A0_VECTOR//TIMERA0_VECTOR
 __interrupt void TA0_ISR (void)
    {    
-     timeIncrement();
-     status.timeChanged = 1;
-     if (plotIntervalCntr) plotIntervalCntr--;
-     else 
+    
+     //====================
+     if(menuTimeout) menuTimeout--;
+     else
      {
-       plotIntervalCntr = nastroyki -> interval;//PLOT_INTERVAL;
-       valueToBuffer(temp_buffer[0], tBuffer);
-       valueToBuffer((signed int)rcTemper, tBuffer2);
-       status.plotRedraw = 1;
+       status.menuMode = 0;
+       status.subMenu = 0;
+       status.subsubMenu = 0;
+       status.set1  = 0;
+       status.set2   = 0;
+       status.set3    = 0;
+       __low_power_mode_off_on_exit();
      }
-     if (!status.menuMode) __low_power_mode_off_on_exit();
+     //====================
+      if (!status.timeSet) 
+      {
+         timeIncrement();
+         status.timeChanged = 1;
+         if (plotIntervalCntr) plotIntervalCntr--;
+         else 
+         {
+           plotIntervalCntr = nastroyki -> interval;//PLOT_INTERVAL;
+           valueToBuffer(temp_buffer[0], tBuffer);
+           valueToBuffer((signed int)rcTemper, tBuffer2);
+           status.plotRedraw = 1;
+         }
+          if (!status.menuMode) __low_power_mode_off_on_exit();
+      }
    }
 ////==============================================================================
 //#pragma vector=PORT2_VECTOR
