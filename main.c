@@ -67,12 +67,26 @@ void main(void)
     P4DIR |= (DS_PWR_BIT);
     P4OUT |= (DS_PWR_BIT);
     P4OUT &= ~BIT7;
-    OWFind();
-    OWConfig(); 
-    while(Init_18B20());
-    OWWriteByte(SKIP_ROM);
-    OWWriteByte(CONVERT);
-    
+    // check for sensors
+    status.oneWireOK = 0;
+    for(unsigned int i = 0; i < 5; i++)
+    {
+      if(!Init_18B20()) 
+      {
+        status.oneWireOK = 1;
+        break;
+      }
+    }
+    if(status.oneWireOK)
+    { 
+      OWFind();
+      OWConfig(); 
+      while(Init_18B20());    
+      OWWriteByte(SKIP_ROM);
+      OWWriteByte(CONVERT);
+    }    
+    else picFromFlash(120, 72, 90, 30, 800);
+   
    //======== Sound ========
     P2DIR |= (BIT0 | BIT1);
     P2DS  |= (BIT0 | BIT1);
@@ -105,13 +119,15 @@ void main(void)
         bcnt = 0;
         rcEnCntr = 10;
         //==== ds =========
-        for(int i = 0; i < DevicesCount; i++) readOWLine(i);         
-        // запуск преобразования    
-        while(Init_18B20());
-        OWWriteByte(SKIP_ROM);
-        OWWriteByte(CONVERT);    
-        if(pagePointer == 0) printTemp();  
-        
+        if(status.oneWireOK)
+        {
+          for(int i = 0; i < DevicesCount; i++) readOWLine(i);         
+          // запуск преобразования    
+          while(Init_18B20());
+          OWWriteByte(SKIP_ROM);
+          OWWriteByte(CONVERT);              
+        }
+        if(pagePointer == 0) printTemp(); 
         //======== heater manage ======================            
         if(cmpTemperature(getSetTemperature(date_time.TIME.hour * 60 + date_time.TIME.min),
                           rcTemper))        

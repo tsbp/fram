@@ -100,6 +100,7 @@
 #define FLASH_DIGIT       (0)
 #define FLASH_MAIN_SCR    (100)
 #define FLASH_MENU_SCR    (600)
+#define FLASH_NFOUND      (800)
 //==============================================================================
 void LCD_Init(void);
 void LCD_wakeup(void);

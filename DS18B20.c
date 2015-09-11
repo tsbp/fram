@@ -13,13 +13,12 @@
 unsigned char Init_18B20(void) 
 { 
     unsigned char Error; 
-//    if(P1IFG & BIT5) Error = 0; // PWR error
     _DINT(); 
     DQ0; 
     delay_us(500); 
     DQ1; 
     delay_us(55); 
-    if(DS_PORT_IN & DQ_BIT)   Error = 1;          //≥ı ºªØ ß∞‹ 
+    if(DS_PORT_IN & DQ_BIT)   Error = 1; 
     else 
     { 
         Error = 0;
@@ -28,7 +27,6 @@ unsigned char Init_18B20(void)
     _EINT(); 
      
     delay_us(400); 
-//    if (!(P2IN & BIT5))  Error = 1; //if power down
     return Error; 
 } 
 

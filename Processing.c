@@ -32,13 +32,16 @@ const char menuHead[MENU_ITEMS_CNT][14] = {{" Уст. времени "},
 void printTemp(void)
 {
   int a = temp_buffer[0];  
-  if (a < 0) { picFromFlash(104, 74, 20, 30, 14 *4); a *= (-1);}
-  else         picFromFlash(104, 74, 20, 30, 13 *4);
-  picFromFlash(124, 74, 20, 30, (a / 100) *4); a %=100;
-  picFromFlash(144, 74, 20, 30, (a / 10)  *4);
-  picFromFlash(164, 74, 20, 30, 12 *4);
-  picFromFlash(174, 74, 20, 30, (a % 10 ) *4);
-  picFromFlash(194, 74, 20, 30, 10 *4);  
+  if(status.oneWireOK)
+  {
+    if (a < 0) { picFromFlash(104, 74, 20, 30, 14 *4); a *= (-1);}
+    else         picFromFlash(104, 74, 20, 30, 13 *4);
+    picFromFlash(124, 74, 20, 30, (a / 100) *4); a %=100;
+    picFromFlash(144, 74, 20, 30, (a / 10)  *4);
+    picFromFlash(164, 74, 20, 30, 12 *4);
+    picFromFlash(174, 74, 20, 30, (a % 10 ) *4);
+    picFromFlash(194, 74, 20, 30, 10 *4);  
+  }
   
   a = (int)rcTemper;
   if (a < 0) { picFromFlash(20, 217, 20, 30, 14 *4); a *= (-1);}
@@ -381,7 +384,7 @@ void keypressedProceed(void)
         keyCode2 = none;
         switch(pagePointer)
         {
-        case 0: picFromFlash(0, 0, 240, 320, 100); break;
+        case 0: picFromFlash(0, 0, 240, 320, 100); if(!status.oneWireOK) picFromFlash(120, 72, 90, 30, 800); break;
         case 1: 
           tInterval = 0; 
           rectangle (0, 0,240, 320, BLACK);  

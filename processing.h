@@ -36,7 +36,9 @@ typedef union
     unsigned char plotRedraw       :   1;
     unsigned char set1             :   1;   
     unsigned char set2             :   1;   
-    unsigned char set3             :   1;        
+    unsigned char set3             :   1;  
+    unsigned char oneWireOK        :   1;
+    
   };
 } s_STATUS;
 //==============================================================================
