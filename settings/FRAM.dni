@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=80776252
+Checksum=-17993215
 [State Storage]
 Control Register=0
 [Sequencer]
@@ -44,7 +44,7 @@ Control Register=0
 NextState0=0
 NextState1=0
 [Action Register]
-Break=3
+Break=2
 State Storage=0
 [CallStack]
 ShowArgs=0
@@ -54,21 +54,6 @@ MixedMode=1
 Fmt0={W}0:((unsigned char *)&rcTemper)[0]	3	0
 Fmt1={W}0:aSr	1	0
 Fmt2={W}0:sr	1	0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
 [Breakpoints]
 Count=0
 [FET]
@@ -76,7 +61,7 @@ Clock mode=14
 Extended Clock mode=-1
 Secure Password=
 Extended Clock Control Enable=1
-Advanced Extended Clock Control=0
+Advanced Extended Clock Control=1
 Emulation mode=0
 Free running=0
 Shutting Down=3
@@ -91,6 +76,21 @@ SP=0
 SR=0
 all registers=0
 File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Aliases]
 Count=0
 SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=

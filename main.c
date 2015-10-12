@@ -44,6 +44,7 @@ void main(void)
   
   HEAT_OUT &= ~HEAT_BIT;
   HEAT_DIR |=  HEAT_BIT;
+  rcTemper = 210;
   
   __enable_interrupt();   
   
@@ -128,15 +129,11 @@ void main(void)
           OWWriteByte(CONVERT);              
         }
         if(pagePointer == 0) printTemp(); 
-        //======== heater manage ======================            
-        if(cmpTemperature(getSetTemperature(date_time.TIME.hour * 60 + date_time.TIME.min),
-                          rcTemper))        
-          HEAT(1)// heating
-        else
-          HEAT(0);// heating off       
+        //======== heater manage ====================== 
+        HEAT(cmpTemperature(getSetTemperature(date_time.TIME.hour * 60 + date_time.TIME.min), rcTemper));
     }
     else 
-    {
+    {      
       lineStatus.msgIn = 0;
       bcnt = 0;
     } 

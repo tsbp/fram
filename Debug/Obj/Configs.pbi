@@ -5645,12 +5645,16 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:46: ParmDecl=aT|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:46 (Definition) <US>c:Configs.c@2823@F@cmpTemperature@aT<UE> <DS>unsigned char *<DE> Extent=<ES>58:31 - 58:48<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61: ParmDecl=arcTemper|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61 (Definition) <US>c:Configs.c@2842@F@cmpTemperature@arcTemper<UE> <DS>int<DE> Extent=<ES>58:50 - 58:70<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:59:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>59:1 - 82:2<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>60:3 - 60:21<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17: VarDecl=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17 (Definition) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>60:3 - 60:20<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>61:3 - 61:28<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24: VarDecl=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Definition) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>61:3 - 61:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>60:3 - 60:32<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24: VarDecl=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24 (Definition) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>60:3 - 60:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>60:30 - 60:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:30 - 60:31<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>61:3 - 61:39<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24: VarDecl=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Definition) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>61:3 - 61:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:30 - 61:38<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:30 - 61:38<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>62:3 - 62:70<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Definition) <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>62:3 - 62:69<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7: VarDecl=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Definition) <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>62:3 - 62:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:13 - 62:69<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:13 - 62:53<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:13 - 62:32<EE>
@@ -5690,9 +5694,9 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:12: UnexposedExpr=arcTemper|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61 <US>c:Configs.c@2842@F@cmpTemperature@arcTemper<UE> <DS>int<DE> Extent=<ES>63:12 - 63:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:12: DeclRefExpr=arcTemper|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61 (Reference) <US>c:Configs.c@2842@F@cmpTemperature@arcTemper<UE> <DS>int<DE> Extent=<ES>63:12 - 63:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>63:24 - 63:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Reference) <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:24: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Reference) <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>63:24 - 63:27<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>63:30 - 63:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>63:30 - 63:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:44: MemberRefExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18 (Reference) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@delta<UE> <DS>delta<DE> Extent=<ES>63:31 - 63:49<EE>
@@ -5701,11 +5705,11 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:63:31: DeclRefExpr=nastroyki|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:26:14 (Reference) <US>c:@nastroyki<UE> <DS>nastroyki<DE> Extent=<ES>63:31 - 63:40<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:64:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>64:3 - 67:4<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:65:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:5 - 65:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:65:5: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>65:5 - 65:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:65:5: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>65:5 - 65:8<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:65:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:11 - 65:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:65:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:11 - 65:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:66:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>66:5 - 66:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:66:5: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>66:5 - 66:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:66:5: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>66:5 - 66:8<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:66:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>66:11 - 66:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:66:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>66:11 - 66:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>68:8 - 72:4<EE>
@@ -5714,9 +5718,9 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:12: UnexposedExpr=arcTemper|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61 <US>c:Configs.c@2842@F@cmpTemperature@arcTemper<UE> <DS>int<DE> Extent=<ES>68:12 - 68:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:12: DeclRefExpr=arcTemper|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:61 (Reference) <US>c:Configs.c@2842@F@cmpTemperature@arcTemper<UE> <DS>int<DE> Extent=<ES>68:12 - 68:21<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>68:24 - 68:50<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Reference) <US>c:Configs.c@2923@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: UnexposedExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:24: DeclRefExpr=tmp|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:62:7 (Reference) <US>c:Configs.c@2945@F@cmpTemperature@tmp<UE> <DS>tmp<DE> Extent=<ES>68:24 - 68:27<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>68:30 - 68:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>68:30 - 68:50<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:44: MemberRefExpr=delta|G:\Voodoo\MSP Projects\N6500\FRAM\configs.h:50:18 (Reference) <US>c:configs.h@1405@UA@u_NASTROYKI@Sa@FI@delta<UE> <DS>delta<DE> Extent=<ES>68:31 - 68:49<EE>
@@ -5725,11 +5729,11 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:68:31: DeclRefExpr=nastroyki|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:26:14 (Reference) <US>c:@nastroyki<UE> <DS>nastroyki<DE> Extent=<ES>68:31 - 68:40<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:69:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>69:3 - 72:4<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:70:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>70:5 - 70:19<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:70:5: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>70:5 - 70:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:70:5: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>70:5 - 70:8<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:70:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>70:11 - 70:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:70:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:11 - 70:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:71:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>71:5 - 71:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:71:5: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>71:5 - 71:8<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:71:5: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>71:5 - 71:8<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:71:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>71:11 - 71:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:71:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>71:11 - 71:12<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:74:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>74:3 - 80:4<EE>
@@ -5746,8 +5750,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:16 - 76:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:21 - 76:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:21 - 76:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>76:26 - 76:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>76:26 - 76:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>76:26 - 76:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>76:26 - 76:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:31 - 76:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>76:31 - 76:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:76:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>76:41 - 76:46<EE>
@@ -5762,8 +5766,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:16 - 77:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>77:21 - 77:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:21 - 77:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>77:26 - 77:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>77:26 - 77:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>77:26 - 77:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>77:26 - 77:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>77:31 - 77:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:31 - 77:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:77:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>77:41 - 77:46<EE>
@@ -5778,8 +5782,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:16 - 78:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>78:21 - 78:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:21 - 78:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>78:26 - 78:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>78:26 - 78:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>78:26 - 78:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>78:26 - 78:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>78:31 - 78:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>78:31 - 78:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:78:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>78:41 - 78:44<EE>
@@ -5791,8 +5795,8 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:16 - 79:19<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:21 - 79:24<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:21 - 79:24<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>79:26 - 79:29<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2894@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>79:26 - 79:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:26: UnexposedExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>79:26 - 79:29<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:26: DeclRefExpr=col|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:61:24 (Reference) <US>c:Configs.c@2905@F@cmpTemperature@col<UE> <DS>col<DE> Extent=<ES>79:26 - 79:29<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:31 - 79:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:31 - 79:39<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:41: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:41 - 79:46<EE>
@@ -5801,5 +5805,5 @@
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:41: DeclRefExpr=aT|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:58:46 (Reference) <US>c:Configs.c@2823@F@cmpTemperature@aT<UE> <DS>unsigned char *<DE> Extent=<ES>79:41 - 79:43<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:79:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>79:44 - 79:45<EE>
 <L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:81:2: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>81:2 - 81:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:81:9: UnexposedExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17 <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>81:9 - 81:12<EE>
-<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:81:9: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:17 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>81:9 - 81:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:81:9: UnexposedExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24 <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>81:9 - 81:12<EE>
+<L>G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:81:9: DeclRefExpr=out|G:\Voodoo\MSP Projects\N6500\FRAM\Configs.c:60:24 (Reference) <US>c:Configs.c@2872@F@cmpTemperature@out<UE> <DS>out<DE> Extent=<ES>81:9 - 81:12<EE>

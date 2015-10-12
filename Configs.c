@@ -57,13 +57,13 @@ unsigned char* getSetTemperature(unsigned int aTime)  // return ptr to set tempe
 //==============================================================================
 unsigned char cmpTemperature (unsigned char *aT, signed int arcTemper)
 {  
-  unsigned char out;
-  static unsigned long col;
+  static unsigned char out = 0;
+  static unsigned long col = 0x44916c;
   int tmp = (aT[0] - '0') * 100 + (aT[1] - '0') * 10 + (aT[2] - '0');
-  if      (arcTemper > tmp + (nastroyki -> delta)) 
+  if      (arcTemper > tmp + (nastroyki -> delta))  
   {
-    col = 0x44916c;
-    out = 0;
+    col = 0x44916c; 
+    out = 0; 
   }
   else if (arcTemper < tmp - (nastroyki -> delta)) 
   {
